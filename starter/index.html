@@ -52,7 +52,7 @@
 <script src="https://d3js.org/topojson.v0.min.js"></script>
 <script>
 function ANNA(){
-	console.log(d3.select(this).attr("d"));
+	// console.log(d3.select(this).attr("d"));
 	d3.select(this).attr({
 		stroke:"green",
 		cursor:"pointer"
@@ -64,7 +64,7 @@ d3.select(window)
     .on("mousemove", mousemove)
     .on("mouseup", mouseup);
 
-var width = 960,
+var width = 1060,
     height = 500;
 
 var proj = d3.geo.orthographic()
@@ -178,7 +178,7 @@ function ready(error, world, places) {
   // spawn links between cities as source/target coord pairs
   places.features.forEach(function(a) {
     places.features.forEach(function(b) {
-      if (a !== b) {
+      if (a !== b && (a.properties.name == "Mumbai")) {
         links.push({
           source: a.geometry.coordinates,
           target: b.geometry.coordinates
@@ -213,6 +213,7 @@ function flying_arc(pts) {
       target = pts.target;
 
   var mid = location_along_arc(source, target, .5);
+  // console.log(sky(source));
   var result = [ proj(source),
                  sky(mid),
                  proj(target) ]
@@ -227,7 +228,7 @@ function refresh() {
   
   svg.selectAll(".arc").attr("d", path)
     .attr("opacity", function(d) {
-        return fade_at_edge(d)
+        return 0.3//fade_at_edge(d)
     })
 
   svg.selectAll(".flyer")
@@ -250,14 +251,16 @@ function fade_at_edge(d) {
     start = d.geometry.coordinates[0];
     end = d.geometry.coordinates[1];
   }
+  // console.log(proj(end));
+  console.log((arc.distance({source: end, target: centerPos})) + "HI RA")
   
   var start_dist = 1.57 - arc.distance({source: start, target: centerPos}),
       end_dist = 1.57 - arc.distance({source: end, target: centerPos});
-    
-  var fade = d3.scale.linear().domain([-.1,0]).range([0,.1]) 
-  var dist = start_dist < end_dist ? start_dist : end_dist; 
+  		console.log("AC" + start + "\tP" + centerPos + "\tP" + end +"\t||" + start_dist + "\tL" + end_dist)
 
-  return fade(dist)
+    var fade = d3.scale.linear().domain([-.1,0]).range([0,.1]) 
+    var dist = start_dist < end_dist ? start_dist : end_dist; 
+    return fade(dist)
 }
 
 function location_along_arc(start, end, loc) {

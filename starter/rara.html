@@ -1,0 +1,336 @@
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Globe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://d3js.org/queue.v1.min.js"></script>
+	<script src="https://d3js.org/topojson.v1.min.js"></script>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="mathsfunctions.js"></script>
+</head>
+
+<body>
+	<div id="svgDiv"></div>
+
+</body>
+<script>
+	// width and height
+	var w = 1060;
+	var h = 500;
+	// scale globe to size of window
+	var scl = Math.min(w, h) / 2.5;
+	scl = 220;
+	var jag;
+	// map projection
+	var projection = d3.geoOrthographic()
+		.scale(scl)
+		.clipAngle(90)
+		.translate([w / 2, h / 2]);
+	// path generator
+	var path = d3.geoPath()
+		.projection(projection)
+		.pointRadius(2);;
+
+	var sky = d3.geoOrthographic()
+		.translate([w / 2, h / 2])
+		.clipAngle(90)
+		.scale(280);
+
+
+	// append svg
+	var svg = d3.select("#svgDiv")
+		.append("svg")
+		.attr("width", w)
+		.attr("height", h);
+
+	// append g element for map
+	var map = svg.append("g");
+
+	// enable drag
+	var drag = d3.drag()
+		.on("start", dragstarted)
+		.on("drag", dragged);
+
+	var gpos0, o0, gpos1, o1;
+	var sgpos0, so0, sgpos1, so1;
+	svg.call(drag);
+
+	var sag, dag;
+	var swoosh = d3.line()
+		.x(function (d) {
+			return d[0]
+		})
+		.y(function (d) {
+			return d[1]
+		})
+		.curve(d3.curveCardinal.tension(0))
+	// .tension(.0);
+
+
+	var links = [],
+		arcLines = [];
+	queue()
+		.defer(d3.json,
+			"https://gist.githubusercontent.com/sarah37/dcca42b936545d9ee9f0bc8052e03dbd/raw/550cfee8177df10e515d82f7eb80bce4f72c52de/world-110m.json"
+		)
+		.defer(d3.json, "https://raw.githubusercontent.com/Vikr-182/Test/master/places.json")
+		.await(ready);
+	// enable zoom
+	var zoom = d3.zoom()
+		.scaleExtent([0.75, 50]) //bound zoom
+		.on("zoom", zoomed);
+
+	svg.call(zoom);
+
+
+	function ready(error, json, places) {
+		sag = json;
+		dag = places;
+		map.append("path")
+			.datum({
+				type: "Sphere"
+			})
+			.attr("class", "ocean")
+			.attr("d", path);
+
+		map.append("path")
+			.datum(topojson.merge(json, json.objects.countries.geometries))
+			.attr("class", "land")
+			.attr("d", path);
+
+		draw_points(places);
+
+		map.append("path")
+			.datum(topojson.mesh(json, json.objects.countries, function (a, b) {
+				return a !== b;
+			}))
+			.attr("class", "boundary")
+			.attr("d", path);
+
+		// spawn links between cities as source/target coord pairs
+		places.features.forEach(function (a) {
+			places.features.forEach(function (b) {
+				if (a !== b && (a.properties.name == "Mumbai")) {
+					links.push({
+						source: a.geometry.coordinates,
+						target: b.geometry.coordinates
+					});
+				}
+			});
+		});
+
+
+
+
+		// build geoJSON features from links array
+		links.forEach(function (e, i, a) {
+			var feature = {
+				"type": "Feature",
+				"geometry": {
+					"type": "LineString",
+					"coordinates": [e.source, e.target]
+				}
+			}
+			arcLines.push(feature)
+		})
+		draw();
+		// svg.append("g").attr("class", "arcs")
+		// 	.selectAll("path").data(arcLines)
+		// 	.enter().append("path")
+		// 	.attr("class", "arc")
+		// 	.attr("d", path)
+
+		// svg.append("g").attr("class", "flyers")
+		// 	.selectAll("path").data(links)
+		// 	.enter().append("path")
+		// 	.attr("class", "flyer")
+		// 	.attr("d", function (d) {
+		// 		return swoosh(flying_arc(d))
+		// 	})
+		jag = places;
+
+	}
+
+
+	function flying_arc(pts) {
+		var source = pts.source,
+			target = pts.target;
+
+		var mid = location_along_arc(source, target, .5);
+		var result = [projection(source),
+			sky(mid),
+			projection(target)
+		]
+		return result;
+	}
+
+	function location_along_arc(start, end, loc) {
+		var interpolator = d3.geoInterpolate(start, end);
+		return interpolator(loc)
+	}
+
+
+	function dragstarted() {
+		gpos0 = projection.invert(d3.mouse(this));
+		sgpos0 = sky.invert(d3.mouse(this));
+		o0 = projection.rotate();
+		so0 = sky.rotate();
+		draw();
+		draw_points(jag);
+
+	}
+
+	function dragged() {
+		gpos1 = projection.invert(d3.mouse(this));
+		sgpos1 = sky.invert(d3.mouse(this));
+		o0 = projection.rotate();
+		so0 = sky.rotate();
+		o1 = eulerAngles(gpos0, gpos1, o0);
+		so1 = eulerAngles(sgpos0, sgpos1, so0);
+		projection.rotate(o1);
+		sky.rotate(o1);
+
+		map.selectAll("path").attr("d", path);
+		// map.selectAll("path").remove();
+		var bro;
+		draw();
+		draw_points(jag);
+
+	}
+
+	// functions for zooming
+	function zoomed() {
+		projection.scale(d3.event.transform.translate(projection).k * scl)
+		sky.scale(d3.event.transform.translate(sky).k * 240)
+		map.selectAll("path").attr("d", path);
+		draw();
+		draw_points(jag);
+	}
+
+	function draw_points(places) {
+		d3.selectAll(".points").remove();
+		svg.append("g").attr("class", "points")
+			.selectAll("text").data(places.features)
+			.enter().append("path")
+			.attr("class", "point")
+			.attr("d", path);
+	}
+
+	function draw() {
+		d3.selectAll(".flyers").remove();
+		d3.selectAll(".arcs").remove();
+		svg.append("g").attr("class", "arcs")
+			.selectAll("path").data(arcLines)
+			.enter().append("path")
+			.attr("class", "arc")
+			.attr("d", path)
+
+		svg.append("g").attr("class", "flyers")
+			.selectAll("path").data(links)
+			.enter().append("path")
+			.attr("class", "flyer")
+			.attr("d", function (d) {
+				return swoosh(flying_arc(d))
+			})
+			.attr("opacity", function (d) {
+				return fade_at_edge(d);
+			});
+	}
+
+	function fade_at_edge(d) {
+		var centerPos = projection.invert([w / 2, h / 2]),
+			start, end;
+		// function is called on 2 different data structures..
+		if (d.source) {
+			start = d.source,
+				end = d.target;
+		} else {
+			start = d.geometry.coordinates[0];
+			end = d.geometry.coordinates[1];
+		}
+		console.log((start) + "BRO RA");
+		// console.log(d3.geoDistance(centerPos,[103.1,1]) + "HI RA")
+		// console.log(d3.geoDistance(centerPos,projection.invert(projection(end))) + "HI RA")
+		var start_dist =  d3.geoDistance(
+				centerPos,
+				start//projection.invert(projection(start))
+			),
+			end_dist =  d3.geoDistance(
+				centerPos,
+				end//projection.invert(projection(end))
+		);
+		var dist = start_dist > end_dist ? start_dist : end_dist;
+		console.log("AC" + start + "\tP" + centerPos + "\tP" + end +"\t||" + start_dist + "\tL" + end_dist)
+		if (dist > 1.57 ){ // on the other side of the globe
+			return 0.0005;
+		}
+		else{
+			return (1-(dist/(1.5*1.57)));
+		}
+		/*
+		console.log(start_dist + "|||| " + end_dist + "HI RA")
+		return 1;
+		var fade = d3.scaleLinear().domain([-.1, 0]).range([0, .1]
+		var dist = start_dist < end_dist ? start_dist : end_dist;
+		return 1;
+		*/
+	}
+</script>
+<style>
+	body,
+	html {
+		margin: 0;
+		overflow: hidden;
+	}
+
+	.ocean {
+		fill: #bfd7e4;
+	}
+
+	.land {
+		fill: #eaeaea;
+	}
+
+	.boundary {
+		fill: none;
+		stroke: #9fa8ad;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+	}
+
+	.noclicks {
+		pointer-events: none;
+	}
+
+	.point {
+		opacity: .6;
+	}
+
+	.arcs {
+		opacity: .1;
+		stroke: gray;
+		stroke-width: 3;
+	}
+
+	.flyers {
+		stroke-width: 3;
+		stroke: darkred;
+	}
+
+	.arc,
+	.flyer {
+		stroke-linejoin: round;
+		fill: none;
+	}
+
+	.arc {}
+
+	.flyer {}
+
+	.flyer:hover {}
+</style>
+
+</html>
