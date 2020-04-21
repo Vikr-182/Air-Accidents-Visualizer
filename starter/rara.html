@@ -4,12 +4,12 @@
 
 	<meta charset="utf-8">
 	<title>Globe</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://d3js.org/d3.v4.min.js"></script>
-	<script src="https://d3js.org/queue.v1.min.js"></script>
-	<script src="https://d3js.org/topojson.v1.min.js"></script>
-	<script src="jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="mathsfunctions.js"></script>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script src="../assets/js/d3.v4.min.js"></script>
+	<script src="../assets/js/queue.v1.min.js"></script>
+	<script src="../assets/js/topojson.v1.min.js"></script>
+	<script src="../assets/js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="../assets/js/mathsfunctions.js"></script>
 </head>
 
 <body>
@@ -37,7 +37,7 @@
 	var sky = d3.geoOrthographic()
 		.translate([w / 2, h / 2])
 		.clipAngle(90)
-		.scale(280);
+		.scale(300);
 
 
 	// append svg
@@ -69,14 +69,17 @@
 		.curve(d3.curveCardinal.tension(0))
 	// .tension(.0);
 
-
+	var bag;
 	var links = [],
 		arcLines = [];
 	queue()
 		.defer(d3.json,
 			"https://gist.githubusercontent.com/sarah37/dcca42b936545d9ee9f0bc8052e03dbd/raw/550cfee8177df10e515d82f7eb80bce4f72c52de/world-110m.json"
 		)
-		.defer(d3.json, "https://raw.githubusercontent.com/Vikr-182/Test/master/places.json")
+		.defer(d3.json, "../data/places.json")
+		.defer(d3.json, "../data/new_places.json")
+		.defer(d3.json, "../assets/static/code_to_airport.json")
+		.defer(d3.json, "../data/cleaned_data.json")
 		.await(ready);
 	// enable zoom
 	var zoom = d3.zoom()
@@ -86,9 +89,12 @@
 	svg.call(zoom);
 
 
-	function ready(error, json, places) {
+	function ready(error, json, places, new_places, code_to_airport, cleaned_data) {
 		sag = json;
 		dag = places;
+		bag = new_places;
+		var count  = 0;
+		// console.log(code_to_airport["VIDP"])
 		map.append("path")
 			.datum({
 				type: "Sphere"
@@ -111,18 +117,57 @@
 			.attr("d", path);
 
 		// spawn links between cities as source/target coord pairs
-		places.features.forEach(function (a) {
-			places.features.forEach(function (b) {
-				if (a !== b && (a.properties.name == "Mumbai")) {
-					links.push({
-						source: a.geometry.coordinates,
-						target: b.geometry.coordinates
-					});
+		// places.features.forEach(function (a) {
+		// 	places.features.forEach(function (b) {
+		// 		if (a !== b && (a.properties.name == "Mumbai")) {
+		// 			links.push({
+		// 				source: a.geometry.coordinates,
+		// 				target: b.geometry.coordinates
+		// 			});
+		// 		}
+		// 	});
+		// });
+		var ip;
+		var cnt = 0;
+		for (ip in cleaned_data) {
+			cnt = cnt + 1;
+			if (cnt < 10000000) {
+				// console.log(cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/"))
+				// console.log(cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/"))
+				var keu,leu;
+				if (cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/").length > 1){
+					keu = cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/")[1];
 				}
-			});
-		});
+				else if(cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/")[0].length == 4)
+				{
+					keu = cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/")[0]
+				}
+				else
+				{
+					continue;
+				}
+				if (cleaned_data[ip]["Destination airport:"].split(")")[0].split("(")[1].split("/").length > 1)
+				{
+					leu = cleaned_data[ip]["Destination airport:"].split(")")[0].split("(")[1].split("/")[1];
+				}
+				else if(cleaned_data[ip]["Destination airport:"].split(")")[0].split("(")[1].split("/")[0].length == 4)
+				{
+					leu = cleaned_data[ip]["Destination airport:"].split(")")[0].split("(")[1].split("/")[0]
+				}
+				else
+				{
+					continue;
+				}
+				if( code_to_airport[keu] != undefined && code_to_airport[leu] != undefined && keu != leu){
+					links.push({
+						source: [parseFloat(code_to_airport[keu]["longtitude"]),parseFloat(code_to_airport[keu]["lattitude"])],
+						target: [parseFloat(code_to_airport[leu]["longtitude"]),parseFloat(code_to_airport[leu]["lattitude"])]
+					})
 
-
+				}
+			}
+		}
+		console.log(links);
 
 
 		// build geoJSON features from links array
@@ -137,21 +182,9 @@
 			arcLines.push(feature)
 		})
 		draw();
-		// svg.append("g").attr("class", "arcs")
-		// 	.selectAll("path").data(arcLines)
-		// 	.enter().append("path")
-		// 	.attr("class", "arc")
-		// 	.attr("d", path)
-
-		// svg.append("g").attr("class", "flyers")
-		// 	.selectAll("path").data(links)
-		// 	.enter().append("path")
-		// 	.attr("class", "flyer")
-		// 	.attr("d", function (d) {
-		// 		return swoosh(flying_arc(d))
-		// 	})
+		draw_points(bag);
 		jag = places;
-
+		// bag = jag;
 	}
 
 
@@ -179,7 +212,7 @@
 		o0 = projection.rotate();
 		so0 = sky.rotate();
 		draw();
-		draw_points(jag);
+		draw_points(bag);
 
 	}
 
@@ -197,26 +230,36 @@
 		// map.selectAll("path").remove();
 		var bro;
 		draw();
-		draw_points(jag);
+		draw_points(bag);
 
+	}
+
+	function func(item) {
+		console.log(item);
 	}
 
 	// functions for zooming
 	function zoomed() {
 		projection.scale(d3.event.transform.translate(projection).k * scl)
-		sky.scale(d3.event.transform.translate(sky).k * 240)
+		sky.scale(d3.event.transform.translate(sky).k * 300)
 		map.selectAll("path").attr("d", path);
 		draw();
-		draw_points(jag);
+		draw_points(bag);
 	}
 
-	function draw_points(places) {
+	function draw_points(new_places) {
 		d3.selectAll(".points").remove();
 		svg.append("g").attr("class", "points")
-			.selectAll("text").data(places.features)
+			.selectAll("text").data(new_places.features)
 			.enter().append("path")
 			.attr("class", "point")
-			.attr("d", path);
+			.attr("d", path)
+			.attr("id", function (d) {
+				return d["properties"]["code"]
+			});
+			// .on("mouseover", function (d) {
+			// 	func(d);
+			// });
 	}
 
 	function draw() {
@@ -251,32 +294,22 @@
 			start = d.geometry.coordinates[0];
 			end = d.geometry.coordinates[1];
 		}
-		console.log((start) + "BRO RA");
-		// console.log(d3.geoDistance(centerPos,[103.1,1]) + "HI RA")
-		// console.log(d3.geoDistance(centerPos,projection.invert(projection(end))) + "HI RA")
-		var start_dist =  d3.geoDistance(
+		// console.log((start) + "BRO RA");
+		var start_dist = d3.geoDistance(
 				centerPos,
-				start//projection.invert(projection(start))
+				start
 			),
-			end_dist =  d3.geoDistance(
+			end_dist = d3.geoDistance(
 				centerPos,
-				end//projection.invert(projection(end))
-		);
+				end
+			);
 		var dist = start_dist > end_dist ? start_dist : end_dist;
-		console.log("AC" + start + "\tP" + centerPos + "\tP" + end +"\t||" + start_dist + "\tL" + end_dist)
-		if (dist > 1.57 ){ // on the other side of the globe
+		// console.log("AC" + start + "\tP" + centerPos + "\tP" + end +"\t||" + start_dist + "\tL" + end_dist)
+		if (dist > 1.57) { // on the other side of the globe
 			return 0.0005;
+		} else {
+			return (1 - (dist / (1.5 * 1.57)));
 		}
-		else{
-			return (1-(dist/(1.5*1.57)));
-		}
-		/*
-		console.log(start_dist + "|||| " + end_dist + "HI RA")
-		return 1;
-		var fade = d3.scaleLinear().domain([-.1, 0]).range([0, .1]
-		var dist = start_dist < end_dist ? start_dist : end_dist;
-		return 1;
-		*/
 	}
 </script>
 <style>
@@ -316,7 +349,7 @@
 	}
 
 	.flyers {
-		stroke-width: 3;
+		stroke-width: 1;
 		stroke: darkred;
 	}
 
