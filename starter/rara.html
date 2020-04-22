@@ -5,10 +5,12 @@
 	<meta charset="utf-8">
 	<title>Globe</title>
 	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/jquery.qtip.min.css">
 	<script src="../assets/js/d3.v4.min.js"></script>
 	<script src="../assets/js/queue.v1.min.js"></script>
 	<script src="../assets/js/topojson.v1.min.js"></script>
 	<script src="../assets/js/jquery-3.4.1.min.js"></script>
+	<script src="../assets/js/jquery.qtip.min.js"></script>
 	<script type="text/javascript" src="../assets/js/mathsfunctions.js"></script>
 </head>
 
@@ -20,10 +22,11 @@
 	// width and height
 	var w = 1060;
 	var h = 500;
+	var keys = [];
 	// scale globe to size of window
 	var scl = Math.min(w, h) / 2.5;
 	scl = 220;
-	var jag;
+	var jag,pag;
 	// map projection
 	var projection = d3.geoOrthographic()
 		.scale(scl)
@@ -74,7 +77,7 @@
 		arcLines = [];
 	queue()
 		.defer(d3.json,
-			"https://gist.githubusercontent.com/sarah37/dcca42b936545d9ee9f0bc8052e03dbd/raw/550cfee8177df10e515d82f7eb80bce4f72c52de/world-110m.json"
+			"../assets/static/world-110m.json"
 		)
 		.defer(d3.json, "../data/places.json")
 		.defer(d3.json, "../data/new_places.json")
@@ -93,7 +96,8 @@
 		sag = json;
 		dag = places;
 		bag = new_places;
-		var count  = 0;
+		pag = cleaned_data;
+		var count = 0;
 		// console.log(code_to_airport["VIDP"])
 		map.append("path")
 			.datum({
@@ -131,37 +135,51 @@
 		var cnt = 0;
 		for (ip in cleaned_data) {
 			cnt = cnt + 1;
-			if (cnt < 10000000) {
+			if (cnt < 10000000 ) {
 				// console.log(cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/"))
 				// console.log(cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/"))
-				var keu,leu;
-				if (cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/").length > 1){
+				var keu, leu;
+				if (cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/").length > 1) {
 					keu = cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/")[1];
-				}
-				else if(cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/")[0].length == 4)
-				{
+				} else if (cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/")[0].length == 4) {
 					keu = cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/")[0]
-				}
-				else
-				{
+				} else {
 					continue;
 				}
-				if (cleaned_data[ip]["Destination airport:"].split(")")[0].split("(")[1].split("/").length > 1)
-				{
+				if (cleaned_data[ip]["Destination airport:"].split(")")[0].split("(")[1].split("/").length > 1) {
 					leu = cleaned_data[ip]["Destination airport:"].split(")")[0].split("(")[1].split("/")[1];
-				}
-				else if(cleaned_data[ip]["Destination airport:"].split(")")[0].split("(")[1].split("/")[0].length == 4)
-				{
+				} else if (cleaned_data[ip]["Destination airport:"].split(")")[0].split("(")[1].split("/")[0].length ==
+					4) {
 					leu = cleaned_data[ip]["Destination airport:"].split(")")[0].split("(")[1].split("/")[0]
-				}
-				else
-				{
+				} else {
 					continue;
 				}
-				if( code_to_airport[keu] != undefined && code_to_airport[leu] != undefined && keu != leu){
+				if (code_to_airport[keu] != undefined && code_to_airport[leu] != undefined && keu != leu) {
+					keys.push(ip);
 					links.push({
-						source: [parseFloat(code_to_airport[keu]["longtitude"]),parseFloat(code_to_airport[keu]["lattitude"])],
-						target: [parseFloat(code_to_airport[leu]["longtitude"]),parseFloat(code_to_airport[leu]["lattitude"])]
+						source: [parseFloat(code_to_airport[keu]["longtitude"]), parseFloat(code_to_airport[keu][
+							"lattitude"
+						])],
+						target: [parseFloat(code_to_airport[leu]["longtitude"]), parseFloat(code_to_airport[leu][
+							"lattitude"
+						])],
+						date: ip,
+						damage: cleaned_data[ip]["Aircraft damage:"],
+						fate: cleaned_data[ip]["Aircraft fate:"],
+						patanahikya: cleaned_data[ip]["C/n / msn:"],
+						crew: cleaned_data[ip]["Crew:"], //: "Fatalities: 0 / Occupants: 17",
+						engines: cleaned_data[ip]["Engines:"],
+						firstflight: cleaned_data[ip]["First flight:"],
+						flightnum: cleaned_data[ip]["Flightnumber:"],
+						location:cleaned_data[ip]["Location:"], // "Harare Airport (HRE) ( \u00a0 Zimbabwe) \n",
+						nature: cleaned_data[ip]["Nature:"], //: "International Scheduled Passenger",
+						operator: cleaned_data[ip]["Operator:"], //: "EgyptAir",
+						passengers: cleaned_data[ip]["Passengers:"], //: "Fatalities: 0 / Occupants: 76",
+						phase: cleaned_data[ip]["Phase:"], //: " Landing (LDG)",
+						registration: cleaned_data[ip]["Registration:"], //: " SU-GAO",
+						time: cleaned_data[ip]["Time:"], //: "ca 22:45",
+						total: cleaned_data[ip]["Total:"], //: "Fatalities: 0 / Occupants: 93 ",
+						type: cleaned_data[ip]["Type:"] //: "Boeing 767-366ER"						
 					})
 
 				}
@@ -187,6 +205,29 @@
 		// bag = jag;
 	}
 
+	function add_qtip(){
+		for(var i = 0;i < keys.length;i++)
+		{
+			ip = keys[i];
+			cleaned_data = pag;
+			$("#"+keys[i]).qtip({
+						content:{
+							text: 'Date:\t' + ip.slice(0,8) + '<br>Operator:\t' + cleaned_data[ip]["Operator:"] + '<br>Phase:\t' + cleaned_data[ip]["Phase:"] + 
+							'<br>Departure Airport:' + cleaned_data[ip]["Departure airport:"] + '<br>Destination Airport:' + cleaned_data[ip]["Destination airport:"] + 
+							'<br>Type:' + cleaned_data[ip]["Type:"]
+						},
+						style:{
+							classes: "qtip-bootstrap qtip-rounded qtip-shadow"
+						},
+						position:{
+							target: 'mouse', // my target,
+							adjust: {
+								mouse: true
+							}
+						}
+					});	
+		}	
+	}
 
 	function flying_arc(pts) {
 		var source = pts.source,
@@ -257,9 +298,9 @@
 			.attr("id", function (d) {
 				return d["properties"]["code"]
 			});
-			// .on("mouseover", function (d) {
-			// 	func(d);
-			// });
+		// .on("mouseover", function (d) {
+		// 	func(d);
+		// });
 	}
 
 	function draw() {
@@ -280,7 +321,15 @@
 			})
 			.attr("opacity", function (d) {
 				return fade_at_edge(d);
-			});
+			})
+			.attr("id", function (d) {
+				return d.date;
+			})
+			.on("mouseover",function(d){
+				$("#" + d.date).css("cursor","pointer");
+			})
+			;
+			add_qtip();
 	}
 
 	function fade_at_edge(d) {
