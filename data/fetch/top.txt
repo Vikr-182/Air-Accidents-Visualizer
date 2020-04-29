@@ -1,0 +1,37 @@
+Antonov An-26 16
+Let L-410UVP-E 10
+McDonnell Douglas DC-9-83 (MD-83) 14
+Embraer EMB-110P1 Bandeirante 13
+Fokker 100 26
+de Havilland Canada DHC-6 Twin Otter 300 44
+Antonov An-12BK 12
+Antonov An-32B 12
+Learjet 35A 30
+Airbus A321-231 13
+Swearingen SA226-TC Metro II 18
+Airbus A320-232 15
+Swearingen SA227-AC Metro III 30
+Antonov An-26B 13
+Beechcraft 200 Super King Air 36
+Let L-410UVP 14
+Cessna 208B Grand Caravan 102
+Cessna 208B Super Cargomaster 20
+Antonov An-24RV 10
+Cessna 500 Citation I 12
+Airbus A320-214 14
+Cessna 525 CitationJet 10
+Tupolev Tu-154M 16
+Cessna 501 Citation I/SP 10
+Beechcraft 1900D 16
+Ilyushin Il-76TD 19
+Beechcraft A100 King Air 17
+Embraer EMB-120ER Brasilia 11
+Antonov An-12BP 18
+McDonnell Douglas DC-9-82 (MD-82) 12
+Cessna 550 Citation II 21
+Fokker 50 14
+Douglas DC-3C 11
+Beechcraft B200 Super King Air 31
+ATR 72-212A (ATR-72-500) 14
+de Havilland Canada DHC-8-402Q Dash 8 17
+Boeing 737-8AS (WL) 14

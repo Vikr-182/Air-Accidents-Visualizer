@@ -1,0 +1,158 @@
+.range-control {
+    position: relative;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1em;
+    border: 1px solid #000000;
+}
+
+.range-control-widget-vertical .range-control {
+    width: 1em;
+    height: 200px;
+    float: left;
+}
+
+.range-control-widget-vertical:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.range-control-handle {
+    position: absolute;
+    z-index: 1;
+    top: -0.25em;
+    height: 1.5em;
+    width: 1em;
+    margin: 0 0 0 -0.65em;
+    border: 1px solid #000000;
+    background-color: #999999;
+}
+
+.range-control-widget-vertical .range-control-handle {
+    left: -0.35em;
+    width: 1.5em;
+    height: 1em;
+    margin: -0.5em 0 0 0;
+}
+
+.range-control-handle:hover {
+    background-color: #bbbbbb;
+}
+
+.range-control-handle-active,
+.range-control-handle-active:hover{
+    z-index: 2;
+    background-color: #aacccc;
+}
+
+.range-control-current-value {
+    position: absolute;
+    z-index: 3;
+    left: -10000px;
+    padding: 5px;
+    text-align: center;
+    font: 0.75em Verdana;
+}
+
+.range-control-current-value-top {
+    background: url(img/current-value-hor-top.gif) no-repeat center bottom;
+    padding-bottom: 13px;
+}
+
+.range-control-current-value-bottom {
+    background: url(img/current-value-hor-bottom.gif) no-repeat center top;
+    padding-top: 13px;
+}
+
+.range-control-current-value-left {
+    background: url(img/current-value-vert-left.gif) no-repeat right center;
+    padding-right: 13px;
+}
+
+.range-control-current-value-right {
+    background: url(img/current-value-vert-right.gif) no-repeat left center;
+    padding-left: 13px;
+}
+
+.range-control-track {
+    position: absolute;
+    height: 100%;
+    background-color: #aaaacc;
+}
+
+.range-control-widget-vertical .range-control-track {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #aaaacc;
+}
+
+.range-control-scale {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 2.5em;
+}
+
+.range-control-widget-vertical .range-control-scale {
+    height: 200px;
+    float: left;
+}
+
+.range-control-scale-left {
+    margin-right: 0.5em;
+}
+
+.range-control-scale-right {
+    margin-left: 1.8em;
+}
+
+.range-control-scale li {
+    position: absolute;
+    display: block;
+    background: url("img/scale-mark-vert.gif") no-repeat center top;
+    padding: 13px 0 0 0;
+    font-size: 0.8em;
+    color: #aaaaaa;
+    white-space: nowrap;
+}
+
+.range-control-widget-vertical .range-control-scale li {
+    background-image: url("img/scale-mark-hor.gif");
+}
+
+.range-control-scale-top li {
+    padding: 0 0 13px 0;
+    background-position: center bottom;
+}
+
+.range-control-scale-bottom li {
+    margin: 0.7em 0 0 0;
+}
+
+.range-control-scale-right li {
+    margin: 0 0 0 -1.5em;
+    padding: 0 0 0 13px;
+    background-position: left center;
+}
+
+.range-control-scale-left li {
+    padding: 0 13px 0 0;
+    background-position: right center;
+    right: 0;
+}
+
+.range-control-disabled {
+    border: 1px solid #999999;
+}
+
+.range-control-disabled .range-control-handle,
+.range-control-disabled .range-control-handle:hover,
+.range-control-disabled .range-control-handle:focus {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+}
