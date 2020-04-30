@@ -1,0 +1,23 @@
+{
+ "name": "flare",
+ "children":[
+     {
+         "name": "RARA",
+         "children": [
+             {
+                 "name":"SASA",
+                 "size": 1000
+             },
+             {
+                 "name":"hey u",
+                 "size": 500
+             }
+         ],
+         "size": 10000
+     },
+     {
+         "name": "BOANNA",
+         "size": 10000
+     }
+ ]
+}
