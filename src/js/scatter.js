@@ -1,32 +1,14 @@
-<!DOCTYPE html>
-<head>
-<meta charset="utf-8">
-<style>
-    circle {
-        stroke-width: 1.5px;
-    }
-
-    line {
-        stroke: #999;
-    }
-</style>
-</head>
-<body>
-    <script src="../../assets/js/jquery-3.4.1.min.js"></script>
-    <script src="../../assets/js/queue.v1.min.js"></script>
-    <script src="../../assets/js/d3.v4.min.js"></script>
-    <script>
-var width = 1500,
+var width = 1350,
     height = 600,
     radius = 6;
 
 
 
-var svg2 = d3.select("body").append("svg")
+var svg2 = d3.select("#my_anna").append("svg")
     .attr("width", width)
     .attr("height", height + 100);
 
-var middl = height / 1.5;
+var middl = height / 2;
 var init = {
     " Taxi (TXI)": {
         "start": 0,
@@ -88,8 +70,8 @@ var init = {
 
 
 queue()
-    .defer(d3.json, "graph.json")
-    .defer(d3.json, "cleaned_data.json")
+    .defer(d3.json, "../assets/static/graph.json")
+    .defer(d3.json, "../data/cleaned_data.json")
     .await(ready)
 
 
@@ -178,7 +160,7 @@ function ready(error, graph, data_ra) {
         .style("stroke", "black")
         .style("opacity", "0.8")
         .attr("id", function (d) {
-            return d["date"];
+            return d["date"] + "MANNA";
         })
         .on("mouseover", high)
         .on("mouseout", unhigh)
@@ -196,14 +178,14 @@ function ready(error, graph, data_ra) {
         // alert("RARA");
         $(this).css("cursor", "pointer");
         for (var sz = 0; sz < kera.length; sz++) {
-            $("#" + kera[sz]).css("opacity", "0.3");
+            $("#" + kera[sz] + "MANNA").css("opacity", "0.3");
         }
         $(this).css("opacity", "1");
     }
 
     function unhigh() {
         for (var sz = 0; sz < kera.length; sz++) {
-            $("#" + kera[sz]).css("opacity", "0.8");
+            $("#" + kera[sz] + "MANNA").css("opacity", "0.8");
         }
     }
 
@@ -367,10 +349,40 @@ svg2
     .attr("points", (0).toString() + "," + (ground).toString() + " " + (7 * width / 7).toString() + "," + (ground).toString() + " " + (7 * width / 7).toString() + "," + (ground + 2).toString() + " " + (0).toString() + "," + (ground + 2).toString())
     .attr("fill", "black"); //runway
 
-svg2
-    .append("path")
-    .attr("d", "M" + (0).toString() + "," + (ground).toString() + " " + (7 * width / 7).toString() + "," + (ground).toString())
-    .attr("fill", "green"); //flight path
+var x_arr = [];
+x_arr.push([0,0])
+x_arr.push([width/7,0])
+x_arr.push([0,0])
+x_arr.push([0,0])
+x_arr.push([0,0])
+x_arr.push([0,0])
+x_arr.push([0,0])
+
+var string = "M 0,0";
+for(var jk = 1;jk < x_arr.length; jk++){
+    string += "L" + x_arr[jk][0].toString() + "," +  x_arr[jk][1].toString();
+}
+
+var keyss = Object.keys(init);
+for(var gt = 0;gt < width;gt += width/7){
+    svg2
+    .append("line")
+    .attr("x1",gt)
+    .attr("y1",10)
+    .attr("x2",gt)
+    .attr("y1",ground)
+    .style("stroke","grey")
+    .style("stroke-width",3)
+    .style("stroke-dasharray","15, 6")
+    svg2
+    .append("text")
+    .attr("x",width/25 + gt)
+    .attr("y",ground/15)
+    .text(keyss[Math.floor(gt*7/width)])
+    // .attr()
+
+}
+
 
 // define the line
 var valueline = d3.line()
@@ -397,5 +409,3 @@ function dragended(d) {
     d.fx = null;
     d.fy = null;
 }
-    </script>
-</body>

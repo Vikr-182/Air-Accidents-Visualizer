@@ -1,9 +1,8 @@
 body,
 html {
 	margin: 0;
-	overflow: hidden;
+	/* overflow: hidden; */
 	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-	background-color:black;
 }
 
 .ocean {
@@ -40,9 +39,9 @@ html {
 }
 
 .flyers {
-	stroke-width: 1;
-	stroke: #5e0000;
-/*	stroke: darkred;*/
+	stroke-width: 1.5;
+	/* stroke: #5e0000; */
+	stroke: darkred;
 }
 
 .arc,
@@ -52,21 +51,29 @@ html {
 }
 
 .glow {
-	fill: #6bccff;
+	fill: white;
+	/* fill: #6bccff; */
 	opacity: 0.7;
 	stroke: white;
-	stroke-width: 15;
+	stroke-width: 12;
 	stroke-opacity: 0.5;
 }
 
 .coverbox{
 	/* fill : #048ec4; */
 	/* fill: #000114; */
-	fill: #120654;
-	stroke: green;
+	fill: #e8e8e8;
+	/* fill: #120654; */
+	stroke: black;
 	stroke-width: 2;
 }
 
+#my_plane{
+	background-image: url("../images/oh.png");
+	background-size: 450px 500px;
+	width: 450px;
+	height: 500px;
+}
 .arc {}
 
 .flyer {}

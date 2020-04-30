@@ -1,12 +1,11 @@
-var data = require('../cleaned_data.json')
+var data = require('../data.json')
 var i;
 var count = {}
-var key = 'Type:';
+var key = 'Operator:';
 var kkey = key;
 for (i in data)
 {
     kkey = Object.keys(data[i])[Object.keys(data[i]).length-2];
-	var act = data[i][key].split("-")[0]
     if(count[data[i][key]] == undefined){
         count[data[i][key]] = 1;
     }

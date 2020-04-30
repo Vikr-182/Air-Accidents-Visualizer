@@ -1,11 +1,11 @@
 	// width and height
-	var w = 860;
+	var w = $(".col-md-8").width()*19/20;
 	var h = 500;
 	var keys = [];
 	// scale globe to size of window
 	var scl = Math.min(w, h) / 2.5;
 	scl = 220;
-	var glow_scl = scl * 1.15;
+	var glow_scl = scl * 1.1;
 	var jag, pag;
 	var scale_sky = 265;
 	var scale_sky2 = 245;
@@ -55,7 +55,8 @@
 	var svg = d3.select("#svgDiv")
 	    .append("svg")
 	    .attr("width", w)
-	    .attr("height", h);
+		.attr("height", h)
+		.attr("class","beti");
 
 	// append g element for map
 	var map = svg.append("g");
@@ -71,6 +72,7 @@
 	var s2gpos0, s2o0, s2gpos1, s2o1;
 	var s3gpos0, s3o0, s3gpos1, s3o1;
 	var s4gpos0, s4o0, s4gpos1, s4o1;
+
 	svg.call(drag);
 
 	var sag, dag;
@@ -87,8 +89,8 @@
 	var bag;
 	var links = [],
 	    arcLines = [];
+		function draw_globe(item) {
 
-	function draw_globe(item) {
 	    queue()
 	        .defer(d3.json,
 	            "../assets/static/world-110m.json"
@@ -164,7 +166,7 @@
 	        var cnt = 0;
 	        for (ip in cleaned_data) {
 	            cnt = cnt + 1;
-	            if (cnt < 10000000 && ip.slice(0, 4) == "2000") {
+	            if (cnt < 10000000 && ip.slice(0, 4) == item) {
 	                // console.log(cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/"))
 	                // console.log(cleaned_data[ip]["Departure airport:"].split(")")[0].split("(")[1].split("/"))
 	                var keu, leu;
@@ -208,7 +210,8 @@
 	                        ], // "Harare Airport (HRE) ( \u00a0 Zimbabwe) \n",
 	                        nature: cleaned_data[ip]["Nature:"], //: "International Scheduled Passenger",
 	                        operator: cleaned_data[ip]["Operator:"], //: "EgyptAir",
-	                        passengers: cleaned_data[ip]["Passengers:"], //: "Fatalities: 0 / Occupants: 76",
+	                        passengers: [cleaned_data[ip]["Total:"].split("/")[0].split(" ")[1],cleaned_data[ip]["Total:"].split("/")[1].split(" ")[2]], //: "Fatalities: 0 / Occupants: 76",
+	                        // crew: [cleaned_data[ip]["Crew:"].split("/")[0].split(" ")[1],cleaned_data[ip]["Passengers:"].split("/")[1].split(" ")[2]], //: "Fatalities: 0 / Occupants: 76",
 	                        phase: cleaned_data[ip]["Phase:"], //: " Landing (LDG)",
 	                        registration: cleaned_data[ip]["Registration:"], //: " SU-GAO",
 	                        time: cleaned_data[ip]["Time:"], //: "ca 22:45",
@@ -219,7 +222,7 @@
 	                }
 	            }
 	        }
-	        console.log(links);
+	        // console.log(links);
 
 
 	        // build geoJSON features from links array
@@ -240,7 +243,6 @@
 	    }
 	}
 
-	draw_globe(0);
 
 	function add_qtip() {
 	    for (var i = 0; i < keys.length; i++) {
@@ -291,7 +293,7 @@
 			result = [projection(source),sky4(mid),projection(target)];
 		}
 	    // console.log((start) + "BRO RA");
-		console.log(source + "E RARARARA" + target + "E KAKAKKAKA" + "CHHUUCHUHCU \t" + dist);
+		// console.log(source + "E RARARARA" + target + "E KAKAKKAKA" + "CHHUUCHUHCU \t" + dist);
 		return result;
 	}
 
@@ -355,7 +357,7 @@
 	}
 
 	function func(item) {
-	    console.log(item);
+	    // console.log(item);
 	}
 
 	// functions for zooming
@@ -410,8 +412,24 @@
 	            return d.date;
 	        })
 	        .on("mouseover", function (d) {
-	            $("#" + d.date).css("cursor", "pointer");
-	        });
+				$("#" + d.date).css("cursor", "pointer");
+				console.log(d.passengers);
+				var actual = cnnt *  d.passengers[0]/d.passengers[1];
+				// alert(actual);
+				for(var ps = 0; ps < Math.floor(actual); ps++){
+					$("#" + ps + "pass").css("fill","blue");
+				}
+				$("#fatalities").text(d.passengers[0]);
+				$("#occupants").text(d.passengers[1]);
+			})
+	        .on("mouseout", function (d) {
+				$("#" + d.date).css("cursor", "pointer");
+				for(var ps = 0; ps < cnnt; ps++){
+					$("#" + ps + "pass").css("fill","grey");
+				}
+				$("#fatalities").text("");
+				$("#occupants").text("");
+			});
 	    add_qtip();
 	}
 
@@ -442,4 +460,16 @@
 	    } else {
 	        return (1 - (dist / (1.5 * 1.57)));
 	    }
+	}
+	function myFunction(){
+		var x = document.getElementById("mySelect").value;
+		d3.selectAll(".land").remove();
+		d3.selectAll(".ocean").remove();
+		d3.selectAll(".boundary").remove();
+		d3.selectAll(".glow").remove();
+		d3.selectAll(".flyers").remove();
+		d3.selectAll(".arcs").remove();
+		d3.selectAll(".coverbox").remove();
+
+		draw_globe(x);
 	}
