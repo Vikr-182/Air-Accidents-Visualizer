@@ -1,0 +1,109 @@
+{
+    "name": "All crashes",
+    "children": [
+        {
+            "name": "Service",
+            "children": [
+                {
+                    "name": "Executive",
+                    "size": 135
+                },
+                {
+                    "name": "Ambulance",
+                    "size": 46
+                },
+                {
+                    "name": "Fire fighting",
+                    "size": 23
+                },
+                {
+                    "name": "Survey/research",
+                    "size": 15
+                }
+            ]
+        },
+        {
+            "name": "Military",
+            "children": [
+                {
+                    "name": "Military",
+                    "size": 192
+                },
+                {
+                    "name": "Official state flight",
+                    "size": 9
+                }
+            ]
+        },
+        {
+            "name": "Miscelaneous",
+            "children": [
+                {
+                    "name": "Unknown",
+                    "size": 78
+                },
+                {
+                    "name": "Parachuting",
+                    "size": 19
+                },
+                {
+                    "name": "Training",
+                    "size": 50
+                },
+                {
+                    "name": "Private",
+                    "size": 84
+                },
+                {
+                    "name": "Ferry/positioning",
+                    "size": 168
+                },
+                {
+                    "name": "Test",
+                    "size": 34
+                },
+                {
+                    "name": "Illegal Flight",
+                    "size": 3
+                }
+            ]
+        },
+        {
+            "name": "Passenger",
+            "children": [
+                {
+                    "name": "Domestic",
+                    "children":[
+                        {
+                            "name": "Domestic Scheduled Passenger",
+                            "size": 678
+                        },
+                        {
+                            "name": "Domestic Non Scheduled Passenger",
+                            "size": 162
+                        }
+                    ]
+                },
+                {
+                    "name": "International",
+                    "children":[
+                        {
+                            "name": "International Scheduled Passenger",
+                            "size": 284
+                        },
+                        
+                        {
+                            "name": "Int'l Non Scheduled Passenger",
+                            "size": 62
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "name": "Cargo",
+            "size": 383
+        }
+    ]
+}

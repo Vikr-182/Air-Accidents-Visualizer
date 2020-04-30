@@ -82,7 +82,7 @@
             .attr('viewBox', `${-width / 2} ${-height / 2} ${width} ${height}`)
             .on('click', () => focusOn()); // Reset zoom on canvas click
 
-        d3.json('./flare.json', (error, root) => {
+        d3.json('./try.json', (error, root) => {
             if (error) throw error;
 
             root = d3.hierarchy(root);
