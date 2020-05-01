@@ -6,20 +6,21 @@ html {
 }
 
 .ocean {
-	fill: #c4c4c4;
-	stroke: grey
-	/*fill: #bfd7e4;*/
+	/* fill: #c4c4c4; */
+	stroke: grey;
+	fill: #bfd7e4;
+	/* fill: #bfd7e4; */
 }
 
 .land {
-	fill: grey;
-	/*fill: #eaeaea;*/
+	/* fill: grey; */
+	fill: #eaeaea;
 }
 
 .boundary {
 	fill: none;
-	stroke: #d1d1d1;
-	/*stroke: #9fa8ad;*/
+	/* stroke: #d1d1d1; */
+	stroke: #9fa8ad;
 	stroke-linejoin: round;
 	stroke-linecap: round;
 }
@@ -70,9 +71,9 @@ html {
 
 #my_plane{
 	background-image: url("../images/oh.png");
-	background-size: 450px 500px;
-	width: 450px;
-	height: 500px;
+	background-size: 400px 480px;
+	width: 400px;
+	height: 480px;
 }
 .arc {}
 

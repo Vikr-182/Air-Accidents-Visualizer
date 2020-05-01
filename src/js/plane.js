@@ -1,7 +1,7 @@
-var iw = 480;
-var ih = 500;
+var iw = 380;
+var ih = 400;
 var svg5 = d3.select("#plane").append("svg")
-    .attr("width", 1400)
+    .attr("width", 1100)
     .attr("height", 600)
     .attr("id","my_plane")
     ;
@@ -9,7 +9,7 @@ var ht = 0;
 var cnnt = 0;
 for( var tr = 130;tr <= 355;tr += 15){
     svg5.append("rect")
-    .attr("x",210)
+    .attr("x",185)
     .attr("y",tr)
     .attr("width",10)
     .attr("height",10)
@@ -18,7 +18,7 @@ for( var tr = 130;tr <= 355;tr += 15){
     .attr("id",cnnt + "pass");
     cnnt = cnnt + 1;
     svg5.append("rect")
-    .attr("x",230)
+    .attr("x",205)
     .attr("y",tr)
     .attr("width",10)
     .attr("height",10)

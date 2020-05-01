@@ -7,9 +7,9 @@
 	scl = 220;
 	var glow_scl = scl * 1.1;
 	var jag, pag;
-	var scale_sky = 265;
-	var scale_sky2 = 245;
-	var scale_sky3 = 235;
+	var scale_sky = 305;
+	var scale_sky2 = 265;
+	var scale_sky3 = 245;
 	var scale_sky4 = 225;
 	// map projection
 	var projection = d3.geoOrthographic()
@@ -96,7 +96,7 @@
 	            "../assets/static/world-110m.json"
 	        )
 	        .defer(d3.json, "../data/places.json")
-	        .defer(d3.json, "../data/new_places.json")
+	        .defer(d3.json, "../data/tmc.json")
 	        .defer(d3.json, "../assets/static/code_to_airport.json")
 	        .defer(d3.json, "../data/cleaned_data.json")
 	        .await(ready);
@@ -110,9 +110,20 @@
 
 	    function ready(error, json, places, new_places, code_to_airport, cleaned_data) {
 	        sag = json;
-	        dag = places;
-	        bag = new_places;
-	        pag = cleaned_data;
+			dag = places;
+			var gag = new_places;
+			bag = new_places;
+			console.log(bag["features"].length)
+			var cnt = 0;
+			var use = [];
+			for(var gh = 0;gh < bag["features"].length;gh++){
+				if(bag["features"][gh]["properties"]["years"].includes(item)){
+					use.push(bag["features"][gh]);
+				}
+			}
+			// alert(use.length);
+			bag["features"]= use;
+			pag = cleaned_data;
 	        var count = 0;
 	        // console.log(code_to_airport["VIDP"])
 			map.append("rect")
@@ -142,7 +153,7 @@
 	            .attr("class", "land")
 	            .attr("d", path);
 
-	        // draw_points(places);
+	        draw_points(places);
 
 	        map.append("path")
 	            .datum(topojson.mesh(json, json.objects.countries, function (a, b) {
@@ -237,7 +248,7 @@
 	            arcLines.push(feature)
 	        })
 	        draw();
-	        // draw_points(bag);
+	        draw_points(bag);
 	        jag = places;
 	        // bag = jag;
 	    }
@@ -318,7 +329,7 @@
 		s4o0 = sky.rotate();
 		
 		draw();
-	    // draw_points(bag);
+	    draw_points(bag);
 
 	}
 
@@ -352,7 +363,7 @@
 	    map.selectAll(".glow").attr("d", glow_path);
 	    // map.selectAll("path").remove();
 	    draw();
-	    // draw_points(bag);
+	    draw_points(bag);
 
 	}
 
@@ -371,7 +382,7 @@
 	    map.selectAll("path").attr("d", path);
 	    map.selectAll(".glow").attr("d", glow_path);
 	    draw();
-	    // draw_points(bag);
+	    draw_points(bag);
 	}
 
 	function draw_points(new_places) {
@@ -473,3 +484,4 @@
 
 		draw_globe(x);
 	}
+	myFunction();

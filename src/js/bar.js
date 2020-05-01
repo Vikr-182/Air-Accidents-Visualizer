@@ -149,6 +149,36 @@ function ready(error, data, clean, airport_to_country, country_to_airport) {
         }
     }
 
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+
+    nation_color = {
+        "US": "blue",
+        "CA": "red",
+        "RU": "brown",
+        "MX": "pink",
+        "AU": "orange",
+        "BR": "green",
+        "GB": "#eaeaea",
+        "FR": "yellow",
+        "TR": "maroon"
+    }
+    function colorme(item){
+        console.log(item + "CALLED");
+        if(nation_color[item] != undefined){
+            return nation_color[item];
+        }
+        else{
+            return getRandomColor();
+        }
+    }
+
     function rara(data) {
         return [...new Set(data)];
     }
@@ -237,7 +267,9 @@ function ready(error, data, clean, airport_to_country, country_to_airport) {
         .attr('width', d => x(d["number"]) - x(0) - 1)
         .attr('y', d => y(d["rank"]) + 5)
         .attr('height', y(1) - y(0) - barPadding)
-        .style('fill', "green");
+        .style('fill', function(d){
+            return colorme(d["country"]);
+        });
 
     svg3.selectAll('text.label')
         .data(annaSlice, d => d["country"])
@@ -295,7 +327,9 @@ function ready(error, data, clean, airport_to_country, country_to_airport) {
             .attr('width', d => x(d["number"]) - x(0) - 1)
             .attr('y', d => y(top_n + 1) + 5)
             .attr('height', y(1) - y(0) - barPadding)
-            .style('fill', "green")
+            .style('fill', function(d){
+                return colorme(d["country"]);
+            })
             .transition()
             .duration(tickDuration)
             .ease(d3.easeLinear)
@@ -397,7 +431,7 @@ function ready(error, data, clean, airport_to_country, country_to_airport) {
         // alert(ind);
         if (anna_ind == anna_years.length - 1) ticker.stop();
         anna_ind = ((anna_ind) + 1);
-    }, tickDuration * 5);
+    }, tickDuration * 1.9);
 
 };
 

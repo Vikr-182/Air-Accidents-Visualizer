@@ -202,7 +202,26 @@
                     d.lastValue = +d.rating;
                 }
             });
-
+            nation_color = {
+                "US": "blue",
+                "CA": "red",
+                "RU": "brown",
+                "MX": "pink",
+                "AU": "orange",
+                "BR": "green",
+                "GB": "#eaeaea",
+                "FR": "yellow",
+                "TR": "maroon"
+            }
+            function colorme(item){
+                console.log(item + "CALLED");
+                if(nation_color[item] != undefined){
+                    return nation_color[item];
+                }
+                else{
+                    return "grey";
+                }
+            }
             var h;
             var ee = "Departure airport:";
             var lala = new Array(0);
@@ -303,7 +322,9 @@
                 .attr('width', d => x(d["number"]) - x(0) - 1)
                 .attr('y', d => y(d["rank"]) + 5)
                 .attr('height', y(1) - y(0) - barPadding)
-                .style('fill', "green");
+                .style('fill', function(d){
+                    colorme(d["country"]);
+                });
 
             svg.selectAll('text.label')
                 .data(annaSlice, d => d["country"])
@@ -361,7 +382,9 @@
                     .attr('width', d => x(d["number"]) - x(0) - 1)
                     .attr('y', d => y(top_n + 1) + 5)
                     .attr('height', y(1) - y(0) - barPadding)
-                    .style('fill', "green")
+                    .style('fill', function(d){
+                        colorme(d["country"]);
+                    })
                     .transition()
                     .duration(tickDuration)
                     .ease(d3.easeLinear)

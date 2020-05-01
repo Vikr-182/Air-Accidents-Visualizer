@@ -1,4 +1,4 @@
-var width = 1350,
+var width = 1250,
     height = 600,
     radius = 6;
 
@@ -8,7 +8,7 @@ var svg2 = d3.select("#my_anna").append("svg")
     .attr("width", width)
     .attr("height", height + 100);
 
-var middl = height / 2;
+var middl = height / 1.7;
 var init = {
     " Taxi (TXI)": {
         "start": 0,
@@ -123,9 +123,21 @@ function ready(error, graph, data_ra) {
     var ll;
     var new_graph = new Array(0);
     var kera = [];
+    var gera = [];
     for (ll in data_ra) {
         if (data_ra[ll]["date"].slice(0, 4) == "2001" || data_ra[ll]["date"].slice(0, 4) == "2000" || data_ra[ll]["date"].slice(0, 4) == "2002" || data_ra[ll]["date"].slice(0, 4) == "2003") {
             kera.push(data_ra[ll]["date"]);
+            gera.push({
+                "name": data_ra[ll]["date"],
+                "total": (data_ra[ll]["Total:"]).split("/"),
+                "fatalities": parseInt(data_ra[ll]["Total:"].split("/")[1].split(" ")[2]),
+                "occupants": parseInt(data_ra[ll]["Total:"].split("/")[0].split(" ")[1]),
+                "phase": data_ra[ll]["Phase:"],
+                "damage": data_ra[ll]["Aircraft damage:"],
+                "date": data_ra[ll]["date"],
+                "operator": data_ra[ll]["Operator:"],
+                "phase":data_ra[ll]["Phase:"]
+            })
             new_graph.push({
                 "name": data_ra[ll]["date"],
                 "total": (data_ra[ll]["Total:"]).split("/"),
@@ -133,7 +145,9 @@ function ready(error, graph, data_ra) {
                 "occupants": parseInt(data_ra[ll]["Total:"].split("/")[0].split(" ")[1]),
                 "phase": data_ra[ll]["Phase:"],
                 "damage": data_ra[ll]["Aircraft damage:"],
-                "date": data_ra[ll]["date"]
+                "date": data_ra[ll]["date"],
+                "operator": data_ra[ll]["Operator:"],
+                "phase":data_ra[ll]["Phase:"]
             });
         }
     }
@@ -177,10 +191,18 @@ function ready(error, graph, data_ra) {
     function high() {
         // alert("RARA");
         $(this).css("cursor", "pointer");
+        
         for (var sz = 0; sz < kera.length; sz++) {
             $("#" + kera[sz] + "MANNA").css("opacity", "0.3");
         }
         $(this).css("opacity", "1");
+        // return tooltip.style("top", (event.pageY - 10) + "px").style("left", (event.pageX + 10) + "px").style("display","block").text(
+        //             'Date:\t' + $(this)["date"] + '\n Operator:\t' + $(this)["operator"] +
+        //              '<br>Phase:\t' + $(this)["phase"] +
+        //             '<br>Fatalities:' + $(this)["fatalities"] +
+        //              '<br>Occupants:' + $(this)["occupants"] +
+        //              '<br>Damage:' + $(this)["damage"]);
+
     }
 
     function unhigh() {
@@ -188,6 +210,31 @@ function ready(error, graph, data_ra) {
             $("#" + kera[sz] + "MANNA").css("opacity", "0.8");
         }
     }
+
+    for (var sz = 0; sz < gera.length; sz++) {
+
+        $( "#" + gera[sz]["date"] + "MANNA").qtip({
+            content: {
+                text: "Operator: " + gera[sz]["operator"]
+                + "<br>Phase: " + gera[sz]["phase"]
+                + "<br>Damage: " + gera[sz]["damage"]
+                + "<br>Fatalities: " + gera[sz]["fatalities"]
+                + "<br>Occupants: " + gera[sz]["occupants"]
+                + "<br>Date:" + gera[sz]["date"]
+            },
+            style: {
+                classes: "qtip-bootstrap qtip-rounded qtip-shadow"
+            },
+            position: {
+                target: 'mouse', // my target,
+                adjust: {
+                    mouse: true
+                }
+            }
+        });
+
+    }
+
 
     function tick() {
         node.attr("cx", function (d) {
@@ -265,6 +312,15 @@ function ready(error, graph, data_ra) {
             });
 
     }
+    var tooltip = d3.select("body")
+.append("div")
+.style("position", "absolute")
+.style("font-family", "sans-serif")
+.style("font-size", "10px")
+.style("z-index", "10")
+.style("display", "none")
+.attr("id","yaar")
+;
 };
 // var start = 0;
 var interval = 20;
@@ -364,6 +420,13 @@ for(var jk = 1;jk < x_arr.length; jk++){
 }
 
 var keyss = Object.keys(init);
+var xxes = [];
+for(var bf = 0;bf < width;bf += 0.5){
+    xxes.push(bf);
+}
+for(var jp = 0;jp < xxes.length;jp++){
+    
+}
 for(var gt = 0;gt < width;gt += width/7){
     svg2
     .append("line")
@@ -409,3 +472,5 @@ function dragended(d) {
     d.fx = null;
     d.fy = null;
 }
+
+
