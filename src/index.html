@@ -32,6 +32,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/slider_style.css">
 	<link rel="stylesheet" type="text/css" href="./css/text_style.css">
 	<link rel="stylesheet" type="text/css" href="./css/barline_style.css">
+	<link rel="stylesheet" type="text/css" href="./css/barstack_style.css">
 	<link rel="stylesheet" type="text/css" href="./css/pie_style.css">
 	<link rel="stylesheet" type="text/css" href="../assets/css/jquery.qtip.min.css">
 	<link rel="stylesheet" type="text/css" href="../assets/css/rangeslider.css">
@@ -150,15 +151,6 @@
 									<h3><a href="#">Tohar Ma Randi</a>, <span>October 04, 2018</span></h3>
 								</div>
 							</div>
-							<div class="meta-wrap d-md-flex align-items-center">
-								<div class="half order-md-last text-md-right">
-									<p class="meta">
-										<span><i class="icon-heart"></i>3</span>
-										<span><i class="icon-eye"></i>100</span>
-										<span><i class="icon-comment"></i>5</span>
-									</p>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -211,7 +203,8 @@
 
 		</div><!-- END-->
 	</section>
-	<section class="ftco-section js-fullheight replacement">
+	<section class="ftco-section">
+		<div class="container">
 		<div class="row">
 			<div id="bar_line"></div>
 		</div>
@@ -230,23 +223,19 @@
 								<h3><a href="#">Tohar Ma Randi</a>, <span>October 04, 2018</span></h3>
 							</div>
 						</div>
-						<div class="meta-wrap d-md-flex align-items-center">
-							<div class="half order-md-last text-md-right">
-								<p class="meta">
-									<span><i class="icon-heart"></i>3</span>
-									<span><i class="icon-eye"></i>100</span>
-									<span><i class="icon-comment"></i>5</span>
-								</p>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
+	</div>
 		</section>
-
-
+		<section class="ftco-section js-fullheight replacement">
+			<div class="row">
+				<div>
+					<svg width="1400" height="800" id="bar_stack"></svg>
+				</div>
+			</div>
+			</section>
 </body>
 <script src="js/jquery-migrate-3.0.1.min.js"></script>
 <script src="js/popper.min.js"></script>
@@ -272,6 +261,7 @@
 <script src="js/bar.js"></script>
 <script src="js/pie.js"></script>
 <script src="js/barline.js"></script>
+<script src="js/barstack.js"></script>
 <script src="js/responsive.js"></script>
 <script type="module">
 

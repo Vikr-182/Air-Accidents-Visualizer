@@ -22,7 +22,7 @@ var dataset = [
     ];
 
     var margin6 = { top: 20, right: 40, bottom: 30, left: 40 },
-        width6 = 760,
+        width6 = 960,
         height6 = 300;
 
     var xScale = d3.scaleBand()
@@ -78,12 +78,11 @@ var dataset = [
         .call(y_axis);
 
 
-        
-
     var bar = g.selectAll("rect")
         .data(dataset)
         .enter().append("g");
 
+    var fnt = 0;
     // bar chart
     bar.append("rect")
         .attr("x", function (d) { return xScale(d[0]); })
@@ -99,7 +98,12 @@ var dataset = [
             } else {
                 return s + "bar3";
             }
-        });
+        })
+        .attr("id", function(d){ 
+            fnt++;
+            return "bar_" + fnt ;
+        })
+        ;
 
     // labels on the bar chart
     bar.append("text")

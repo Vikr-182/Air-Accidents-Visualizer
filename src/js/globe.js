@@ -231,7 +231,8 @@
 							registration: cleaned_data[ip]["Registration:"], //: " SU-GAO",
 							time: cleaned_data[ip]["Time:"], //: "ca 22:45",
 							total: cleaned_data[ip]["Total:"], //: "Fatalities: 0 / Occupants: 93 ",
-							type: cleaned_data[ip]["Type:"] //: "Boeing 767-366ER"						
+							type: cleaned_data[ip]["Type:"], //: "Boeing 767-366ER"						
+							cause: cleaned_data[ip]["causes"] //: "Boeing 767-366ER"						
 						})
 
 					}
@@ -407,7 +408,12 @@
 		// 	func(d);
 		// });
 	}
-
+	var criminal = ['Hijack', 'Hijacker(s) escaped', 'Hijacker(s) overpowered by occupants', 'Plane stormed', 'Shot down from the ground', 'Sabotage', ''];
+	var external = ['Runway excursion', 'Flightcrew incapacitation', 'Runway mishap', 'Runway incursion', 'Mid air collision', 'Missing', 'Bird strike', 'Ground collision', 'Collision with vehicle', 'Collision with person or animal on the ground', 'Passenger door failure', 'Collision with airport equipment', 'Destroyed on ground', 'Hangar / ground fire', 'Collision with pole or wires', 'Collision with approach or runway lights', ''];
+	var loss = ['Loss of control', 'Forced landing on runway', 'Ditching', 'Forced landing outside airport', 'Emergency landing', 'Controlled Flight Into Terrain (CFIT) - Mountain', 'Controlled Flight Into Terrain (CFIT) - Ground', 'Damaged on the ground', 'Cause undetermined', 'Loss of control (presumed)', ''];
+	var airf = ['All engine powerloss', 'Ditching', 'Horizontal stabilizer', 'Fuel exhaustion', 'Prop/turbine blade separation', 'Fuel starvation', 'Uncontained engine failure', 'Wrong installation of parts', 'Navigational error', 'Landing gear collapse', 'Wing failure', 'Inflight fire', 'Electrical system problem', 'Fuselage failure', 'Rudder issue', 'Tire failure', 'Engine fire', 'Cargo fire/smoke', 'Engine separation', 'Tail failure', 'Locked rudders/ailerons/gustlock', 'Airframe failure', 'Fuel contamination', 'Autopilot issues', 'Elevator issue', 'Engine reverse issue', 'Hydraulic system problem', 'Issue with flap(s)', ''];
+	var pilot = ['Centre of Gravity outside limits', 'Wrong takeoff configuration (flaps/trim)', 'Undershoot/overshoot', 'Heavy landing', 'Tailstrike', 'Gear-up landing', 'VFR flight in IMC', 'Loss of situational awareness', 'Landing or takeoff on wrong runway', "Flightcrew member's alcohol, drug usage", 'Rejected takeoff', 'Overloaded', 'Distraction in cockpit', 'Cargo door failure', 'Shutdown of wrong engine', "Flightcrew's failure to monitor instruments", 'Premature gear retraction on take-off', 'Wheel(s) up landing', 'Flightcrew  un(der)qualified', 'Normal landing', 'Controlled Flight Into Terrain (CFIT) - Water', 'Landing after unstabilized approach', 'Non-adherence to procedures', 'Insufficient rest / fatigue', 'Improper flap/slat usage', 'Premature descent', 'Bounced on landing', 'High speed landing', "Failure to follow AD and SB's", 'Wrong altimeter setting', 'Late landing', "Flightcrew member's mental condition", ''];
+	var weather = ['Icing', 'Windshear/downdraft', 'Lightningstrike', 'Low visibility', 'Precipitation-induced flame-out', 'Turbulence', 'Thunderstorm', ''];
 	function draw() {
 		d3.selectAll(".flyers").remove();
 		d3.selectAll(".arcs").remove();
@@ -453,7 +459,31 @@
 				}
 				$("#fatalities").text("");
 				$("#occupants").text("");
-			});
+			})
+			.attr("stroke",function(d){
+				var pp = d["cause"];
+				if (pp.length > 2){
+					if(criminal.includes(pp[0])){
+						return "red";
+					}
+					else if(external.includes(pp[0])){
+						return "green";
+					}
+					else if(loss.includes(pp[0])){
+						return "yellow";
+					}
+					else if(airf.includes(pp[0])){
+						return "brown";
+					}
+					else if(pilot.includes(pp[0])){
+						return "blue";
+					}
+					else{
+						return "aqua";
+					}
+				}
+			})
+			;
 		add_qtip();
 	}
 
