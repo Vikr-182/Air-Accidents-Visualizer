@@ -1,0 +1,32 @@
+Centre of Gravity outside limits
+Wrong takeoff configuration (flaps/trim)
+Undershoot/overshoot
+Heavy landing
+Tailstrike
+Gear-up landing
+VFR flight in IMC
+Loss of situational awareness
+Landing or takeoff on wrong runway
+Flightcrew member's alcohol, drug usage
+Rejected takeoff
+Overloaded
+Distraction in cockpit
+Cargo door failure
+Shutdown of wrong engine
+Flightcrew's failure to monitor instruments
+Premature gear retraction on take-off
+Wheel(s) up landing
+Flightcrew  un(der)qualified
+Normal landing
+Controlled Flight Into Terrain (CFIT) - Water
+Landing after unstabilized approach
+Non-adherence to procedures
+Insufficient rest / fatigue
+Improper flap/slat usage
+Premature descent
+Bounced on landing
+High speed landing
+Failure to follow AD and SB's
+Wrong altimeter setting
+Late landing
+Flightcrew member's mental condition

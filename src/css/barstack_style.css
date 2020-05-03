@@ -10,12 +10,12 @@ svg text {
 }
 
 .replacement2.row h3 a {
-text-decoration: none;
-background-color: transparent;
-color: #000000;
-font-weight: 700;
-font-size: 32px;
-line-height: 1.2;
-font-family: inherit;
-text-align: left;
+    text-decoration: none;
+    background-color: transparent;
+    color: #000000;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    font-family: inherit;
+    text-align: left;
 }

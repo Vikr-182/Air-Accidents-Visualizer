@@ -1,0 +1,16 @@
+Runway excursion
+Flightcrew incapacitation
+Runway mishap
+Runway incursion
+Mid air collision
+Missing
+Bird strike
+Ground collision
+Collision with vehicle
+Collision with person or animal on the ground
+Passenger door failure
+Collision with airport equipment
+Destroyed on ground
+Hangar / ground fire
+Collision with pole or wires
+Collision with approach or runway lights

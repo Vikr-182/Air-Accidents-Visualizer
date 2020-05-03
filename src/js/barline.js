@@ -21,8 +21,8 @@ var dataset = [
     ["2019",0.51,39016500],
     ];
 
-    var margin6 = { top: 20, right: 40, bottom: 30, left: 40 },
-        width6 = 960,
+    var margin6 = { top: 20, right: 40, bottom: 50, left: 100 },
+        width6 = 660,
         height6 = 300;
 
     var xScale = d3.scaleBand()
@@ -74,7 +74,7 @@ var dataset = [
             .scale(y1Scale);
 
     svg6.append("g")
-        .attr("transform", "translate(995, 20)")
+        .attr("transform", "translate(745, 20)")
         .call(y_axis);
 
 
@@ -87,7 +87,7 @@ var dataset = [
     bar.append("rect")
         .attr("x", function (d) { return xScale(d[0]); })
         .attr("y", function (d) { return yScale(d[2]); })
-        .attr("width", xScale.bandwidth())
+        .attr("width", xScale.bandwidth()/1.4)
         .attr("height", function (d) { return height6 - yScale(d[2]); })
         .attr("class", function (d) {
             var s = "bar ";
@@ -135,3 +135,20 @@ var dataset = [
         .attr("cx", function (d, i) { return xScale(d[0]) + xScale.bandwidth() / 2; })
         .attr("cy", function (d) { return y1Scale(d[1]); })
         .attr("r", 5);
+
+    svg6.append("text")
+    .attr("x",width6/2)
+    .attr("y",height6*1.18)
+    .text("Years")
+
+    svg6.append("text")
+    .attr("x",margin6.left)
+    .attr("y",margin6.bottom)
+    .text("Number of departures")
+    .attr("transform","rotate(270,60,100)")
+
+    svg6.append("text")
+    .attr("x",width6 -  margin6.right)
+    .attr("y",margin6.bottom)
+    .text("Fatal Accidents")
+    .attr("transform","rotate(90," + (width6 -  margin6.right - 60).toString() + "," + (margin6.bottom + 200).toString() + ")")

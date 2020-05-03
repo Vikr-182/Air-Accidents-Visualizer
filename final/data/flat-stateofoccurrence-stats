@@ -1,0 +1,4649 @@
+[
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "Year": 2008,
+    "Departures": 0,
+    "AccidentRate": null
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BGD",
+    "Year": 2008,
+    "Departures": 43484,
+    "AccidentRate": 22.996964400699106
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CMR",
+    "Year": 2008,
+    "Departures": 10344,
+    "AccidentRate": 96.67440061871616
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ARM",
+    "Year": 2008,
+    "Departures": 8582,
+    "AccidentRate": 116.52295502213936
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "COL",
+    "Year": 2008,
+    "Departures": 202200,
+    "AccidentRate": 14.836795252225519
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PAK",
+    "Year": 2008,
+    "Departures": 63442,
+    "AccidentRate": 15.762428675010245
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MWI",
+    "Year": 2008,
+    "Departures": 4101,
+    "AccidentRate": 243.84296513045598
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GEO",
+    "Year": 2008,
+    "Departures": 7414,
+    "AccidentRate": 134.87995683841382
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRN",
+    "Year": 2008,
+    "Departures": 101942,
+    "AccidentRate": 29.42849855800357
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 65,
+    "FatalAccidents": 1,
+    "State": "KGZ",
+    "Year": 2008,
+    "Departures": 8389,
+    "AccidentRate": 119.20371915603766
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 88,
+    "FatalAccidents": 1,
+    "State": "RUS",
+    "Year": 2008,
+    "Departures": 465672,
+    "AccidentRate": 4.294868491126802
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MMR",
+    "Year": 2008,
+    "Departures": 30619,
+    "AccidentRate": 32.6594598125347
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ROU",
+    "Year": 2008,
+    "Departures": 66353,
+    "AccidentRate": 15.070908625081007
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MYS",
+    "Year": 2008,
+    "Departures": 210548,
+    "AccidentRate": 4.74951080038756
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NGA",
+    "Year": 2008,
+    "Departures": 49252,
+    "AccidentRate": 20.303744010395516
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "THA",
+    "Year": 2008,
+    "Departures": 224979,
+    "AccidentRate": 4.4448592979789225
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "AUS",
+    "Year": 2008,
+    "Departures": 609771,
+    "AccidentRate": 4.919879758138711
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "KEN",
+    "Year": 2008,
+    "Departures": 54388,
+    "AccidentRate": 36.7728175332794
+  },
+  {
+    "Accidents": 5,
+    "Fatalities": 65,
+    "FatalAccidents": 2,
+    "State": "COD",
+    "Year": 2008,
+    "Departures": 9858,
+    "AccidentRate": 507.20227226617976
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JPN",
+    "Year": 2008,
+    "Departures": 796352,
+    "AccidentRate": 3.7671783331993893
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BRA",
+    "Year": 2008,
+    "Departures": 644215,
+    "AccidentRate": 3.104553603998665
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PHL",
+    "Year": 2008,
+    "Departures": 173630,
+    "AccidentRate": 17.27812014052871
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ITA",
+    "Year": 2008,
+    "Departures": 660694,
+    "AccidentRate": 3.0271199677914433
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ZAF",
+    "Year": 2008,
+    "Departures": 200499,
+    "AccidentRate": 4.987556047661085
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 5,
+    "FatalAccidents": 1,
+    "State": "HND",
+    "Year": 2008,
+    "Departures": 39079,
+    "AccidentRate": 25.589191125668517
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 3,
+    "FatalAccidents": 1,
+    "State": "ECU",
+    "Year": 2008,
+    "Departures": 64835,
+    "AccidentRate": 30.847536053057762
+  },
+  {
+    "Accidents": 7,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DEU",
+    "Year": 2008,
+    "Departures": 1007473,
+    "AccidentRate": 6.948077020426354
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TGO",
+    "Year": 2008,
+    "Departures": 2145,
+    "AccidentRate": 466.2004662004662
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BOL",
+    "Year": 2008,
+    "Departures": 35720,
+    "AccidentRate": 27.99552071668533
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "MEX",
+    "Year": 2008,
+    "Departures": 564037,
+    "AccidentRate": 3.5458666718672713
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 154,
+    "FatalAccidents": 1,
+    "State": "ESP",
+    "Year": 2008,
+    "Departures": 888303,
+    "AccidentRate": 1.125742004698847
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 60,
+    "FatalAccidents": 2,
+    "State": "VEN",
+    "Year": 2008,
+    "Departures": 104435,
+    "AccidentRate": 57.4520036386269
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IND",
+    "Year": 2008,
+    "Departures": 672277,
+    "AccidentRate": 1.4874820944342881
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 7,
+    "FatalAccidents": 1,
+    "State": "IRQ",
+    "Year": 2008,
+    "Departures": 1477,
+    "AccidentRate": 677.0480704129993
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 19,
+    "FatalAccidents": 1,
+    "State": "SUR",
+    "Year": 2008,
+    "Departures": 1233,
+    "AccidentRate": 811.0300081103001
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "FRA",
+    "Year": 2008,
+    "Departures": 762745,
+    "AccidentRate": 3.93316245927538
+  },
+  {
+    "Accidents": 7,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CAN",
+    "Year": 2008,
+    "Departures": 1078821,
+    "AccidentRate": 6.488564831422451
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "RWA",
+    "Year": 2008,
+    "Departures": 3922,
+    "AccidentRate": 254.97195308516064
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DZA",
+    "Year": 2008,
+    "Departures": 41787,
+    "AccidentRate": 23.93088759662096
+  },
+  {
+    "Accidents": 10,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GBR",
+    "Year": 2008,
+    "Departures": 1100275,
+    "AccidentRate": 9.088636931676172
+  },
+  {
+    "Accidents": 30,
+    "Fatalities": 2,
+    "FatalAccidents": 2,
+    "State": "USA",
+    "Year": 2008,
+    "Departures": 10044230,
+    "AccidentRate": 2.986789430349564
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 44,
+    "FatalAccidents": 3,
+    "State": "SDN",
+    "Year": 2008,
+    "Departures": 18813,
+    "AccidentRate": 159.46420028703557
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BEL",
+    "Year": 2008,
+    "Departures": 120482,
+    "AccidentRate": 16.599990040005977
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MDV",
+    "Year": 2008,
+    "Departures": 15631,
+    "AccidentRate": 63.97543343356151
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NOR",
+    "Year": 2008,
+    "Departures": 319805,
+    "AccidentRate": 9.38071637404043
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 3,
+    "FatalAccidents": 1,
+    "State": "SOM",
+    "Year": 2008,
+    "Departures": 2528,
+    "AccidentRate": 395.56962025316454
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SAU",
+    "Year": 2008,
+    "Departures": 150753,
+    "AccidentRate": 6.633367163505867
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CHN",
+    "Year": 2008,
+    "Departures": 1868500,
+    "AccidentRate": 1.6055659620016056
+  },
+  {
+    "Accidents": 5,
+    "Fatalities": 4,
+    "FatalAccidents": 2,
+    "State": "IDN",
+    "Year": 2008,
+    "Departures": 359247,
+    "AccidentRate": 13.918000707034436
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 6,
+    "FatalAccidents": 1,
+    "State": "COG",
+    "Year": 2009,
+    "Departures": 8453,
+    "AccidentRate": 118.3011948420679
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ARG",
+    "Year": 2009,
+    "Departures": 111021,
+    "AccidentRate": 9.007304924293603
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "EGY",
+    "Year": 2009,
+    "Departures": 101858,
+    "AccidentRate": 9.817589192797817
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ITA",
+    "Year": 2009,
+    "Departures": 627929,
+    "AccidentRate": 1.592536735841154
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "VNM",
+    "Year": 2009,
+    "Departures": 100794,
+    "AccidentRate": 9.921225469770025
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SAU",
+    "Year": 2009,
+    "Departures": 170457,
+    "AccidentRate": 5.866582187883161
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "URY",
+    "Year": 2009,
+    "Departures": 9573,
+    "AccidentRate": 104.46046171524078
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "RWA",
+    "Year": 2009,
+    "Departures": 4991,
+    "AccidentRate": 200.3606491685033
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MAR",
+    "Year": 2009,
+    "Departures": 61543,
+    "AccidentRate": 16.24880165087825
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MMR",
+    "Year": 2009,
+    "Departures": 26661,
+    "AccidentRate": 37.50797044371929
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 228,
+    "FatalAccidents": 1,
+    "Year": 2009,
+    "Departures": 0,
+    "AccidentRate": null
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 6,
+    "FatalAccidents": 1,
+    "State": "ARE",
+    "Year": 2009,
+    "Departures": 187241,
+    "AccidentRate": 10.681421269914175
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 3,
+    "FatalAccidents": 1,
+    "State": "CHN",
+    "Year": 2009,
+    "Departures": 2098729,
+    "AccidentRate": 1.429436578043187
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PRT",
+    "Year": 2009,
+    "Departures": 132321,
+    "AccidentRate": 7.5573794031181745
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 152,
+    "FatalAccidents": 1,
+    "State": "COM",
+    "Year": 2009,
+    "Departures": 2427,
+    "AccidentRate": 412.0313143798929
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ZWE",
+    "Year": 2009,
+    "Departures": 8195,
+    "AccidentRate": 122.02562538133007
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BOL",
+    "Year": 2009,
+    "Departures": 54991,
+    "AccidentRate": 54.55438162608427
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 11,
+    "FatalAccidents": 1,
+    "State": "UGA",
+    "Year": 2009,
+    "Departures": 8769,
+    "AccidentRate": 114.03808872163303
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "UZB",
+    "Year": 2009,
+    "Departures": 22292,
+    "AccidentRate": 44.859142293199355
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "RUS",
+    "Year": 2009,
+    "Departures": 409011,
+    "AccidentRate": 2.444922019212197
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 3,
+    "FatalAccidents": 1,
+    "State": "COD",
+    "Year": 2009,
+    "Departures": 7810,
+    "AccidentRate": 256.0819462227913
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ZAF",
+    "Year": 2009,
+    "Departures": 197333,
+    "AccidentRate": 5.067576127662377
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AUS",
+    "Year": 2009,
+    "Departures": 590106,
+    "AccidentRate": 3.3892215974757076
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CAN",
+    "Year": 2009,
+    "Departures": 1018726,
+    "AccidentRate": 3.926472869054093
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRL",
+    "Year": 2009,
+    "Departures": 111142,
+    "AccidentRate": 8.997498695362689
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 187,
+    "FatalAccidents": 2,
+    "State": "IRN",
+    "Year": 2009,
+    "Departures": 113642,
+    "AccidentRate": 52.79738124989001
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SDN",
+    "Year": 2009,
+    "Departures": 19969,
+    "AccidentRate": 100.1552406229656
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DEU",
+    "Year": 2009,
+    "Departures": 934940,
+    "AccidentRate": 6.417524119194814
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MEX",
+    "Year": 2009,
+    "Departures": 493165,
+    "AccidentRate": 4.055437835207283
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IND",
+    "Year": 2009,
+    "Departures": 622710,
+    "AccidentRate": 3.2117679176502705
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GBR",
+    "Year": 2009,
+    "Departures": 1009733,
+    "AccidentRate": 3.961443272627516
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 6,
+    "FatalAccidents": 1,
+    "State": "IDN",
+    "Year": 2009,
+    "Departures": 326938,
+    "AccidentRate": 18.352103456924553
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PAK",
+    "Year": 2009,
+    "Departures": 58251,
+    "AccidentRate": 17.167087260304545
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NOR",
+    "Year": 2009,
+    "Departures": 303598,
+    "AccidentRate": 3.29382934011423
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "KEN",
+    "Year": 2009,
+    "Departures": 56283,
+    "AccidentRate": 17.767354263276655
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "FRA",
+    "Year": 2009,
+    "Departures": 712776,
+    "AccidentRate": 1.4029653074738768
+  },
+  {
+    "Accidents": 5,
+    "Fatalities": 24,
+    "FatalAccidents": 1,
+    "State": "BRA",
+    "Year": 2009,
+    "Departures": 673226,
+    "AccidentRate": 7.426926470457172
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "JPN",
+    "Year": 2009,
+    "Departures": 781346,
+    "AccidentRate": 7.679056397549869
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "HTI",
+    "Year": 2009,
+    "Departures": 5272,
+    "AccidentRate": 189.6813353566009
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MYS",
+    "Year": 2009,
+    "Departures": 225669,
+    "AccidentRate": 4.431268805196992
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 4,
+    "FatalAccidents": 1,
+    "State": "PHL",
+    "Year": 2009,
+    "Departures": 200022,
+    "AccidentRate": 19.997800241973383
+  },
+  {
+    "Accidents": 22,
+    "Fatalities": 50,
+    "FatalAccidents": 1,
+    "State": "USA",
+    "Year": 2009,
+    "Departures": 9360689,
+    "AccidentRate": 2.3502543455935774
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "THA",
+    "Year": 2009,
+    "Departures": 208876,
+    "AccidentRate": 4.787529443306076
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "KWT",
+    "Year": 2009,
+    "Departures": 38357,
+    "AccidentRate": 26.070860599108375
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TUR",
+    "Year": 2009,
+    "Departures": 222509,
+    "AccidentRate": 8.988400469194504
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 9,
+    "FatalAccidents": 1,
+    "State": "NLD",
+    "Year": 2009,
+    "Departures": 202594,
+    "AccidentRate": 4.935980335054345
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "KOR",
+    "Year": 2009,
+    "Departures": 265796,
+    "AccidentRate": 3.7622838567924273
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SUR",
+    "Year": 2009,
+    "Departures": 1428,
+    "AccidentRate": 700.2801120448179
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JAM",
+    "Year": 2009,
+    "Departures": 18845,
+    "AccidentRate": 53.06447333510215
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 14,
+    "FatalAccidents": 1,
+    "State": "NPL",
+    "Year": 2010,
+    "Departures": 73355,
+    "AccidentRate": 13.632335900756594
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 90,
+    "FatalAccidents": 1,
+    "State": "LBN",
+    "Year": 2010,
+    "Departures": 28216,
+    "AccidentRate": 35.44088460447973
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 17,
+    "FatalAccidents": 1,
+    "State": "VEN",
+    "Year": 2010,
+    "Departures": 84390,
+    "AccidentRate": 11.849745230477545
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TKM",
+    "Year": 2010,
+    "Departures": 2893,
+    "AccidentRate": 345.66194262011754
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SAU",
+    "Year": 2010,
+    "Departures": 189125,
+    "AccidentRate": 5.287508261731659
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TUR",
+    "Year": 2010,
+    "Departures": 263136,
+    "AccidentRate": 3.8003161863067008
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ZAF",
+    "Year": 2010,
+    "Departures": 211616,
+    "AccidentRate": 4.725540601844851
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MYS",
+    "Year": 2010,
+    "Departures": 239407,
+    "AccidentRate": 4.176987306135577
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "EGY",
+    "Year": 2010,
+    "Departures": 112115,
+    "AccidentRate": 8.919413102617847
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MOZ",
+    "Year": 2010,
+    "Departures": 15449,
+    "AccidentRate": 64.72910868017347
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "FRA",
+    "Year": 2010,
+    "Departures": 715855,
+    "AccidentRate": 4.19079282815654
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MDG",
+    "Year": 2010,
+    "Departures": 11202,
+    "AccidentRate": 89.26977325477593
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "EST",
+    "Year": 2010,
+    "Departures": 11956,
+    "AccidentRate": 167.2800267648043
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TZA",
+    "Year": 2010,
+    "Departures": 33692,
+    "AccidentRate": 29.680636352843404
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PRI",
+    "Year": 2010,
+    "Departures": 76689,
+    "AccidentRate": 13.03967974546545
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DEU",
+    "Year": 2010,
+    "Departures": 957962,
+    "AccidentRate": 4.1755309709570945
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AUS",
+    "Year": 2010,
+    "Departures": 626299,
+    "AccidentRate": 3.193362914518465
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CZE",
+    "Year": 2010,
+    "Departures": 70346,
+    "AccidentRate": 28.430898700707928
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ITA",
+    "Year": 2010,
+    "Departures": 665089,
+    "AccidentRate": 4.510674511230828
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BRA",
+    "Year": 2010,
+    "Departures": 857308,
+    "AccidentRate": 2.3328838643754635
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JPN",
+    "Year": 2010,
+    "Departures": 769145,
+    "AccidentRate": 2.6002899323274544
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NOR",
+    "Year": 2010,
+    "Departures": 312988,
+    "AccidentRate": 3.195010671335642
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SOM",
+    "Year": 2010,
+    "Departures": 2858,
+    "AccidentRate": 349.8950314905528
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 68,
+    "FatalAccidents": 1,
+    "State": "CUB",
+    "Year": 2010,
+    "Departures": 22706,
+    "AccidentRate": 44.04122258433894
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 103,
+    "FatalAccidents": 1,
+    "State": "LBY",
+    "Year": 2010,
+    "Departures": 30165,
+    "AccidentRate": 66.30200563567048
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 164,
+    "FatalAccidents": 2,
+    "State": "PAK",
+    "Year": 2010,
+    "Departures": 61782,
+    "AccidentRate": 32.37188825224175
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 8,
+    "FatalAccidents": 1,
+    "State": "SUR",
+    "Year": 2010,
+    "Departures": 1527,
+    "AccidentRate": 654.8788474132285
+  },
+  {
+    "Accidents": 21,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "USA",
+    "Year": 2010,
+    "Departures": 9361112,
+    "AccidentRate": 2.243323229120643
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 158,
+    "FatalAccidents": 1,
+    "State": "IND",
+    "Year": 2010,
+    "Departures": 591937,
+    "AccidentRate": 1.6893689700086327
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "ARE",
+    "Year": 2010,
+    "Departures": 209027,
+    "AccidentRate": 4.78407095734044
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "UKR",
+    "Year": 2010,
+    "Departures": 67754,
+    "AccidentRate": 14.759276205094903
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "HKG",
+    "Year": 2010,
+    "Departures": 144073,
+    "AccidentRate": 13.881851561361254
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GBR",
+    "Year": 2010,
+    "Departures": 1002607,
+    "AccidentRate": 1.994799557553458
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 3,
+    "FatalAccidents": 1,
+    "State": "PHL",
+    "Year": 2010,
+    "Departures": 215328,
+    "AccidentRate": 9.288155743795512
+  },
+  {
+    "Accidents": 7,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IDN",
+    "Year": 2010,
+    "Departures": 467733,
+    "AccidentRate": 14.965803139825498
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 42,
+    "FatalAccidents": 1,
+    "State": "CHN",
+    "Year": 2010,
+    "Departures": 2392756,
+    "AccidentRate": 1.2537843390634065
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "SDN",
+    "Year": 2010,
+    "Departures": 22076,
+    "AccidentRate": 90.59612248595761
+  },
+  {
+    "Accidents": 5,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CAN",
+    "Year": 2010,
+    "Departures": 1018464,
+    "AccidentRate": 4.90935369340497
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NGA",
+    "Year": 2010,
+    "Departures": 77728,
+    "AccidentRate": 25.73075339645945
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 5,
+    "FatalAccidents": 1,
+    "State": "MEX",
+    "Year": 2010,
+    "Departures": 487093,
+    "AccidentRate": 12.317976238623835
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AGO",
+    "Year": 2010,
+    "Departures": 13499,
+    "AccidentRate": 74.07956144899622
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "COL",
+    "Year": 2010,
+    "Departures": 265547,
+    "AccidentRate": 11.297435105649848
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "THA",
+    "Year": 2010,
+    "Departures": 223444,
+    "AccidentRate": 4.475394282236265
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GIN",
+    "Year": 2010,
+    "Departures": 2194,
+    "AccidentRate": 455.7885141294439
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PER",
+    "Year": 2010,
+    "Departures": 85559,
+    "AccidentRate": 23.37568227772648
+  },
+  {
+    "Accidents": 8,
+    "Fatalities": 14,
+    "FatalAccidents": 2,
+    "State": "RUS",
+    "Year": 2010,
+    "Departures": 461300,
+    "AccidentRate": 17.3422935183178
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRN",
+    "Year": 2010,
+    "Departures": 129481,
+    "AccidentRate": 23.169422540758877
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BHS",
+    "Year": 2010,
+    "Departures": 54906,
+    "AccidentRate": 18.21294576184752
+  },
+  {
+    "Accidents": 5,
+    "Fatalities": 52,
+    "FatalAccidents": 2,
+    "State": "AFG",
+    "Year": 2010,
+    "Departures": 18186,
+    "AccidentRate": 274.93676454415487
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 22,
+    "FatalAccidents": 2,
+    "State": "COD",
+    "Year": 2010,
+    "Departures": 14233,
+    "AccidentRate": 421.5555399423874
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GAB",
+    "Year": 2010,
+    "Departures": 9594,
+    "AccidentRate": 104.23181154888472
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "FIN",
+    "Year": 2011,
+    "Departures": 126172,
+    "AccidentRate": 7.92568874235171
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 19,
+    "FatalAccidents": 1,
+    "State": "NPL",
+    "Year": 2011,
+    "Departures": 78891,
+    "AccidentRate": 12.675717128696556
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GAB",
+    "Year": 2011,
+    "Departures": 6914,
+    "AccidentRate": 289.2681515765114
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SWE",
+    "Year": 2011,
+    "Departures": 212896,
+    "AccidentRate": 4.697129114685104
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SAU",
+    "Year": 2011,
+    "Departures": 204035,
+    "AccidentRate": 4.901119905898498
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "HTI",
+    "Year": 2011,
+    "Departures": 9363,
+    "AccidentRate": 106.80337498664957
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 14,
+    "FatalAccidents": 1,
+    "State": "HND",
+    "Year": 2011,
+    "Departures": 28499,
+    "AccidentRate": 70.17790097898173
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JPN",
+    "Year": 2011,
+    "Departures": 739977,
+    "AccidentRate": 1.3513933541177632
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 16,
+    "FatalAccidents": 1,
+    "State": "BRA",
+    "Year": 2011,
+    "Departures": 1005825,
+    "AccidentRate": 1.9884174682474585
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "POL",
+    "Year": 2011,
+    "Departures": 111925,
+    "AccidentRate": 17.86910877819969
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 6,
+    "FatalAccidents": 1,
+    "State": "IRL",
+    "Year": 2011,
+    "Departures": 98914,
+    "AccidentRate": 20.21958468973047
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "EGY",
+    "Year": 2011,
+    "Departures": 108844,
+    "AccidentRate": 9.187460953290948
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GRL",
+    "Year": 2011,
+    "Departures": 21123,
+    "AccidentRate": 47.341760166643
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 78,
+    "FatalAccidents": 1,
+    "State": "IRN",
+    "Year": 2011,
+    "Departures": 141668,
+    "AccidentRate": 14.11751418810176
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SGP",
+    "Year": 2011,
+    "Departures": 148786,
+    "AccidentRate": 6.721062465554555
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ECU",
+    "Year": 2011,
+    "Departures": 67281,
+    "AccidentRate": 14.86303711300367
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PRT",
+    "Year": 2011,
+    "Departures": 142906,
+    "AccidentRate": 6.997606818468084
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ITA",
+    "Year": 2011,
+    "Departures": 663628,
+    "AccidentRate": 3.0137366114751036
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 110,
+    "FatalAccidents": 2,
+    "State": "COG",
+    "Year": 2011,
+    "Departures": 8331,
+    "AccidentRate": 240.06721882126996
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "KGZ",
+    "Year": 2011,
+    "Departures": 10242,
+    "AccidentRate": 97.63718023823472
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 28,
+    "FatalAccidents": 1,
+    "State": "PNG",
+    "Year": 2011,
+    "Departures": 37700,
+    "AccidentRate": 26.52519893899204
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "THA",
+    "Year": 2011,
+    "Departures": 252089,
+    "AccidentRate": 3.966852976528131
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GBR",
+    "Year": 2011,
+    "Departures": 994280,
+    "AccidentRate": 4.0230116265036004
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TZA",
+    "Year": 2011,
+    "Departures": 48673,
+    "AccidentRate": 20.545271505762948
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "Year": 2011,
+    "Departures": 0,
+    "AccidentRate": null
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 9,
+    "FatalAccidents": 1,
+    "State": "AFG",
+    "Year": 2011,
+    "Departures": 24109,
+    "AccidentRate": 41.478286117217635
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DNK",
+    "Year": 2011,
+    "Departures": 156021,
+    "AccidentRate": 6.409393607270816
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 43,
+    "FatalAccidents": 2,
+    "State": "IDN",
+    "Year": 2011,
+    "Departures": 557398,
+    "AccidentRate": 7.17620084750932
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NZL",
+    "Year": 2011,
+    "Departures": 221911,
+    "AccidentRate": 4.506311088679696
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NOR",
+    "Year": 2011,
+    "Departures": 321620,
+    "AccidentRate": 3.109259374417014
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BEL",
+    "Year": 2011,
+    "Departures": 121839,
+    "AccidentRate": 8.20755258989322
+  },
+  {
+    "Accidents": 9,
+    "Fatalities": 65,
+    "FatalAccidents": 4,
+    "State": "RUS",
+    "Year": 2011,
+    "Departures": 532585,
+    "AccidentRate": 16.898711003877317
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ISR",
+    "Year": 2011,
+    "Departures": 47352,
+    "AccidentRate": 21.118432167595877
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AUT",
+    "Year": 2011,
+    "Departures": 150903,
+    "AccidentRate": 6.62677349025533
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 8,
+    "FatalAccidents": 1,
+    "State": "BOL",
+    "Year": 2011,
+    "Departures": 62183,
+    "AccidentRate": 48.24469710371002
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "COD",
+    "Year": 2011,
+    "Departures": 12751,
+    "AccidentRate": 78.42522155125089
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CAN",
+    "Year": 2011,
+    "Departures": 1025864,
+    "AccidentRate": 3.8991523242847004
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "VEN",
+    "Year": 2011,
+    "Departures": 76758,
+    "AccidentRate": 26.05591599572683
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ESP",
+    "Year": 2011,
+    "Departures": 848312,
+    "AccidentRate": 3.536434707984798
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "KOR",
+    "Year": 2011,
+    "Departures": 276577,
+    "AccidentRate": 3.615629643824324
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "LUX",
+    "Year": 2011,
+    "Departures": 22446,
+    "AccidentRate": 44.55136772698922
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MYS",
+    "Year": 2011,
+    "Departures": 268887,
+    "AccidentRate": 3.7190343899110037
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GUY",
+    "Year": 2011,
+    "Departures": 2940,
+    "AccidentRate": 340.13605442176873
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IND",
+    "Year": 2011,
+    "Departures": 679551,
+    "AccidentRate": 4.414679692914881
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "VNM",
+    "Year": 2011,
+    "Departures": 145667,
+    "AccidentRate": 6.864972849032382
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DEU",
+    "Year": 2011,
+    "Departures": 951711,
+    "AccidentRate": 4.202956569799025
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TUR",
+    "Year": 2011,
+    "Departures": 298574,
+    "AccidentRate": 6.6985069028113635
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SDN",
+    "Year": 2011,
+    "Departures": 21860,
+    "AccidentRate": 45.74565416285453
+  },
+  {
+    "Accidents": 8,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "FRA",
+    "Year": 2011,
+    "Departures": 725697,
+    "AccidentRate": 11.023884624023525
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 22,
+    "FatalAccidents": 1,
+    "State": "ARG",
+    "Year": 2011,
+    "Departures": 126343,
+    "AccidentRate": 7.914961652010796
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CHN",
+    "Year": 2011,
+    "Departures": 2584562,
+    "AccidentRate": 0.7738255069911265
+  },
+  {
+    "Accidents": 30,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "USA",
+    "Year": 2011,
+    "Departures": 9364273,
+    "AccidentRate": 3.2036656769831464
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ROU",
+    "Year": 2012,
+    "Departures": 65067,
+    "AccidentRate": 15.36877372554444
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GTM",
+    "Year": 2012,
+    "Departures": 14825,
+    "AccidentRate": 67.45362563237774
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "FRA",
+    "Year": 2012,
+    "Departures": 729779,
+    "AccidentRate": 2.7405557024797917
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRL",
+    "Year": 2012,
+    "Departures": 96322,
+    "AccidentRate": 20.763688461618322
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ISR",
+    "Year": 2012,
+    "Departures": 45880,
+    "AccidentRate": 21.79598953792502
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TZA",
+    "Year": 2012,
+    "Departures": 46598,
+    "AccidentRate": 21.46014850422765
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "HND",
+    "Year": 2012,
+    "Departures": 27463,
+    "AccidentRate": 36.4126278993555
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CHL",
+    "Year": 2012,
+    "Departures": 107380,
+    "AccidentRate": 9.312721177127957
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 4,
+    "FatalAccidents": 1,
+    "State": "KEN",
+    "Year": 2012,
+    "Departures": 85206,
+    "AccidentRate": 11.736262704504378
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IDN",
+    "Year": 2012,
+    "Departures": 622638,
+    "AccidentRate": 6.424278633812905
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 12,
+    "FatalAccidents": 1,
+    "State": "GHA",
+    "Year": 2012,
+    "Departures": 21781,
+    "AccidentRate": 45.911574307883015
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SVK",
+    "Year": 2012,
+    "Departures": 5892,
+    "AccidentRate": 169.72165648336727
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TUR",
+    "Year": 2012,
+    "Departures": 345254,
+    "AccidentRate": 2.896418289143645
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AFG",
+    "Year": 2012,
+    "Departures": 21517,
+    "AccidentRate": 46.47488032718316
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SWE",
+    "Year": 2012,
+    "Departures": 203668,
+    "AccidentRate": 9.819902979358565
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NOR",
+    "Year": 2012,
+    "Departures": 329143,
+    "AccidentRate": 3.0381931257842334
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 34,
+    "FatalAccidents": 2,
+    "State": "NPL",
+    "Year": 2012,
+    "Departures": 68867,
+    "AccidentRate": 29.041485762411604
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ESP",
+    "Year": 2012,
+    "Departures": 765743,
+    "AccidentRate": 1.305921177209586
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SDN",
+    "Year": 2012,
+    "Departures": 21124,
+    "AccidentRate": 47.33951903048665
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "ITA",
+    "Year": 2012,
+    "Departures": 637777,
+    "AccidentRate": 4.703838489001642
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BRA",
+    "Year": 2012,
+    "Departures": 1050690,
+    "AccidentRate": 3.8070220521752374
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JPN",
+    "Year": 2012,
+    "Departures": 766881,
+    "AccidentRate": 7.8238996663106795
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 41,
+    "FatalAccidents": 2,
+    "State": "RUS",
+    "Year": 2012,
+    "Departures": 556171,
+    "AccidentRate": 5.394024499659277
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SYR",
+    "Year": 2012,
+    "Departures": 13291,
+    "AccidentRate": 75.23888345496952
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BEL",
+    "Year": 2012,
+    "Departures": 120066,
+    "AccidentRate": 8.328752519447637
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "URY",
+    "Year": 2012,
+    "Departures": 15706,
+    "AccidentRate": 63.66993505666624
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DEU",
+    "Year": 2012,
+    "Departures": 923948,
+    "AccidentRate": 4.3292479663357675
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "VEN",
+    "Year": 2012,
+    "Departures": 76521,
+    "AccidentRate": 26.13661609231453
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CAN",
+    "Year": 2012,
+    "Departures": 1050669,
+    "AccidentRate": 5.710647216202248
+  },
+  {
+    "Accidents": 9,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GBR",
+    "Year": 2012,
+    "Departures": 982158,
+    "AccidentRate": 9.163495079203143
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MNG",
+    "Year": 2012,
+    "Departures": 10079,
+    "AccidentRate": 99.21619208254788
+  },
+  {
+    "Accidents": 24,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "USA",
+    "Year": 2012,
+    "Departures": 9121365,
+    "AccidentRate": 2.631185135119579
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 127,
+    "FatalAccidents": 1,
+    "State": "PAK",
+    "Year": 2012,
+    "Departures": 72652,
+    "AccidentRate": 55.05698397841766
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 163,
+    "FatalAccidents": 1,
+    "State": "NGA",
+    "Year": 2012,
+    "Departures": 82461,
+    "AccidentRate": 12.126944858781727
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "MMR",
+    "Year": 2012,
+    "Departures": 37984,
+    "AccidentRate": 52.65374894692502
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 33,
+    "FatalAccidents": 1,
+    "State": "MAN",
+    "Year": 2013,
+    "Departures": 0,
+    "AccidentRate": null
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ZAF",
+    "Year": 2013,
+    "Departures": 194422,
+    "AccidentRate": 10.286901688080567
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SAU",
+    "Year": 2013,
+    "Departures": 244382,
+    "AccidentRate": 4.091954399260175
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 21,
+    "FatalAccidents": 1,
+    "State": "KAZ",
+    "Year": 2013,
+    "Departures": 56552,
+    "AccidentRate": 17.682840571509406
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IDN",
+    "Year": 2013,
+    "Departures": 712458,
+    "AccidentRate": 4.210774529867024
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "LKA",
+    "Year": 2013,
+    "Departures": 25515,
+    "AccidentRate": 39.19263178522438
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 49,
+    "FatalAccidents": 1,
+    "State": "LAO",
+    "Year": 2013,
+    "Departures": 18488,
+    "AccidentRate": 54.0891389009087
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ITA",
+    "Year": 2013,
+    "Departures": 595544,
+    "AccidentRate": 5.037411173649638
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DEU",
+    "Year": 2013,
+    "Departures": 893505,
+    "AccidentRate": 2.238375834494491
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "OMN",
+    "Year": 2013,
+    "Departures": 41765,
+    "AccidentRate": 23.943493355680594
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IND",
+    "Year": 2013,
+    "Departures": 625604,
+    "AccidentRate": 1.598455252843652
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BHS",
+    "Year": 2013,
+    "Departures": 62641,
+    "AccidentRate": 15.963985249277629
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRL",
+    "Year": 2013,
+    "Departures": 99496,
+    "AccidentRate": 20.101310605451477
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ESP",
+    "Year": 2013,
+    "Departures": 700423,
+    "AccidentRate": 5.71083473843663
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ARG",
+    "Year": 2013,
+    "Departures": 141934,
+    "AccidentRate": 21.136584609748194
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ZMB",
+    "Year": 2013,
+    "Departures": 16832,
+    "AccidentRate": 59.4106463878327
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GBR",
+    "Year": 2013,
+    "Departures": 991034,
+    "AccidentRate": 2.0180942328921105
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TUN",
+    "Year": 2013,
+    "Departures": 39833,
+    "AccidentRate": 25.104812592573996
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CHE",
+    "Year": 2013,
+    "Departures": 220808,
+    "AccidentRate": 4.528821419513786
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CZE",
+    "Year": 2013,
+    "Departures": 56833,
+    "AccidentRate": 17.595411116780742
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SDN",
+    "Year": 2013,
+    "Departures": 18347,
+    "AccidentRate": 109.00964735379081
+  },
+  {
+    "Accidents": 7,
+    "Fatalities": 5,
+    "FatalAccidents": 1,
+    "State": "CAN",
+    "Year": 2013,
+    "Departures": 1053676,
+    "AccidentRate": 6.643408410175424
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PHL",
+    "Year": 2013,
+    "Departures": 256179,
+    "AccidentRate": 7.807041170431612
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BRA",
+    "Year": 2013,
+    "Departures": 1001865,
+    "AccidentRate": 1.9962769435003718
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "FRA",
+    "Year": 2013,
+    "Departures": 714913,
+    "AccidentRate": 4.196314796345849
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PNG",
+    "Year": 2013,
+    "Departures": 44775,
+    "AccidentRate": 22.33389168062535
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "KEN",
+    "Year": 2013,
+    "Departures": 81203,
+    "AccidentRate": 12.314815955075552
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GUM",
+    "Year": 2013,
+    "Departures": 12594,
+    "AccidentRate": 79.40289026520566
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CHN",
+    "Year": 2013,
+    "Departures": 3093705,
+    "AccidentRate": 0.9697110745853273
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MEX",
+    "Year": 2013,
+    "Departures": 514592,
+    "AccidentRate": 1.9432871090106336
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 8,
+    "FatalAccidents": 1,
+    "State": "BOL",
+    "Year": 2013,
+    "Departures": 56900,
+    "AccidentRate": 35.1493848857645
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TGA",
+    "Year": 2013,
+    "Departures": 0,
+    "AccidentRate": null
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "COD",
+    "Year": 2013,
+    "Departures": 7280,
+    "AccidentRate": 137.36263736263737
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 50,
+    "FatalAccidents": 1,
+    "State": "RUS",
+    "Year": 2013,
+    "Departures": 588810,
+    "AccidentRate": 1.6983407211154702
+  },
+  {
+    "Accidents": 23,
+    "Fatalities": 7,
+    "FatalAccidents": 3,
+    "State": "USA",
+    "Year": 2013,
+    "Departures": 9000283,
+    "AccidentRate": 2.555475200057598
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "THA",
+    "Year": 2013,
+    "Departures": 328190,
+    "AccidentRate": 9.14104634510497
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NPL",
+    "Year": 2013,
+    "Departures": 62813,
+    "AccidentRate": 15.920271281422636
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MMR",
+    "Year": 2013,
+    "Departures": 46977,
+    "AccidentRate": 42.57402558698938
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CHE",
+    "Year": 2014,
+    "Departures": 221362,
+    "AccidentRate": 9.034974385847615
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SSD",
+    "Year": 2014,
+    "Departures": 4465,
+    "AccidentRate": 223.96416573348264
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "KOR",
+    "Year": 2014,
+    "Departures": 327725,
+    "AccidentRate": 3.051338774887482
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ITA",
+    "Year": 2014,
+    "Departures": 606649,
+    "AccidentRate": 1.6483996511986339
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PAK",
+    "Year": 2014,
+    "Departures": 66778,
+    "AccidentRate": 14.97499176375453
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 298,
+    "FatalAccidents": 1,
+    "State": "UKR",
+    "Year": 2014,
+    "Departures": 62945,
+    "AccidentRate": 15.886885376122011
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRL",
+    "Year": 2014,
+    "Departures": 106507,
+    "AccidentRate": 9.389054240566347
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SAU",
+    "Year": 2014,
+    "Departures": 270165,
+    "AccidentRate": 3.7014417115466474
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MDV",
+    "Year": 2014,
+    "Departures": 20749,
+    "AccidentRate": 48.19509373945732
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 6,
+    "FatalAccidents": 1,
+    "State": "COD",
+    "Year": 2014,
+    "Departures": 9510,
+    "AccidentRate": 105.15247108307045
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IND",
+    "Year": 2014,
+    "Departures": 692938,
+    "AccidentRate": 4.329391662746162
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AUS",
+    "Year": 2014,
+    "Departures": 668015,
+    "AccidentRate": 1.4969723733748495
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TJK",
+    "Year": 2014,
+    "Departures": 10145,
+    "AccidentRate": 98.57072449482504
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "FRA",
+    "Year": 2014,
+    "Departures": 693746,
+    "AccidentRate": 2.8828995050061548
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AFG",
+    "Year": 2014,
+    "Departures": 17865,
+    "AccidentRate": 111.95074167366359
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SWE",
+    "Year": 2014,
+    "Departures": 209721,
+    "AccidentRate": 4.768239708946648
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TZA",
+    "Year": 2014,
+    "Departures": 48614,
+    "AccidentRate": 61.71061834039577
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JPN",
+    "Year": 2014,
+    "Departures": 924454,
+    "AccidentRate": 1.0817195879946433
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BRA",
+    "Year": 2014,
+    "Departures": 987325,
+    "AccidentRate": 2.0256754361532425
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PRT",
+    "Year": 2014,
+    "Departures": 147798,
+    "AccidentRate": 6.765991420722878
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GAB",
+    "Year": 2014,
+    "Departures": 5834,
+    "AccidentRate": 171.40898183064792
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ARE",
+    "Year": 2014,
+    "Departures": 281095,
+    "AccidentRate": 7.115032284458991
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DEU",
+    "Year": 2014,
+    "Departures": 894651,
+    "AccidentRate": 2.2355085949716704
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JAM",
+    "Year": 2014,
+    "Departures": 21097,
+    "AccidentRate": 47.400104280229414
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ARG",
+    "Year": 2014,
+    "Departures": 147346,
+    "AccidentRate": 13.573493681538691
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "THA",
+    "Year": 2014,
+    "Departures": 364566,
+    "AccidentRate": 5.485975104644975
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BHS",
+    "Year": 2014,
+    "Departures": 64068,
+    "AccidentRate": 31.21683211587688
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 38,
+    "FatalAccidents": 1,
+    "State": "IRN",
+    "Year": 2014,
+    "Departures": 132942,
+    "AccidentRate": 15.044154593732605
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 162,
+    "FatalAccidents": 1,
+    "State": "IDN",
+    "Year": 2014,
+    "Departures": 758528,
+    "AccidentRate": 2.636685791427607
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PAN",
+    "Year": 2014,
+    "Departures": 70775,
+    "AccidentRate": 14.129282938890851
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DNK",
+    "Year": 2014,
+    "Departures": 147719,
+    "AccidentRate": 6.769609867383343
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 118,
+    "FatalAccidents": 1,
+    "State": "MLI",
+    "Year": 2014,
+    "Departures": 4256,
+    "AccidentRate": 234.9624060150376
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BOL",
+    "Year": 2014,
+    "Departures": 69715,
+    "AccidentRate": 14.344115326687227
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AUT",
+    "Year": 2014,
+    "Departures": 139847,
+    "AccidentRate": 7.150671805616137
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "COL",
+    "Year": 2014,
+    "Departures": 267141,
+    "AccidentRate": 3.743341531251287
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SLB",
+    "Year": 2014,
+    "Departures": 7977,
+    "AccidentRate": 125.36041118214868
+  },
+  {
+    "Accidents": 25,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "USA",
+    "Year": 2014,
+    "Departures": 8811371,
+    "AccidentRate": 2.8372429216747315
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 48,
+    "FatalAccidents": 1,
+    "State": "CHN",
+    "Year": 2014,
+    "Departures": 3293648,
+    "AccidentRate": 0.6072294307102641
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BGD",
+    "Year": 2014,
+    "Departures": 43833,
+    "AccidentRate": 22.81386170237036
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DOM",
+    "Year": 2014,
+    "Departures": 41786,
+    "AccidentRate": 23.931460297707368
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "NLD",
+    "Year": 2014,
+    "Departures": 236021,
+    "AccidentRate": 4.236911122315387
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 239,
+    "FatalAccidents": 1,
+    "Year": 2014,
+    "Departures": 0,
+    "AccidentRate": null
+  },
+  {
+    "Accidents": 5,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CAN",
+    "Year": 2014,
+    "Departures": 1061616,
+    "AccidentRate": 4.709800907296047
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GBR",
+    "Year": 2014,
+    "Departures": 1000125,
+    "AccidentRate": 5.999250093738283
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ESP",
+    "Year": 2014,
+    "Departures": 705527,
+    "AccidentRate": 4.2521405984462675
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "THA",
+    "Year": 2015,
+    "Departures": 433712,
+    "AccidentRate": 2.305677500276681
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "KGZ",
+    "Year": 2015,
+    "Departures": 16354,
+    "AccidentRate": 61.147119970649385
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PHL",
+    "Year": 2015,
+    "Departures": 257607,
+    "AccidentRate": 3.8818820917133463
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MMR",
+    "Year": 2015,
+    "Departures": 73674,
+    "AccidentRate": 13.57330944430871
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SGP",
+    "Year": 2015,
+    "Departures": 171018,
+    "AccidentRate": 5.847337707141938
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GHA",
+    "Year": 2015,
+    "Departures": 22963,
+    "AccidentRate": 87.0966337151069
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "Year": 2015,
+    "Departures": 0,
+    "AccidentRate": null
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MDG",
+    "Year": 2015,
+    "Departures": 11989,
+    "AccidentRate": 83.40979230961715
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ESP",
+    "Year": 2015,
+    "Departures": 742010,
+    "AccidentRate": 1.3476907319308364
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GRC",
+    "Year": 2015,
+    "Departures": 180580,
+    "AccidentRate": 5.537711817477018
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "RUS",
+    "Year": 2015,
+    "Departures": 628308,
+    "AccidentRate": 3.1831522119724722
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRL",
+    "Year": 2015,
+    "Departures": 112659,
+    "AccidentRate": 8.876343656521005
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NPL",
+    "Year": 2015,
+    "Departures": 55182,
+    "AccidentRate": 18.1218513283317
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PER",
+    "Year": 2015,
+    "Departures": 127426,
+    "AccidentRate": 7.847691993784628
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JPN",
+    "Year": 2015,
+    "Departures": 989641,
+    "AccidentRate": 1.0104674321294287
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MEX",
+    "Year": 2015,
+    "Departures": 567038,
+    "AccidentRate": 1.7635502382556372
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRN",
+    "Year": 2015,
+    "Departures": 119124,
+    "AccidentRate": 8.39461401564756
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 43,
+    "FatalAccidents": 1,
+    "State": "CHN",
+    "Year": 2015,
+    "Departures": 3478719,
+    "AccidentRate": 0.8623864129295871
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ZAF",
+    "Year": 2015,
+    "Departures": 219872,
+    "AccidentRate": 9.096201426284384
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TUR",
+    "Year": 2015,
+    "Departures": 495526,
+    "AccidentRate": 4.036115158437701
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PAK",
+    "Year": 2015,
+    "Departures": 75846,
+    "AccidentRate": 13.184610922131688
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ARE",
+    "Year": 2015,
+    "Departures": 315146,
+    "AccidentRate": 3.1731324528948486
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ARG",
+    "Year": 2015,
+    "Departures": 153540,
+    "AccidentRate": 6.512960791976032
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "IND",
+    "Year": 2015,
+    "Departures": 835343,
+    "AccidentRate": 4.788452168749843
+  },
+  {
+    "Accidents": 5,
+    "Fatalities": 54,
+    "FatalAccidents": 1,
+    "State": "IDN",
+    "Year": 2015,
+    "Departures": 825697,
+    "AccidentRate": 6.055490088979371
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "POL",
+    "Year": 2015,
+    "Departures": 130305,
+    "AccidentRate": 7.67430259775143
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "LAO",
+    "Year": 2015,
+    "Departures": 15550,
+    "AccidentRate": 64.30868167202573
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "COD",
+    "Year": 2015,
+    "Departures": 13532,
+    "AccidentRate": 73.89890629618682
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DEU",
+    "Year": 2015,
+    "Departures": 910980,
+    "AccidentRate": 4.390875760170366
+  },
+  {
+    "Accidents": 24,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "USA",
+    "Year": 2015,
+    "Departures": 8716827,
+    "AccidentRate": 2.7532954365160625
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ITA",
+    "Year": 2015,
+    "Departures": 617752,
+    "AccidentRate": 4.856317745632552
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AUS",
+    "Year": 2015,
+    "Departures": 698392,
+    "AccidentRate": 5.727442467840411
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GEO",
+    "Year": 2015,
+    "Departures": 12236,
+    "AccidentRate": 81.72605426610004
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "CAN",
+    "Year": 2015,
+    "Departures": 1065854,
+    "AccidentRate": 5.6292888144154825
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 150,
+    "FatalAccidents": 1,
+    "State": "FRA",
+    "Year": 2015,
+    "Departures": 695942,
+    "AccidentRate": 2.8738027019493004
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GBR",
+    "Year": 2015,
+    "Departures": 1028252,
+    "AccidentRate": 5.835145470176571
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 224,
+    "FatalAccidents": 1,
+    "State": "EGY",
+    "Year": 2015,
+    "Departures": 114917,
+    "AccidentRate": 8.701932699252504
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ECU",
+    "Year": 2016,
+    "Departures": 55489,
+    "AccidentRate": 18.02158986465786
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TWN",
+    "Year": 2016,
+    "Departures": 216655,
+    "AccidentRate": 4.615633149477279
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 66,
+    "FatalAccidents": 1,
+    "Year": 2016,
+    "Departures": 0,
+    "AccidentRate": null
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "SOM",
+    "Year": 2016,
+    "Departures": 3792,
+    "AccidentRate": 263.71308016877634
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CYM",
+    "Year": 2016,
+    "Departures": 13077,
+    "AccidentRate": 76.47013841095053
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 47,
+    "FatalAccidents": 1,
+    "State": "PAK",
+    "Year": 2016,
+    "Departures": 79841,
+    "AccidentRate": 12.524893225285254
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 3,
+    "FatalAccidents": 1,
+    "State": "BGD",
+    "Year": 2016,
+    "Departures": 55396,
+    "AccidentRate": 18.05184489854863
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SGP",
+    "Year": 2016,
+    "Departures": 178424,
+    "AccidentRate": 5.604627180199973
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DNK",
+    "Year": 2016,
+    "Departures": 160754,
+    "AccidentRate": 6.220685021834605
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GBR",
+    "Year": 2016,
+    "Departures": 1084054,
+    "AccidentRate": 5.534779632748922
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IND",
+    "Year": 2016,
+    "Departures": 959283,
+    "AccidentRate": 2.0848904859150013
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MAR",
+    "Year": 2016,
+    "Departures": 76718,
+    "AccidentRate": 13.034750645220157
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ESP",
+    "Year": 2016,
+    "Departures": 825510,
+    "AccidentRate": 2.4227447275017866
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MMR",
+    "Year": 2016,
+    "Departures": 97429,
+    "AccidentRate": 20.527768939432818
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "SWE",
+    "Year": 2016,
+    "Departures": 234057,
+    "AccidentRate": 4.2724635452048005
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRN",
+    "Year": 2016,
+    "Departures": 154272,
+    "AccidentRate": 6.482057664384983
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ITA",
+    "Year": 2016,
+    "Departures": 642195,
+    "AccidentRate": 4.67147828930465
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PHL",
+    "Year": 2016,
+    "Departures": 260440,
+    "AccidentRate": 3.8396559668253722
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "FRA",
+    "Year": 2016,
+    "Departures": 723755,
+    "AccidentRate": 4.145049084289573
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BRA",
+    "Year": 2016,
+    "Departures": 859658,
+    "AccidentRate": 1.1632532937517013
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JPN",
+    "Year": 2016,
+    "Departures": 1078380,
+    "AccidentRate": 1.8546338025556854
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "ARE",
+    "Year": 2016,
+    "Departures": 328116,
+    "AccidentRate": 3.04770264174865
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CAN",
+    "Year": 2016,
+    "Departures": 1082250,
+    "AccidentRate": 2.772002772002772
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BMU",
+    "Year": 2016,
+    "Departures": 4068,
+    "AccidentRate": 245.82104228121926
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BEL",
+    "Year": 2016,
+    "Departures": 133346,
+    "AccidentRate": 7.49928756768107
+  },
+  {
+    "Accidents": 21,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "USA",
+    "Year": 2016,
+    "Departures": 8993306,
+    "AccidentRate": 2.3350701065881667
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "THA",
+    "Year": 2016,
+    "Departures": 473790,
+    "AccidentRate": 4.221279469807299
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PRT",
+    "Year": 2016,
+    "Departures": 180050,
+    "AccidentRate": 11.10802554845876
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IDN",
+    "Year": 2016,
+    "Departures": 933563,
+    "AccidentRate": 6.426989929977944
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 62,
+    "FatalAccidents": 1,
+    "State": "RUS",
+    "Year": 2016,
+    "Departures": 619667,
+    "AccidentRate": 3.2275399529101922
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DEU",
+    "Year": 2016,
+    "Departures": 936215,
+    "AccidentRate": 1.068130717837249
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GRC",
+    "Year": 2016,
+    "Departures": 198478,
+    "AccidentRate": 5.038341780953052
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MEX",
+    "Year": 2017,
+    "Departures": 634123,
+    "AccidentRate": 1.576981121958989
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AGO",
+    "Year": 2017,
+    "Departures": 15302,
+    "AccidentRate": 65.35093451836362
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MYS",
+    "Year": 2017,
+    "Departures": 436762,
+    "AccidentRate": 2.289576474143813
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MDV",
+    "Year": 2017,
+    "Departures": 21545,
+    "AccidentRate": 46.41448131817127
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ZAF",
+    "Year": 2017,
+    "Departures": 233040,
+    "AccidentRate": 4.291108822519739
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 39,
+    "FatalAccidents": 1,
+    "State": "KGZ",
+    "Year": 2017,
+    "Departures": 15680,
+    "AccidentRate": 63.775510204081634
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BRB",
+    "Year": 2017,
+    "Departures": 10864,
+    "AccidentRate": 92.04712812960236
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "EGY",
+    "Year": 2017,
+    "Departures": 111203,
+    "AccidentRate": 8.992563150274723
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GRL",
+    "Year": 2017,
+    "Departures": 18118,
+    "AccidentRate": 55.19372999227288
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CHN",
+    "Year": 2017,
+    "Departures": 4135996,
+    "AccidentRate": 0.24177973092817304
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PER",
+    "Year": 2017,
+    "Departures": 139639,
+    "AccidentRate": 7.161323126060771
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BRA",
+    "Year": 2017,
+    "Departures": 842769,
+    "AccidentRate": 1.1865647644846926
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JPN",
+    "Year": 2017,
+    "Departures": 1104273,
+    "AccidentRate": 1.8111463379073833
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PHL",
+    "Year": 2017,
+    "Departures": 283705,
+    "AccidentRate": 7.049576144234328
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IND",
+    "Year": 2017,
+    "Departures": 1072697,
+    "AccidentRate": 0.9322296976685868
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRL",
+    "Year": 2017,
+    "Departures": 126354,
+    "AccidentRate": 23.742817797616222
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRN",
+    "Year": 2017,
+    "Departures": 196815,
+    "AccidentRate": 5.080913548255976
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ESP",
+    "Year": 2017,
+    "Departures": 876485,
+    "AccidentRate": 2.281841674415421
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "STP",
+    "Year": 2017,
+    "Departures": 1378,
+    "AccidentRate": 725.6894049346879
+  },
+  {
+    "Accidents": 5,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IDN",
+    "Year": 2017,
+    "Departures": 1051469,
+    "AccidentRate": 4.755251938002927
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NLD",
+    "Year": 2017,
+    "Departures": 270035,
+    "AccidentRate": 3.7032236561927157
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BHS",
+    "Year": 2017,
+    "Departures": 71828,
+    "AccidentRate": 13.922147352007574
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GHA",
+    "Year": 2017,
+    "Departures": 22110,
+    "AccidentRate": 45.22840343735866
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 8,
+    "FatalAccidents": 2,
+    "State": "RUS",
+    "Year": 2017,
+    "Departures": 691758,
+    "AccidentRate": 2.8911844893734515
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "COL",
+    "Year": 2017,
+    "Departures": 320680,
+    "AccidentRate": 3.118373456405139
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "COD",
+    "Year": 2017,
+    "Departures": 11418,
+    "AccidentRate": 87.58101243650377
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 2,
+    "FatalAccidents": 1,
+    "State": "NPL",
+    "Year": 2017,
+    "Departures": 70492,
+    "AccidentRate": 14.186006922771378
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ETH",
+    "Year": 2017,
+    "Departures": 63014,
+    "AccidentRate": 15.869489319833688
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GRC",
+    "Year": 2017,
+    "Departures": 206433,
+    "AccidentRate": 4.844186733710211
+  },
+  {
+    "Accidents": 29,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "USA",
+    "Year": 2017,
+    "Departures": 9098696,
+    "AccidentRate": 3.1872699120841053
+  },
+  {
+    "Accidents": 12,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "CAN",
+    "Year": 2017,
+    "Departures": 1127359,
+    "AccidentRate": 10.644346654437495
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AUS",
+    "Year": 2017,
+    "Departures": 725356,
+    "AccidentRate": 4.1359001648845535
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PRT",
+    "Year": 2017,
+    "Departures": 202523,
+    "AccidentRate": 4.937710778528858
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "THA",
+    "Year": 2017,
+    "Departures": 498127,
+    "AccidentRate": 6.022560511676741
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NGA",
+    "Year": 2017,
+    "Departures": 74955,
+    "AccidentRate": 13.341338136215063
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 112,
+    "FatalAccidents": 1,
+    "State": "CUB",
+    "Year": 2018,
+    "Departures": 39800,
+    "AccidentRate": 25.12562814070352
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AUS",
+    "Year": 2018,
+    "Departures": 729459,
+    "AccidentRate": 1.3708789664669296
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 51,
+    "FatalAccidents": 1,
+    "State": "NPL",
+    "Year": 2018,
+    "Departures": 80987,
+    "AccidentRate": 12.347660735673626
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 189,
+    "FatalAccidents": 1,
+    "State": "IDN",
+    "Year": 2018,
+    "Departures": 1105347,
+    "AccidentRate": 1.8093865546294512
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ISR",
+    "Year": 2018,
+    "Departures": 79110,
+    "AccidentRate": 12.640626975097964
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "FRA",
+    "Year": 2018,
+    "Departures": 750781,
+    "AccidentRate": 1.3319463332183419
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PNG",
+    "Year": 2018,
+    "Departures": 44947,
+    "AccidentRate": 22.248425923865888
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MMR",
+    "Year": 2018,
+    "Departures": 95202,
+    "AccidentRate": 10.503981008802336
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PHL",
+    "Year": 2018,
+    "Departures": 303971,
+    "AccidentRate": 3.2897875126245597
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "UKR",
+    "Year": 2018,
+    "Departures": 87561,
+    "AccidentRate": 11.420609632142163
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DEU",
+    "Year": 2018,
+    "Departures": 989143,
+    "AccidentRate": 2.0219523365175713
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "GUY",
+    "Year": 2018,
+    "Departures": 2776,
+    "AccidentRate": 360.2305475504323
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TUR",
+    "Year": 2018,
+    "Departures": 620763,
+    "AccidentRate": 4.832762261926049
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ESP",
+    "Year": 2018,
+    "Departures": 933642,
+    "AccidentRate": 3.213223055518068
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JPN",
+    "Year": 2018,
+    "Departures": 1126182,
+    "AccidentRate": 1.7759118863558465
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BRA",
+    "Year": 2018,
+    "Departures": 863323,
+    "AccidentRate": 2.3166300446067116
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PER",
+    "Year": 2018,
+    "Departures": 155128,
+    "AccidentRate": 6.4462895157547315
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BOL",
+    "Year": 2018,
+    "Departures": 67547,
+    "AccidentRate": 44.41351947532829
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "UGA",
+    "Year": 2018,
+    "Departures": 15221,
+    "AccidentRate": 65.69870573549701
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "KAZ",
+    "Year": 2018,
+    "Departures": 79783,
+    "AccidentRate": 12.533998470852186
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NGA",
+    "Year": 2018,
+    "Departures": 75021,
+    "AccidentRate": 26.659202090081443
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GRC",
+    "Year": 2018,
+    "Departures": 232053,
+    "AccidentRate": 8.618720723283044
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 20,
+    "FatalAccidents": 1,
+    "State": "SSD",
+    "Year": 2018,
+    "Departures": 3530,
+    "AccidentRate": 283.28611898017
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "POL",
+    "Year": 2018,
+    "Departures": 179443,
+    "AccidentRate": 5.572800276410894
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NOR",
+    "Year": 2018,
+    "Departures": 330061,
+    "AccidentRate": 6.0594859738048426
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MEX",
+    "Year": 2018,
+    "Departures": 650082,
+    "AccidentRate": 1.5382674801025102
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SAU",
+    "Year": 2018,
+    "Departures": 354305,
+    "AccidentRate": 2.822427004981584
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "VNM",
+    "Year": 2018,
+    "Departures": 306020,
+    "AccidentRate": 6.535520554212143
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CHN",
+    "Year": 2018,
+    "Departures": 4414077,
+    "AccidentRate": 0.6796437850993537
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "THA",
+    "Year": 2018,
+    "Departures": 528695,
+    "AccidentRate": 3.7828994032476193
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ARG",
+    "Year": 2018,
+    "Departures": 184709,
+    "AccidentRate": 5.413921357378363
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GBR",
+    "Year": 2018,
+    "Departures": 1100132,
+    "AccidentRate": 0.9089818312711565
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MAR",
+    "Year": 2018,
+    "Departures": 89796,
+    "AccidentRate": 22.272707024811794
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "HUN",
+    "Year": 2018,
+    "Departures": 52887,
+    "AccidentRate": 18.908238319435778
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IND",
+    "Year": 2018,
+    "Departures": 1234245,
+    "AccidentRate": 0.8102119109253025
+  },
+  {
+    "Accidents": 27,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "USA",
+    "Year": 2018,
+    "Departures": 9341177,
+    "AccidentRate": 2.89042804777171
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ITA",
+    "Year": 2018,
+    "Departures": 683419,
+    "AccidentRate": 1.4632311949184906
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 72,
+    "FatalAccidents": 2,
+    "State": "RUS",
+    "Year": 2018,
+    "Departures": 783506,
+    "AccidentRate": 5.10525764959043
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 66,
+    "FatalAccidents": 1,
+    "State": "IRN",
+    "Year": 2018,
+    "Departures": 214124,
+    "AccidentRate": 9.34038220843997
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 1,
+    "FatalAccidents": 1,
+    "State": "FSM",
+    "Year": 2018,
+    "Departures": 1568,
+    "AccidentRate": 637.7551020408164
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BGD",
+    "Year": 2018,
+    "Departures": 72526,
+    "AccidentRate": 13.78815872928329
+  },
+  {
+    "Accidents": 8,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CAN",
+    "Year": 2018,
+    "Departures": 1159029,
+    "AccidentRate": 6.902329449910226
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "VUT",
+    "Year": 2018,
+    "Departures": 12259,
+    "AccidentRate": 81.57272208173586
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 12,
+    "FatalAccidents": 1,
+    "State": "KAZ",
+    "Year": 2019,
+    "Departures": 80468,
+    "AccidentRate": 12.427300293284286
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BOL",
+    "Year": 2019,
+    "Departures": 64378,
+    "AccidentRate": 15.533256702600267
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "TTO",
+    "Year": 2019,
+    "Departures": 30691,
+    "AccidentRate": 32.582841875468375
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DNK",
+    "Year": 2019,
+    "Departures": 156806,
+    "AccidentRate": 6.377306990803923
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GRC",
+    "Year": 2019,
+    "Departures": 239371,
+    "AccidentRate": 4.177615500624554
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DMA",
+    "Year": 2019,
+    "Departures": 3406,
+    "AccidentRate": 293.5995302407516
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MOZ",
+    "Year": 2019,
+    "Departures": 22832,
+    "AccidentRate": 43.79817799579538
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SSD",
+    "Year": 2019,
+    "Departures": 3534,
+    "AccidentRate": 282.9654782116582
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AUT",
+    "Year": 2019,
+    "Departures": 153468,
+    "AccidentRate": 6.516016368233117
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NER",
+    "Year": 2019,
+    "Departures": 3933,
+    "AccidentRate": 254.25883549453343
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MMR",
+    "Year": 2019,
+    "Departures": 89962,
+    "AccidentRate": 22.231608901536205
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ESP",
+    "Year": 2019,
+    "Departures": 951221,
+    "AccidentRate": 3.1538412209150133
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "THA",
+    "Year": 2019,
+    "Departures": 526601,
+    "AccidentRate": 3.797941895286944
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ZWE",
+    "Year": 2019,
+    "Departures": 14818,
+    "AccidentRate": 67.48549061951681
+  },
+  {
+    "Accidents": 24,
+    "Fatalities": 6,
+    "FatalAccidents": 3,
+    "State": "USA",
+    "Year": 2019,
+    "Departures": 9549260,
+    "AccidentRate": 2.513283751829985
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "POL",
+    "Year": 2019,
+    "Departures": 187611,
+    "AccidentRate": 5.330177868035456
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "DEU",
+    "Year": 2019,
+    "Departures": 981089,
+    "AccidentRate": 4.077102077385436
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "PAK",
+    "Year": 2019,
+    "Departures": 68380,
+    "AccidentRate": 29.248318221702252
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IRN",
+    "Year": 2019,
+    "Departures": 153872,
+    "AccidentRate": 6.4989081834251845
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ITA",
+    "Year": 2019,
+    "Departures": 708046,
+    "AccidentRate": 1.412337616482545
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "UKR",
+    "Year": 2019,
+    "Departures": 95423,
+    "AccidentRate": 10.479653752240026
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MEX",
+    "Year": 2019,
+    "Departures": 671824,
+    "AccidentRate": 2.9769701588511275
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 43,
+    "FatalAccidents": 2,
+    "State": "RUS",
+    "Year": 2019,
+    "Departures": 834642,
+    "AccidentRate": 7.188710848483542
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CHN",
+    "Year": 2019,
+    "Departures": 4579656,
+    "AccidentRate": 0.43671402393542225
+  },
+  {
+    "Accidents": 9,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CAN",
+    "Year": 2019,
+    "Departures": 1124163,
+    "AccidentRate": 8.0059564315851
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BIH",
+    "Year": 2019,
+    "Departures": 7649,
+    "AccidentRate": 130.73604392731076
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JPN",
+    "Year": 2019,
+    "Departures": 1164538,
+    "AccidentRate": 1.7174192684137402
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "BRA",
+    "Year": 2019,
+    "Departures": 861037,
+    "AccidentRate": 1.1613902770728783
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IDN",
+    "Year": 2019,
+    "Departures": 979048,
+    "AccidentRate": 3.064201142334186
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "KEN",
+    "Year": 2019,
+    "Departures": 121456,
+    "AccidentRate": 16.466868660255567
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "FRA",
+    "Year": 2019,
+    "Departures": 739569,
+    "AccidentRate": 1.3521388808887338
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IND",
+    "Year": 2019,
+    "Departures": 1250326,
+    "AccidentRate": 2.399374243197374
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NPL",
+    "Year": 2019,
+    "Departures": 80088,
+    "AccidentRate": 12.486265108380781
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 157,
+    "FatalAccidents": 1,
+    "State": "ETH",
+    "Year": 2019,
+    "Departures": 76599,
+    "AccidentRate": 13.05500071802504
+  },
+  {
+    "Accidents": 6,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "GBR",
+    "Year": 2019,
+    "Departures": 1092653,
+    "AccidentRate": 5.491221824312018
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "AUS",
+    "Year": 2019,
+    "Departures": 734878,
+    "AccidentRate": 1.3607700870076394
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "KOR",
+    "Year": 2019,
+    "Departures": 460104,
+    "AccidentRate": 2.173421661189644
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "COL",
+    "Year": 2019,
+    "Departures": 350148,
+    "AccidentRate": 11.423740818168318
+  },
+  {
+    "Accidents": 5,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "NLD",
+    "Year": 2019,
+    "Departures": 277070,
+    "AccidentRate": 18.04598115999567
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 27,
+    "FatalAccidents": 1,
+    "State": "COD",
+    "Year": 2019,
+    "Departures": 8989,
+    "AccidentRate": 222.4941595283124
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "JPN",
+    "Year": 2020,
+    "Departures": 1222765,
+    "AccidentRate": 0.8178186323619011
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CHL",
+    "Year": 2020,
+    "Departures": 141260,
+    "AccidentRate": 7.079144839303412
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "IDN",
+    "Year": 2020,
+    "Departures": 1028000,
+    "AccidentRate": 0.9727626459143969
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "LAO",
+    "Year": 2020,
+    "Departures": 29697,
+    "AccidentRate": 33.67343502710712
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "SAU",
+    "Year": 2020,
+    "Departures": 371111,
+    "AccidentRate": 2.6946115852130497
+  },
+  {
+    "Accidents": 4,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "CAN",
+    "Year": 2020,
+    "Departures": 1180371,
+    "AccidentRate": 3.3887650577657364
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "ESP",
+    "Year": 2020,
+    "Departures": 998782,
+    "AccidentRate": 1.0012194853331358
+  },
+  {
+    "Accidents": 3,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "RUS",
+    "Year": 2020,
+    "Departures": 876374,
+    "AccidentRate": 3.423196032744011
+  },
+  {
+    "Accidents": 1,
+    "Fatalities": 0,
+    "FatalAccidents": 0,
+    "State": "MEX",
+    "Year": 2020,
+    "Departures": 705415,
+    "AccidentRate": 1.417605239468965
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 3,
+    "FatalAccidents": 1,
+    "State": "TUR",
+    "Year": 2020,
+    "Departures": 640577,
+    "AccidentRate": 3.122185154946244
+  },
+  {
+    "Accidents": 2,
+    "Fatalities": 176,
+    "FatalAccidents": 1,
+    "State": "IRN",
+    "Year": 2020,
+    "Departures": 161566,
+    "AccidentRate": 12.378842083111545
+  }
+]

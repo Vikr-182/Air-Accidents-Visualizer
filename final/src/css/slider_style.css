@@ -1,0 +1,5 @@
+input[type="range"]::-moz-range-track {
+    background-color: green;
+    border-radius: 3px;
+    cursor: pointer;
+}

@@ -14,7 +14,7 @@ function compare(a, b) {
 var svg7 = d3.select("#bar_stack");
 
 var margin7 = 200;
-var width7 = svg7.attr("width") - margin7;
+var width7 = 1000;
 
 var height7 = svg7.attr("height") - margin7;
 
@@ -219,35 +219,50 @@ d3.csv("../../data/stack.csv", function (data) {
 
 
     var legend = svg7.selectAll(".legend")
-        .data(["R", "Y", "X"])
+        .data(["", "Fatal Crashes", "Non-Fatal Crashes"])
         .enter().append("g")
         .attr("class", "legend")
         .attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
 
     legend.append("circle")
-        .attr("cx", width7 + 100)
+        .attr("cx", width7*5/6 + 20)
         .attr("cy", 9)
         .attr("r", 9)
         // .attr("height", 18)
         .style("fill", function (d) {
-            if (d == "R")
-                return "yellow";
-            else if (d == "Y")
+            if (d == "")
+                return "white";
+            else if (d == "Fatal Crashes")
                 return "steelblue";
             else
                 return "orange";
         });
 
     legend.append("text")
-        .attr("x", width7 + 100 - 12)
+        .attr("x", width7*5/6)
         .attr("y", 9)
         .attr("dy", ".35em")
         .style("text-anchor", "end")
         .text(function (d) {
              return d; });
+        
+    svg7.append("text")
+    .attr("x", width7/2)
+    .attr("y", height7*1.25)
+    .attr("dy", ".35em")
+    .style("text-anchor", "end")
+    .text("Countries of crashes");
+                 
 
-
-
+    svg7.append("text")
+    .attr("x", "100")
+    .attr("y", height7*1.1)
+    .attr("dy", ".35em")
+    .style("text-anchor", "end")
+    .text("Number of crashes")
+    .attr("transform","rotate(270,60," + height7*1.1 +  ")")
+    ;
+                 
 
 
 

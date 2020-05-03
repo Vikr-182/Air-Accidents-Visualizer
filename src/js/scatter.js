@@ -509,13 +509,15 @@ function draw_polygon() {
             .attr("y1", ground)
             .style("stroke", "grey")
             .style("stroke-width", 3)
-            .style("stroke-dasharray", "15, 6")
+            .style("stroke-dasharray", "15, 6") // line
+        var ranna = window.innerWidth > 1350 ? 15:7;
         svg2
             .append("text")
-            .attr("x", swidth / 25 + gt)
+            .attr("x", swidth / ranna + gt)
             .attr("y", ground / 15)
             .text(keyss[Math.floor(gt * 7 / swidth)])
             .attr("class","labelra")
+            .attr("font-size","10em")
         // .attr()
 
     }

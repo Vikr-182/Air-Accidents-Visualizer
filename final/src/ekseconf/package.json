@@ -1,0 +1,14 @@
+{
+  "name": "54a9182c5267570f",
+  "main": "54a9182c5267570f@194.js",
+  "version": "194.0.0",
+  "homepage": "https://observablehq.com/d/54a9182c5267570f",
+  "author": {
+    "name": "Bhavyajeet Singh",
+    "url": "https://observablehq.com/@bhavyajeet"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

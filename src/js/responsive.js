@@ -5,5 +5,5 @@ $(window).resize(function(){
     swidth = window.innerWidth/1.2;
     $("#scatter_anna").width(swidth);
     myFunction2(current);
-    // alert("ANNARA");
+    // alert(window.innerWidth);
 })

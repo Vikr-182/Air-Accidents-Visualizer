@@ -1,9 +1,9 @@
 .bar1 {
-    fill: #a30500;
+    fill: steelblue;
 }
 
 .bar2 {
-    fill: deepskyblue;
+    fill: orange;
 }
 
 .bar3 {
@@ -20,11 +20,11 @@
 
 .line {
     fill: none;
-    stroke: royalblue;
+    stroke: red;
     stroke-width: 3;
 }
 
 .dot {
-    fill: royalblue;
-    stroke: royalblue;
+    fill: red;
+    stroke: red;
 }

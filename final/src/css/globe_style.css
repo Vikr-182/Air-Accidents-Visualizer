@@ -1,0 +1,86 @@
+body,
+html {
+	margin: 0;
+	/* overflow: hidden; */
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.replacement.home-slider .slider-item .slider-text h1 a {
+	color:black;
+}
+
+.ocean {
+	/* fill: #c4c4c4; */
+	stroke: grey;
+	fill: #bfd7e4;
+	/* fill: #bfd7e4; */
+}
+
+.land {
+	/* fill: grey; */
+	fill: #eaeaea;
+}
+
+.boundary {
+	fill: none;
+	/* stroke: #d1d1d1; */
+	stroke: #9fa8ad;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+}
+
+.noclicks {
+	pointer-events: none;
+}
+
+.point {
+	opacity: .6;
+}
+
+.arcs {
+	opacity: .1;
+	stroke: gray;
+	stroke-width: 3;
+}
+
+.flyers {
+	stroke-width: 1.5;
+	/* stroke: #5e0000; */
+	stroke: darkred;
+}
+
+.arc,
+.flyer {
+	stroke-linejoin: round;
+	fill: none;
+}
+
+.glow {
+	fill: white;
+	/* fill: #6bccff; */
+	opacity: 0.7;
+	stroke: white;
+	stroke-width: 12;
+	stroke-opacity: 0.5;
+}
+
+.coverbox{
+	/* fill : #048ec4; */
+	/* fill: #000114; */
+	fill: #e8e8e8;
+	/* fill: #120654; */
+	stroke: black;
+	stroke-width: 2;
+}
+
+#my_plane{
+	background-image: url("../images/oh.png");
+	background-size: 400px 480px;
+	width: 400px;
+	height: 480px;
+}
+.arc {}
+
+.flyer {}
+
+.flyer:hover {}

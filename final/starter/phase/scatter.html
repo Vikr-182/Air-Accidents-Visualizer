@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+
+<head>
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styleQ2.css">
+
+
+</head>
+
+<body>
+
+    <div id="scatter"></div>
+
+    <script>
+        function compare(a, b) {
+            if (a.value < b.value) return 1;
+            if (a.value > b.value) return -1;
+            return 0;
+        }
+
+
+
+        var margin = {
+            top: 10,
+            right: 40,
+            bottom: 40,
+            left: 40
+        }
+        width = 1500 - margin.left - margin.right;
+        height = 600 - margin.top - margin.bottom;
+
+        var xScale = d3.scaleLinear().range([0, width]);
+
+
+
+
+
+
+        d3.json("cleaned_data.json", function (data) {
+            dataarr = [];
+
+            for (var i in data) {
+                if( i.slice(0,3) == "200")
+                dataarr.push(data[i]);
+                console.log(data[i]["Aircraft damage:"]);
+            }
+            console.log(dataarr);
+            console.log(99);
+            xScale.domain([0, width]);
+
+            var x = d3.scaleLinear().range([0, width]);
+            var y = d3.scaleLinear().range([height, 0]);
+            var r = d3.scaleLinear().range([0, 10]);
+            // Scale the range of the data
+
+            r.domain([10, d3.max(dataarr, function (d) {
+
+                return d['Total:'].split(' ')[1];
+            })]);
+            var maxi = d3.max(dataarr, function (d) {return d['Total:'].split(' ')[1];})
+
+            var svg = d3.select("#scatter").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            var cnt = 0;
+            var ground = height;
+            var middl = height/1.5 + 20;
+            var init = {
+                " Taxi (TXI)":{"start":0,"next":0,"width":10},
+                " Takeoff (TOF)":{"start":0,"next":100,"width":60},
+                 " Initial climb (ICL)":{"start":100,"next":middl,"width":100},
+                 " En route (ENR)": {"start":middl,"next":middl,"width":100},
+                 " Approach (APR)": {"start":100,"next":middl,"width":100},
+                 " Landing (LDG)": {"start":0,"next":100,"width":100},
+                 " Kyra": {"start":0,next:0,"width":10}
+            }
+
+            function curve_it(x,k,phase){
+                if(k == 0 || k == 3 || k == 6){
+                    // taxi or enroute, return y = c
+                    return  (init[phase]["start"] + Math.random() * init[phase]["width"])
+                }
+                else if (k == 1 || k == 5){
+                    // takeoff or landing , return y = a . x^2 
+                    x = x - width / 7;
+                    var a = init[phase]["next"]*49 / (width*width);
+                    var y = a * x * x;
+                    return y + Math.random() * init[phase]["width"];
+                }
+                else{
+                    // climb or approach phase, return y = - a. (x - 2*x0) * x
+                    x = x - 2*width / 7;
+                    x0 = width / 7;
+                    a = (init[phase]["next"] - init[phase]["start"]) / (width/7 * (width/7 - 2*x0));
+                    y = a * (x - 2*x0) * x;
+                    return y + init[phase]["start"] + Math.random()*init[phase]["width"];
+                }
+            }
+            var preserve_color = new Array(100000);
+            var path = svg.selectAll(".dot")
+                .data(dataarr)
+                .enter().append("circle")
+                .attr("r", function (d) {
+                    return 3 + 10 * d['Total:'].split(' ')[1] / maxi ;
+                })
+                .attr("cx", function (d) {
+                    // console.log(d['Phase:']);
+                    if (d['Phase:'] == " Taxi (TXI)"){
+                        // console.log("iffing at =** ") 
+                        return Math.random()*width/7 + 10 ;   
+                    }
+                    if (d['Phase:'] == " Takeoff (TOF)"){
+                        // console.log("iffing at =** ") 
+                        return Math.random()*width/7 + width/7 + 10 ;   
+                    }
+                    if (d['Phase:'] == " Initial climb (ICL)"){
+                        // console.log("iffing at =** ") 
+                        return Math.random()*width/7 + 2*width/7 + 10 ;   
+                    }
+                    if (d['Phase:'] == " En route (ENR)"){
+                        // console.log("iffing at =** ") 
+                        return Math.random()*width/7 + 3*width/7 + 10 ;   
+                    }
+                    if (d['Phase:'] == " Approach (APR)"){
+                        // console.log("iffing at =** ") 
+                        return Math.random()*width/7 + 4*width/7 + 10 ;   
+                    }
+                    if (d['Phase:'] == " Landing (LDG)"){
+                        // console.log("iffing at =** ") 
+                        return Math.random()*width/7 + 5*width/7 + 10 ;   
+                    }            
+                    else{
+                        console.log("elsing at = "+d['Phase:'])
+                        return Math.random()*width/7 + 6*width/7 + 10 ;   
+                    }
+                })
+                .attr("id",function (d){
+                    cnt++;
+                    return cnt + "anna";
+                })
+                .attr("cy", function (d) {
+                    var xx = $(this).attr("cx");
+                    if (d['Phase:'] == " Taxi (TXI)"){
+                        // console.log("iffing at =** ") 
+                        return ground - curve_it(xx,0," Taxi (TXI)");    
+                    }
+                    if (d['Phase:'] == " Takeoff (TOF)"){
+                        // console.log("iffing at =** ")
+                        return ground - curve_it(xx,1," Takeoff (TOF)");    
+                    }
+                    if (d['Phase:'] == " Initial climb (ICL)"){
+                        // console.log("iffing at =** ") 
+                        return ground - curve_it(xx,2," Initial climb (ICL)");
+                    }
+                    if (d['Phase:'] == " En route (ENR)"){
+                        // console.log("iffing at =** ") 
+                        return ground - curve_it(xx,3," En route (ENR)");
+                    }
+                    if (d['Phase:'] == " Approach (APR)"){
+                        // console.log("iffing at =** ") 
+                        xx = width - xx;
+                        return ground - curve_it(xx,4," Approach (APR)");
+                    }
+                    if (d['Phase:'] == " Landing (LDG)"){
+                        // console.log("iffing at =** ") 
+                        xx = width - xx;
+                        return ground - curve_it(xx,5," Landing (LDG)");    
+                    }            
+                    else{
+                        xx = width - xx;
+                        return ground - curve_it(xx,6," Kyra");    
+                    }
+                })
+                .attr("stroke", "#32CD32")
+                .attr("class", "dot")
+                .attr("stroke-width", 1.5)
+                .attr("fill",  function (d) {
+                    if (d['Phase:'] == " Taxi (TXI)"){
+                        // console.log("iffing at =** ") 
+                        return "red";    
+                    }
+                    if (d['Phase:'] == " Takeoff (TOF)"){
+                        // console.log("iffing at =** ") 
+                        return "grey";    
+                    }
+                    if (d['Phase:'] == " Initial climb (ICL)"){
+                        // console.log("iffing at =** ") 
+                        return "blue"
+                    }
+                    if (d['Phase:'] == " En route (ENR)"){
+                        // console.log("iffing at =** ") 
+                        return "yellow"
+                    }
+                    if (d['Phase:'] == " Approach (APR)"){
+                        // console.log("iffing at =** ") 
+                        return "black"
+                    }
+                    if (d['Phase:'] == " Landing (LDG)"){
+                        // console.log("iffing at =** ") 
+                        return "white"
+                    }            
+                    else{
+                        return "orange"
+                    }
+                })
+                .on("mouseover.zero", function (d) {
+                    for(var t = 0;t < cnt; t++){
+                        preserve_color[t] = $("#" + t.toString() + "anna").css("fill");
+                        $("#" + t.toString() + "anna").css("fill","grey");
+                    }
+                    return tooltip.style("visibility", "visible").text(d["Phase:"] + ": " + eval("d") + ", " + eval("d") + ", " + eval("d"));
+                })
+                .on("mouseover.one", function (d) {
+                    console.log(this)
+                    return this.style.fill = "red";
+                })
+                .on("mousemove", function (d) {
+                    $(this).css("cursor","pointer");
+                    return tooltip.style("top", (event.pageY - 10) + "px").style("left", (event.pageX + 10) + "px").text(d.Name + ": " + eval("d" ) + ", " + eval("d"  ) + ", " + eval("d"  ));
+                })
+                .on("mouseout.zero", function (d) {
+                    return tooltip.style("visibility", "hidden");
+
+                })
+                .on("mouseout.one", function (d) {
+                    for(var t = 0;t < cnt; t++){
+                        $("#" + t.toString() + "anna").css("fill",preserve_color[t]);
+                    }
+                    console.log(this)
+                    // return this.style.fill = "white";
+                });
+
+                var year = "data";
+    
+    
+        var tooltip = d3.select("body")
+            .append("div")
+            .style("position", "absolute")
+            .style("font-family", "sans-serif")
+            .style("font-size", "10px")
+            .style("z-index", "10")
+            .style("visibility", "hidden");
+    
+    
+        });
+
+    </script>
+</body>
+
+</html>
