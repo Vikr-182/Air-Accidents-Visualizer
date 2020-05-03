@@ -25,9 +25,13 @@ var bodies = new Array(0);
 // Setting limits
 var total = 0;
 for(var b = 0; b < num; b++){
+	console.log(pages[years[b].toString()])
 	total += pages[years[b].toString()];
 }
 
+console.log(Object.keys(pages).length)
+console.log(total)
+console.log("anna")
 // Called midway
 function anna(item){
 	bodies.push(item);
@@ -73,21 +77,27 @@ for(var i = 0; i < num; i++){
 		else{
 			req_string = 'https://aviation-safety.net/database/dblist.php?Year=' + years[i].toString() + "&lang=" + "&page=" + (h+1).toString(); 
 		}
-		request(req_string, function(err, res, body) {
-			const $ = cheerio.load(body);
-			string = $('.list a').text().slice(3)
-			for (var ii = 0; ii < string.length; ii+= 11){
-				date = string.slice(ii, ii + 2);
-				month = string.slice(ii + 3,ii + 6);
-				year = string.slice(ii + 7, ii + 11)
-				if (dic[year.toString() + mn[month] + date] == undefined){
-					dic[year.toString() + mn[month] + date] = 0;
+		try{
+			request(req_string, function(err, res, body) {
+				const $ = cheerio.load(body);
+				string = $('.list a').text().slice(3)
+				for (var ii = 0; ii < string.length; ii+= 11){
+					date = string.slice(ii, ii + 2);
+					month = string.slice(ii + 3,ii + 6);
+					year = string.slice(ii + 7, ii + 11)
+					if (dic[year.toString() + mn[month] + date] == undefined){
+						dic[year.toString() + mn[month] + date] = 0;
+					}
+					else{
+						dic[year.toString() + mn[month] + date]++;
+					}
 				}
-				else{
-					dic[year.toString() + mn[month] + date]++;
-				}
-			}
-			anna(body);
-		});
+				anna(body);
+			});
+			sleep(10);
+		}
+		catch{
+			anna(1);	
+		}
 	}
 }
