@@ -1,0 +1,12 @@
+
+
+        svg rect {
+
+            /* fill: orange; */
+        }
+
+        svg text {
+            /* fill: white; */
+            font: 12px sans-serif;
+            text-anchor: end;
+        }
