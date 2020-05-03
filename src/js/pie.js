@@ -1,4 +1,4 @@
-const widdth = window.innerWidth,
+const widdth = window.innerWidth/1.5,
     hheight = window.innerHeight,
     maxRadius = (Math.min(widdth, hheight) / 2) - 5;
 
@@ -48,8 +48,8 @@ const textFits = d => {
 };
 
 const svg4 = d3.select('#pie_anna').append('svg')
-    .style('width', '1400')
-    .style('height', '100vh')
+    .style('width', '300')
+    .style('height', '300')
     .attr('viewBox', `${-widdth / 2} ${-hheight / 2} ${widdth} ${hheight}`)
     .on('click', () => focusOn()); // Reset zoom on canvas click
 

@@ -5,6 +5,10 @@ html {
 	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
+.replacement.home-slider .slider-item .slider-text h1 a {
+	color:black;
+}
+
 .ocean {
 	/* fill: #c4c4c4; */
 	stroke: grey;

@@ -1,8 +1,33 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+	<title>Air Crashes over the decade</title>
 	<meta charset="utf-8">
-	<title>Air Accidents Visualizer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/danger-problems-2/512/xxx001-512.png" type="image/icon">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+
 	<link rel="stylesheet" type="text/css" href="./css/globe_style.css">
 	<link rel="stylesheet" type="text/css" href="./css/slider_style.css">
 	<link rel="stylesheet" type="text/css" href="./css/text_style.css">
@@ -11,8 +36,10 @@
 	<link rel="stylesheet" type="text/css" href="../assets/css/rangeslider.css">
 	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/css/jquery.range-control.css" />
-	<link rel="shortcut icon" type="image/png" href="../images/crash.png" />
+
+
 	<script src="../assets/js/d3.v4.min.js"></script>
+	<!-- <script src="js/jquery.min.js"></script> -->
 	<script src="../assets/js/queue.v1.min.js"></script>
 	<script src="../assets/js/topojson.v1.min.js"></script>
 	<script src="../assets/js/jquery-3.4.1.min.js"></script>
@@ -23,88 +50,193 @@
 </head>
 
 <body>
-	<div class="row">
-		<div class="col-md-8">
-			<div class="card text-black bg-light mb-3 border-dark">
-				<div class="card-header border-dark text-center"> Crash Visualizer</div>
-				<div class="card-body">
 
-					<select id="mySelect" onchange="myFunction()">
-						<option value="2000">2000</option>
-						<option value="2001">2001</option>
-						<option value="2002">2002</option>
-						<option value="2003">2003</option>
-						<option value="2004">2004</option>
-						<option value="2005">2005</option>
-						<option value="2006">2006</option>
-						<option value="2007">2007</option>
-						<option value="2008">2008</option>
-						<option value="2009">2009</option>
-						<option value="2010">2010</option>
-						<option value="2011">2011</option>
-						<option value="2012">2012</option>
-						<option value="2013">2013</option>
-						<option value="2014">2014</option>
-						<option value="2015">2015</option>
-						<option value="2016">2016</option>
-						<option value="2017">2017</option>
-						<option value="2018">2018</option>
-						<option value="2019">2019</option>
 
-					</select>
+	<section class="ftco-section js-fullheight replacement">
+		<div class="slider-item js-fullheight">
+			<div class="container-fluid">
+				<div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+					<div class="col-md-2 text ftco-animate">
+						<div class="text-2">
+							<span class="big">Vinay</span>
+							<h1 class="mb-4"><a href="#" id="globe_text_header">ANNA WHAT IS YOUR NAME</a></h1>
+							<p class="mb-4">Brother of SK Danishetty oh yeah that is right</p>
+						</div>
+					</div>
+					<div class="col-md-2"></div>
+					<div class="col-md-6">
+						<div class="card chart-card border-light">
+							<div class="card-body">
+								<select class="custom-select mr-sm-2" id="mySelect" onchange="myFunction()"
+									style="width: 100px;">
+									<option value="2000">2000</option>
+									<option value="2001">2001</option>
+									<option value="2002">2002</option>
+									<option value="2003">2003</option>
+									<option value="2004">2004</option>
+									<option value="2005">2005</option>
+									<option value="2006">2006</option>
+									<option value="2007">2007</option>
+									<option value="2008">2008</option>
+									<option value="2009">2009</option>
+									<option value="2010">2010</option>
+									<option value="2011">2011</option>
+									<option value="2012">2012</option>
+									<option value="2013">2013</option>
+									<option value="2014">2014</option>
+									<option value="2015">2015</option>
+									<option value="2016">2016</option>
+									<option value="2017">2017</option>
+									<option value="2018">2018</option>
+									<option value="2019">2019</option>
 
-					<div id="svgDiv"></div>
+								</select>
+
+								<div id="svgDiv"></div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="card text-black bg-light mb-3 border-dark">
-				<div class="card-header border-dark text-center"> Fatalities Count</div>
-				<div class="card-body">
-					Fatalities = <span id="fatalities"></span><br>
-					Occupants = <span id="occupants"></span>
-					<div id="plane"></div>
+	</section>
+	<section class="ftco-intro">
+		<div class="container">
+			<div class="row justify-content-start">
+				<div class="col-md-12">
+					<h1>I'm <strong>cute</strong> &amp; <strong>hot</strong> Who girls Love
+						Documenting &amp; Discoveries Around the World</h1>
 				</div>
 			</div>
 		</div>
-	</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<div class="card text-black bg-light mb-3 border-dark">
-				<div class="card-header border-dark text-center"> Phase Visualizer</div>
-				<div class="card-body" id="my_anna">
+	</section>
 
+	<section class="ftco-section js-fullheight replacement">
+		<div class="slider-item js-fullheight">
+			<div class="container-fluid">
+				<div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+					<div class="col-md-11 text ftco-animate">
+						<span>
+							<select class="custom-select mr-sm-2 border-dark" style="width: 200px;" id="mySelect2"
+								onchange="myFunction2()">
+								<option value="0">2000-04</option>
+								<option value="1">2005-09</option>
+								<option value="2">2010-14</option>
+								<option value="3">2014-18</option>
+							</select>
+						</span>
+						<div id="my_anna"></div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<div class="card text-black bg-light mb-3 border-dark">
-				<div class="card-header border-dark text-center"> Bar Race Chart Visualizer</div>
-				<div class="card-body" id="ly_anna">
+	</section>
 
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="blog-entry ftco-animate">
+						<div class="text pt-2 mt-5">
+							<span class="big">ALLAH BHAGWAN </span>
+							<h3 class="mb-4"><a href="#">Hawaii known as the Big Island</a></h3>
+							<p class="mb-4">Even the all-powerful Pointing has no control about the blind texts
+								it is an almost unorthographic life One day however a small line of blind text
+								by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+							<div class="author mb-4 d-flex align-items-center">
+								<div class="ml-3 info">
+									<span>Written by</span>
+									<h3><a href="#">Tohar Ma Randi</a>, <span>October 04, 2018</span></h3>
+								</div>
+							</div>
+							<div class="meta-wrap d-md-flex align-items-center">
+								<div class="half order-md-last text-md-right">
+									<p class="meta">
+										<span><i class="icon-heart"></i>3</span>
+										<span><i class="icon-eye"></i>100</span>
+										<span><i class="icon-comment"></i>5</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<div class="card text-black bg-light mb-3 border-dark">
-				<div class="card-header border-dark text-center"> Pie Chart Visualizer</div>
-				<div class="card-body" id="pie_anna">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="blog-entry ftco-animate">
+						<div id="ly_anna"></div>
 
+						<div class="text pt-2 mt-5">
+							<span class="big">RINGA RINGA ROSES</span>
+							<h3 class="mb-4"><a href="#">Tujhe Aichya Gawat</a></h3>
+							<p class="mb-4"> BRO ANNA SHIIT SHHHITT</p>
+							<div class="author mb-4 d-flex align-items-center">
+								<a href="#" class="img" style="background-image: url(images/person_1.jpg);"></a>
+								<div class="ml-3 info">
+									<span>Written by</span>
+									<h3><a href="#">Dave Lewis</a>, <span>October 04, 2018</span></h3>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+			<div class="row">
+				<div id="pie_anna"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="blog-entry ftco-animate">
+
+						<div class="text pt-2 mt-5">
+							<span class="big">HORNY RA</span>
+							<h3 class="mb-4"><a href="#">LOREM IPSUM</a></h3>
+							<p class="mb-4">I WANT TO INSERT SOME TEXT BUT DONT KNOW WHAT TO INSERT CAN I INSERT MY PART
+								HERE</p>
+							<div class="author mb-4 d-flex align-items-center">
+								<a href="#" class="img" style="background-image: url(images/person_1.jpg);"></a>
+								<div class="ml-3 info">
+									<span>Written by</span>
+									<h3><a href="#">CUTE ANNA</a>, <span>October 04, 2018</span></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
-	</div>
+
+		</div><!-- END-->
+	</section>
+
+
+
 </body>
-<script src="./js/slider.js"></script>
-<script src="./js/globe.js"></script>
-<script src="./js/scatter.js"></script>
-<script src="./js/bar.js"></script>
-<script src="./js/pie.js"></script>
-<script src="./js/plane.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="js/jquery.timepicker.min.js"></script>
+<script type="text/javascript" src="js/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false">
+</script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+
+<script src="js/globe.js"></script>
+<script src="js/plane.js"></script>
+<script src="js/scatter.js"></script>
+<script src="js/bar.js"></script>
+<script src="js/pie.js"></script>
+<script src="js/responsive.js"></script>
 
 </html>

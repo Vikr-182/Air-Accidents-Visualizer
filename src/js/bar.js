@@ -170,7 +170,7 @@ function ready(error, data, clean, airport_to_country, country_to_airport) {
         "TR": "maroon"
     }
     function colorme(item){
-        console.log(item + "CALLED");
+        // console.log(item + "CALLED");
         if(nation_color[item] != undefined){
             return nation_color[item];
         }
@@ -204,7 +204,7 @@ function ready(error, data, clean, airport_to_country, country_to_airport) {
         }
     }
     var final = [];
-    console.log(kic);
+    // console.log(kic);
     for (var b in kic) {
         // console.log(kic[b]);
         var ks = Object.keys(kic[b]);
@@ -235,8 +235,8 @@ function ready(error, data, clean, airport_to_country, country_to_airport) {
 
     // // yearSlice.forEach((d, i) => d.rank = i);
 
-    console.log('annaSlice: ', annaSlice)
-    console.log('yearSlice: ', yearSlice)
+    // console.log('annaSlice: ', annaSlice)
+    // console.log('yearSlice: ', yearSlice)
 
     let x = d3.scaleLinear()
         .domain([0, d3.max(annaSlice, d => d["number"])])
@@ -426,7 +426,7 @@ function ready(error, data, clean, airport_to_country, country_to_airport) {
             .attr('x', d => x(d["number"]) + 5)
             .attr('y', d => y(top_n + 1) + 5)
             .remove();
-        console.log(annaSlice);
+        // console.log(annaSlice);
         yearText.html(~~anna_years[anna_ind]);
         // alert(ind);
         if (anna_ind == anna_years.length - 1) ticker.stop();
