@@ -1,5 +1,5 @@
 	// width and height
-	var w = 700;
+	var w = 500;
 	var h = 500;
 	var keys = [];
 	// scale globe to size of window
@@ -270,16 +270,17 @@
 			}
 			//https://miro.medium.com/max/5778/1*ne8pqysxw4k1EJ_asfwS5w.jpeg
 			$("#bc" + st).qtip({
-				content: '<img width="10" height="10" src="https://miro.medium.com/max/5778/1*ne8pqysxw4k1EJ_asfwS5w.jpeg">\
-				<svg height="500" width="600" style="background-image:url("../images/crash.png");background-size: 400px 480px;width: 400px;height: 480px;"> </svg>\
-				'
-				// {
-				// 	text: 'Date:\t' + ip.slice(0, 8) + '<br>Operator:\t' + cleaned_data[ip]["Operator:"] +
-				// 		'<br>Phase:\t' + cleaned_data[ip]["Phase:"] +
-				// 		'<br>Departure Airport:' + cleaned_data[ip]["Departure airport:"] +
-				// 		'<br>Destination Airport:' + cleaned_data[ip]["Destination airport:"] +
-				// 		'<br>Type:' + cleaned_data[ip]["Type:"]
-				// }
+				content: 
+				// '<img width="10" height="10" src="https://miro.medium.com/max/5778/1*ne8pqysxw4k1EJ_asfwS5w.jpeg">\
+				// <svg height="500" width="600" style="background-image:url("../images/crash.png");background-size: 400px 480px;width: 400px;height: 480px;"> </svg>\
+				// '
+				{
+					text: 'Date:\t' + ip.slice(0, 8) + '<br>Operator:\t' + cleaned_data[ip]["Operator:"] +
+						'<br>Phase:\t' + cleaned_data[ip]["Phase:"] +
+						'<br>Departure Airport:' + cleaned_data[ip]["Departure airport:"] +
+						'<br>Destination Airport:' + cleaned_data[ip]["Destination airport:"] +
+						'<br>Type:' + cleaned_data[ip]["Type:"]
+				}
 				,
 				style: {
 					classes: "qtip-bootstrap qtip-rounded qtip-shadow"

@@ -1,0 +1,28 @@
+All engine powerloss
+Ditching
+Horizontal stabilizer
+Fuel exhaustion
+Prop/turbine blade separation
+Fuel starvation
+Uncontained engine failure
+Wrong installation of parts
+Navigational error
+Landing gear collapse
+Wing failure
+Inflight fire
+Electrical system problem
+Fuselage failure
+Rudder issue
+Tire failure
+Engine fire
+Cargo fire/smoke
+Engine separation
+Tail failure
+Locked rudders/ailerons/gustlock
+Airframe failure
+Fuel contamination
+Autopilot issues
+Elevator issue
+Engine reverse issue
+Hydraulic system problem
+Issue with flap(s)

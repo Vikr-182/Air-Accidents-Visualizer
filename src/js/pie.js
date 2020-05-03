@@ -48,9 +48,9 @@ const textFits = d => {
 };
 
 const svg4 = d3.select('#pie_anna').append('svg')
-    .style('width', '300')
-    .style('height', '300')
-    .attr('viewBox', `${-widdth / 2} ${-hheight / 2} ${widdth} ${hheight}`)
+    .style('width', '500')
+    .style('height', '500')
+    .attr('viewBox', `${-widdth / 2} ${-hheight / 2} ${widdth/0.8} ${hheight}`)
     .on('click', () => focusOn()); // Reset zoom on canvas click
 
 d3.json('../../data/try.json', (error, root) => {
