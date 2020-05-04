@@ -5,18 +5,19 @@ function compare(a, b) {
     return 0;
 }
 
-
+function draw_barstacked(){
 
 //var datas = []
 
 //var length = 0
 
-var svg7 = d3.select("#bar_stack");
-
 var margin7 = 200;
-var width7 = 1000;
+var width7 = window.innerWidth/1.5;
 
-var height7 = svg7.attr("height") - margin7;
+var height7 = "500";
+var svg7 = d3.select("#bar_stack")
+.attr("width",width7*1.4).attr("height",height7*1.4);
+
 
 var xScale = d3.scaleBand().range([0, width7]).padding(0.4);
 
@@ -72,7 +73,7 @@ d3.csv("../../data/stack.csv", function (data) {
     }
 
 
-    xScale.domain(data.map(function (d) { return d.Name; }));
+    xScale.domain(data.map(function (d) { return d.Name ; }));
 
     yScale.domain([0, d3.max(data, function (d) {
         // console.log(+eval("d.X" + yr) + +eval("d.Y" + yr) + +eval("d.Y" + yr) + +eval("d.R" + yr));
@@ -444,6 +445,7 @@ d3.csv("../../data/stack.csv", function (data) {
 
 
 
-
+}
+draw_barstacked();
 
 // console.log("doggy")

@@ -12,15 +12,19 @@ var color = {
 }
 // Feel free to change or delete any of the code you see in this editor!
 var svg3 = d3.select("#ly_anna").append("svg")
-    .attr("width", 1400)
-    .attr("height", 600);
+    // .attr("width", 1400)
+    .attr("id","bar_race_annara")
+    .attr("preserveAspectRatio", "meet")
+    // .attr("height", 600)
+    .attr("viewBox","0 0 1250 500")
+    ;
 
 
 var tickDuration = 500;
 
 var top_n = 12;
-var height = 600;
-var width = 1350;
+var height = 500;
+var width = get_width(12)/1.3;
 
 const margin = {
     top: 80,
@@ -65,6 +69,7 @@ function colorme(item) {
         return color[item];
     }
 }
+
 
 queue()
     .defer(d3.csv, "https://raw.githubusercontent.com/Vikr-182/Test/master/batsmen_ratings_all091217.csv")
@@ -431,7 +436,7 @@ function ready(error, data, clean, airport_to_country, country_to_airport) {
         // alert(ind);
         if (anna_ind == anna_years.length - 1) ticker.stop();
         anna_ind = ((anna_ind) + 1);
-    }, tickDuration * 1.9);
+    }, tickDuration * 3);
 
 };
 

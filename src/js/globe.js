@@ -1,96 +1,76 @@
-	// width and height
-	var w = 500;
-	var h = 500;
-	var keys = [];
+var mdnum = 6;
+var cnt_globe = 0;
+/////////////////////////////////////////////////////////////////////////////////////////////
+function init_globe(){
+
+	w = get_width(mdnum) / 1.2;
+	h = 500;
+	keys = [];
 	// scale globe to size of window
-	var scl = Math.min(w, h) / 2.5;
+	scl = Math.min(w, h) / 2.5;
 	scl = 220;
-	var glow_scl = scl * 1.1;
-	var jag, pag;
-	var scale_sky = 305;
-	var scale_sky2 = 265;
-	var scale_sky3 = 245;
-	var scale_sky4 = 225;
+	glow_scl = scl * 1.1;
+	scale_sky = 305;
+	scale_sky2 = 265;
+	scale_sky3 = 245;
+	scale_sky4 = 225;
 	// map projection
-	var projection = d3.geoOrthographic()
+	projection = d3.geoOrthographic()
 		.scale(scl)
 		.clipAngle(90)
 		.translate([w / 2, h / 2]);
 
-	var glow_projection = d3.geoOrthographic()
+	glow_projection = d3.geoOrthographic()
 		.scale(glow_scl)
 		.clipAngle(90)
 		.translate([w / 2, h / 2]);
 
 	// path generator
-	var path = d3.geoPath()
+	path = d3.geoPath()
 		.projection(projection)
 		.pointRadius(2);;
 
-	var glow_path = d3.geoPath()
+	glow_path = d3.geoPath()
 		.projection(glow_projection)
 		.pointRadius(2);;
 
-	var sky = d3.geoOrthographic()
+	sky = d3.geoOrthographic()
 		.translate([w / 2, h / 2])
 		.clipAngle(90)
 		.scale(scale_sky);
 
-	var sky2 = d3.geoOrthographic()
+	sky2 = d3.geoOrthographic()
 		.translate([w / 2, h / 2])
 		.clipAngle(90)
 		.scale(scale_sky2);
 
-	var sky3 = d3.geoOrthographic()
+	sky3 = d3.geoOrthographic()
 		.translate([w / 2, h / 2])
 		.clipAngle(90)
 		.scale(scale_sky3);
 
-	var sky4 = d3.geoOrthographic()
+	sky4 = d3.geoOrthographic()
 		.translate([w / 2, h / 2])
 		.clipAngle(90)
 		.scale(scale_sky4);
 
 	// append svg
-	var svg = d3.select("#svgDiv")
+	svg = d3.select("#svgDiv")
 		.append("svg")
 		.attr("width", w)
 		.attr("height", h)
 		.attr("class", "beti");
 
 	// append g element for map
-	var map = svg.append("g");
+	map = svg.append("g");
 
 	// enable drag
-	var drag = d3.drag()
+	drag = d3.drag()
 		.on("start", dragstarted)
 		.on("drag", dragged);
 
-	var gpos0, o0, gpos1, o1;
-	var sgpos0, so0, sgpos1, so1;
-	var glow_pos0, glow_o0, glow_gpos1, glow_o1;
-	var s2gpos0, s2o0, s2gpos1, s2o1;
-	var s3gpos0, s3o0, s3gpos1, s3o1;
-	var s4gpos0, s4o0, s4gpos1, s4o1;
-
 	svg.call(drag);
-
-	var sag, dag;
-	var swoosh = d3.line()
-		.x(function (d) {
-			return d[0]
-		})
-		.y(function (d) {
-			return d[1]
-		})
-		.curve(d3.curveCardinal.tension(0))
-	// .tension(.0);
-
-	var bag;
-	var links = [],
-		arcLines = [];
-
-	var kaam = [];
+}
 
 	function draw_globe(item) {
 		queue()
@@ -517,6 +497,7 @@
 	}
 
 	function myFunction() {
+		init_globe();
 		var x = document.getElementById("mySelect").value;
 		// alert(keys.length);
 		for(var fx = 0; fx < keys.length; fx++){
@@ -528,7 +509,10 @@
 			// alert(keys[fx]);
 			// d3.selectAll("#bc" + st).remove();
 		}
-
+		if (cnt_globe  > 0){
+			d3.select("#svgDiv").select("svg").remove();
+		}
+		cnt_globe = cnt_globe + 1;
 		draw_globe(x);
 		// for(var fx = 0; fx < keys.length; fx++){
 		// 	var st = "";

@@ -1,5 +1,5 @@
-var swidth = window.innerWidth / 1.2,
-    height = 600,
+var swidth = window.innerWidth / 1.4,
+    height = 500,
     radius = 0.00003;
 var re = [
     ["2000", "2001", "2002", "2003", "2004"],
@@ -7,6 +7,7 @@ var re = [
     ["2010", "2011", "2012", "2013", "2014"],
     ["2015", "2016", "2017", "2018"]
 ]
+var percentages = [0,0,0,0,0,0,0];
 
 var current = re[0];
 
@@ -103,6 +104,7 @@ function give_me_x(phase) {
 }
 
 function give_me_y(x, k, phase) {
+    percentages[k]++;
     if (!Object.keys(init).includes(phase)) {
         phase = " Kyra";
     }
@@ -463,18 +465,18 @@ function draw_polygon() {
         .attr("points", (0).toString() + "," + (ground).toString() + " " + (7 * swidth / 7).toString() + "," + (ground).toString() + " " + (7 * swidth / 7).toString() + "," + (ground + 2).toString() + " " + (0).toString() + "," + (ground + 2).toString())
         .attr("fill", "black"); //runway
 
-
-    svg2
+    var mapp = Object.keys(init);
+    svg2    
         .append("image")
         .attr("x",swidth/2)
-        .attr("y","326")
+        .attr("y",give_me_y(swidth/2, 3, mapp[3])[0])
         .attr("width","50")
         .attr("height","50")
         .attr("href","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTkVHoDYQYGJe6AZZS5IKtRHtA9Bv2OupJ2dMM-tV8wlHHyKh3v&usqp=CAU")
         .attr("id","my_plane_anna");
 
     var x_arr = [];
-    var mapp = Object.keys(init);
+
     for(var ttt = 1;ttt < swidth*7/7;ttt += 1.5){
         var pop = give_me_y(ttt, Math.floor(ttt*7/swidth), mapp[Math.floor(ttt*7/swidth)])
         if(ttt >= swidth*4/7){
@@ -510,17 +512,30 @@ function draw_polygon() {
             .style("stroke", "grey")
             .style("stroke-width", 3)
             .style("stroke-dasharray", "15, 6") // line
-        var ranna = window.innerWidth > 1350 ? 15:7;
+        var ranna = window.innerWidth > 1350 ? 10:7;
         svg2
             .append("text")
             .attr("x", swidth / ranna + gt)
             .attr("y", ground / 15)
-            .text(keyss[Math.floor(gt * 7 / swidth)])
+            .text(keyss[Math.floor(gt * 7 / swidth)].slice(0,-6))
             .attr("class","labelra")
-            .attr("font-size","10em")
-        // .attr()
 
+        // .attr()
     }
+
+    for (var gt = 0; gt < swidth; gt += swidth / 7) {
+        var ranna = window.innerWidth > 1350 ? 15:7;
+        svg2
+            .append("text")
+            .attr("x", swidth / ranna + gt + 10)
+            .attr("y", ground / 9)
+            .text( (percentages[Math.floor(gt*7/swidth)]*100/percentages.reduce(function (a,b){ return a + b},0)).toFixed(2) + "%" )
+            .attr("class","labelra")
+
+        // .attr()
+    }
+
+    d3.select('.labelra').attr('font-size', 10);
 
     // draw_me(["2000"]);
     // draw_me(["2018"]);
@@ -540,18 +555,18 @@ function draw_polygon() {
 
 }
 
-function dragstarted(d) {
+function scatter_dragstarted(d) {
     if (!d3.event.active) simulation.alphaTarget(0.3).restart();
     d.fx = d.x;
     d.fy = d.y;
 }
 
-function dragged(d) {
+function scatter_dragged(d) {
     d.fx = d3.event.x;
     d.fy = d3.event.y;
 }
 
-function dragended(d) {
+function scatter_dragended(d) {
     if (!d3.event.active) simulation.alphaTarget(0);
     d.fx = null;
     d.fy = null;

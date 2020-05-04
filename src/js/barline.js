@@ -1,3 +1,4 @@
+function draw_barline(){
 var dataset = [
     ["2000",1.68,22008658],
     ["2001",1.62,22264220],
@@ -22,7 +23,7 @@ var dataset = [
     ];
 
     var margin6 = { top: 20, right: 40, bottom: 50, left: 100 },
-        width6 = 660,
+        width6 = get_width(12)/1.5,
         height6 = 300;
 
     var xScale = d3.scaleBand()
@@ -46,7 +47,12 @@ var dataset = [
 
     var svg6 = d3.select("#bar_line").append("svg")
         .attr("width", width6 + margin6.left + margin6.right)
-        .attr("height", height6 + margin6.top + margin6.bottom);
+        .attr("height", height6 + margin6.top + margin6.bottom)
+        .attr("viewBox","0 0 " + (width6).toString() + (height6).toString())
+        .attr("id","barline")
+        .attr("preserveAspectRatio","none")
+
+        ;
 
     var g = svg6.append("g")
         .attr("transform", "translate(" + margin6.left + "," + margin6.top + ")");
@@ -72,9 +78,9 @@ var dataset = [
 
     var y_axis = d3.axisRight()
             .scale(y1Scale);
-
+        var rannarara = window.innerWidth < 800 ?  (get_width(12)*1.17/1.5).toString() : (get_width(12)*1.1/1.5).toString() ;
     svg6.append("g")
-        .attr("transform", "translate(745, 20)")
+        .attr("transform", "translate("  + (rannarara).toString() + ", 20)")
         .call(y_axis);
 
 
@@ -152,3 +158,6 @@ var dataset = [
     .attr("y",margin6.bottom)
     .text("Fatal Accidents")
     .attr("transform","rotate(90," + (width6 -  margin6.right - 60).toString() + "," + (margin6.bottom + 200).toString() + ")")
+    }
+
+draw_barline()
