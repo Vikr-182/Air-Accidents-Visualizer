@@ -1,8 +1,9 @@
 # Air Accidents Visualizer
-Visualising all aviation accidents from 2000 to 2018 using **D3.js** . The project was done as a part of the Data Visualization Course (Spring,2020)
+Visualising all aviation accidents from 2000 to 2018 using **D3.js** . 
 
+Done by Bhavyajeet Singh, Vikrant Dewangan as part of the Data Visualization Course (Spring,2020).
 ## Objective
-To collect data of all aviation accidents and present a comprehendible story to bind the data together. 
+Data Visualization is a very powerful tool to capture the audiences. It has the potential to reveal certain details hidden to the norma eye. With Aviation being a booming industry and a lots at stake, it becomes necessary to analyze the happenings and reasons to why an incident has occured. We have tried to collect aviation related incidents from the year 2000 uptill 2018, with drawing visualizations corresponding to each useful relation amongst the attributes.
 
 ## Build
 After cloning the repo, just run a local server - 
