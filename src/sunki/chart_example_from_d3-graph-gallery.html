@@ -1,0 +1,134 @@
+<!-- Code from d3-graph-gallery.com -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<!-- Load the sankey.js function -->
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/sankey.js"></script>
+
+<!-- Create a div where the graph will take place -->
+<body>
+<div id="my_dataviz"></div>
+</body>
+<!-- Add style to links or they won't appear properly-->
+<style>
+.link {
+  fill: none;
+  stroke: #F00;
+  stroke-opacity: .45;
+}
+.link:hover {
+  stroke-opacity: .75;
+}
+</style>
+
+
+<script>
+
+// set the dimensions and margins of the graph
+var margin = {top: 10, right: 10, bottom: 10, left: 10},
+    width = 1000 - margin.left - margin.right,
+    height = 1150 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svg = d3.select("#my_dataviz").append("svg")
+//    .attr("transform","rotate(-270)")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+// Color scale used
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+// Set the sankey diagram properties
+var sankey = d3.sankey()
+    .nodeWidth(36)
+    .nodePadding(90)
+    .size([width, height]);
+
+colorscale = d3.scaleOrdinal(["#a6cee3","#1f78b4","#b2df8a","#33a02c","#fb9a99","#e31a1c","#fdbf6f","#ff7f00","#cab2d6","#6a3d9a","#ffff99","#b15928"]);
+colorscale.domain([1,2,3,4,5,6,7,8,9,10,11,12,13,14])
+
+
+// load the data
+d3.json("loca.json", function(error, graph) {
+
+  // Constructs a new Sankey generator with the default settings.
+  sankey
+      .nodes(graph.nodes)
+      .links(graph.links)
+      .layout(1);
+
+  // add in the links
+  var link = svg.append("g")
+    .selectAll(".link")
+    .data(graph.links)
+    .enter()
+    .append("path")
+      .attr("class", "link")
+      .attr("d", sankey.link() )
+      .style("stroke",function(d){
+          console.log("yoyoyyo")
+          console.log(colorscale(d.target['node']));
+          return d.color = color(d.target['name'].replace(/ .*/,     ""));
+          //return colorscale(d.target['node']);
+        } )
+      .style("stroke-width", function(d) {console.log(d); return Math.max(1, d.dy); })
+      .sort(function(a, b) { return b.dy - a.dy; });
+
+  // add in the nodes
+  var node = svg.append("g")
+    .selectAll(".node")
+    .data(graph.nodes)
+    .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+      .call(d3.drag()
+        .subject(function(d) { return d; })
+        .on("start", function() { this.parentNode.appendChild(this); })
+        .on("drag", dragmove));
+
+  // add the rectangles for the nodes
+  node
+    .append("rect")
+      .attr("height", function(d) { return d.dy; })
+      .attr("width", sankey.nodeWidth())
+      .style("fill", function(d) { return d.color = color(d.name.replace(/ .*/, "")); })
+      .style("stroke", function(d) { return d3.rgb(d.color).darker(2); })
+    // Add hover text
+    .append("title")
+      .text(function(d) { return d.name + "\n" + "There is " + d.value + " stuff in this node"; });
+
+  // add in the title for the nodes
+    node
+      .append("text")
+        .attr("x", -6)
+        .attr("y", function(d) { return d.dy / 2; })
+        .attr("dy", ".35em")
+        .attr("text-anchor", "end")
+        .attr("transform", null)
+        .text(function(d) { return d.name; })
+      .filter(function(d) { return d.x < width / 2; })
+        .attr("x", 6 + sankey.nodeWidth())
+        .attr("text-anchor", "start");
+
+  // the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this)
+      .attr("transform",
+            "translate("
+               + d.x + ","
+               + (d.y = Math.max(
+                  0, Math.min(height - d.dy, d3.event.y))
+                 ) + ")");
+    sankey.relayout();
+    link.attr("d", sankey.link() );
+  }
+
+});
+
+
+</script>

@@ -1,0 +1,103 @@
+Loss of control
+Icing
+All engine powerloss
+Ditching
+Runway excursion
+Centre of Gravity outside limits
+Wrong takeoff configuration (flaps/trim)
+Loss/opening of engine cowling
+Forced landing on runway
+Horizontal stabilizer
+Undershoot/overshoot
+Hijack
+Hijacker(s) escaped
+Hijacker(s) overpowered by occupants
+Controlled Flight Into Terrain (CFIT) - Mountain
+Flightcrew incapacitation
+El Pais - Mar 23, 2000
+Fuel exhaustion
+Forced landing outside airport
+Controlled Flight Into Terrain (CFIT) - Ground
+Prop/turbine blade separation
+Runway mishap
+Fuel starvation
+Runway incursion
+Uncontained engine failure
+Heavy landing
+Tailstrike
+Windshear/downdraft
+Gear-up landing
+VFR flight in IMC
+Wrong installation of parts
+Loss of situational awareness
+Lightningstrike
+Mid air collision
+Caracol
+Plane stormed
+Navigational error
+Landing or takeoff on wrong runway
+Low visibility
+Shot down from the ground
+Missing
+Flightcrew member's alcohol, drug usage
+Rejected takeoff
+Overloaded
+Bird strike
+Distraction in cockpit
+Cargo door failure
+Shutdown of wrong engine
+Landing gear collapse
+Wing failure
+Flightcrew's failure to monitor instruments
+Inflight fire
+Sabotage
+Ground collision
+Precipitation-induced flame-out
+Rescate
+Soviet Transports
+Premature gear retraction on take-off
+Electrical system problem
+Fuselage failure
+Wheel(s) up landing
+Flightcrew  un(der)qualified
+Normal landing
+Turbulence
+Controlled Flight Into Terrain (CFIT) - Water
+Emergency landing
+Landing after unstabilized approach
+Non-adherence to procedures
+Rudder issue
+Tire failure
+Insufficient rest / fatigue
+Damaged on the ground
+Improper flap/slat usage
+Engine fire
+Collision with vehicle
+Cargo fire/smoke
+Engine separation
+Collision with person or animal on the ground
+Passenger door failure
+Collision with airport equipment
+Premature descent
+Cause undetermined
+Destroyed on ground
+Thunderstorm
+Bounced on landing
+Tail failure
+Locked rudders/ailerons/gustlock
+High speed landing
+Airframe failure
+Loss of control (presumed)
+Fuel contamination
+Hangar / ground fire
+Failure to follow AD and SB's
+Wrong altimeter setting
+Late landing
+Elevator issue
+Autopilot issues
+Engine reverse issue
+Hydraulic system problem
+Flightcrew member's mental condition
+Collision with pole or wires
+Issue with flap(s)
+Collision with approach or runway lights

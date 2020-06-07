@@ -1,0 +1,30 @@
+.bar1 {
+    fill: steelblue;
+}
+
+.bar2 {
+    fill: orange;
+}
+
+.bar3 {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: orange;
+}
+
+.axis--x path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: red;
+    stroke-width: 3;
+}
+
+.dot {
+    fill: red;
+    stroke: red;
+}

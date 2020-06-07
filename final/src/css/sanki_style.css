@@ -1,0 +1,8 @@
+.linkk {
+    fill: none;
+    stroke: #F00;
+    stroke-opacity: .45;
+  }
+  .linkk:hover {
+    stroke-opacity: .75;
+  }

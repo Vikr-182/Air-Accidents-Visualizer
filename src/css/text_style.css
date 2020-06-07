@@ -1,0 +1,50 @@
+#globe_text_header {
+    color: black;
+    font-size: 40px;
+    background-color: transparent;
+    transition: .3s all ease;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    text-decoration: none;
+    line-height: 1.5;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: inherit;
+    /* visibility: hidden; */
+    letter-spacing: 1px;
+}
+
+#globe_text_header:hover,
+#globe_text_header:focus {
+    text-decoration: none;
+    /* color: #ff895d; */
+    outline: none !important;
+    text-decoration: underline;
+}
+
+.replacement .slider-item .container-fluid p {
+    /* display: none; */
+    font-size: 18px;
+line-height: 1.5;
+font-weight: 300;
+color: rgba(0, 0, 0, 0.7);
+}
+
+.replacement .slider-item .container-fluid .big 
+        {
+        position: absolute;
+        top: -20px;
+        left: -60px;
+        font-size: 100px;
+        font-family: "Abril Fatface", cursive;
+        line-height: .8;
+        z-index: -1;
+        color: #e6e6e6;
+    }
+
+
+.labelra{
+    font-size: 0.5;
+}

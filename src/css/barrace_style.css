@@ -1,0 +1,16 @@
+.barrace-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    height: 50%;
+    vertical-align: top;
+    overflow: hidden;
+    height: 500px;
+}
+#bar_race_annara {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

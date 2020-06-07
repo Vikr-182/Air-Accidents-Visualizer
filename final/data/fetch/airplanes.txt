@@ -1,0 +1,947 @@
+ATR 42-300 5
+ATR 42-312 1
+ATR 42-320 6
+ATR 42-500 ? 1
+ATR 42-500 4
+ATR 42-512 1
+ATR 72-201 2
+ATR 72-202 4
+ATR 72-212 9
+ATR 72-212A (ATR 72-500) 1
+ATR 72-212A (ATR 72-600) 3
+ATR 72-212A (ATR-72-500) 14
+ATR 72-212A (ATR-72-600) 5
+ATR 72-500 (72-212A) 1
+ATR 72-600 (72-212A) 2
+Aero Modifications AMI C-47TP (DC-3T) 1
+Airbus A300B4-203 4
+Airbus A300B4-203F 6
+Airbus A300B4-605R 2
+Airbus A300B4-620 1
+Airbus A300B4-622R 2
+Airbus A300F4-605R 1
+Airbus A310 1
+Airbus A310-304 2
+Airbus A310-304ET 1
+Airbus A310-304F 2
+Airbus A310-308 1
+Airbus A310-324 3
+Airbus A310-324ET 1
+Airbus A310-325 1
+Airbus A319-111 5
+Airbus A319-112 2
+Airbus A319-114 4
+Airbus A319-115 (WL) 1
+Airbus A319-131 1
+Airbus A319-132 1
+Airbus A320 1
+Airbus A320-211 8
+Airbus A320-212 3
+Airbus A320-214 14
+Airbus A320-216 2
+Airbus A320-231 5
+Airbus A320-232 15
+Airbus A320-233 2
+Airbus A321 1
+Airbus A321-111 1
+Airbus A321-131 3
+Airbus A321-211 (WL) 1
+Airbus A321-211 7
+Airbus A321-213 1
+Airbus A321-231 (WL) 2
+Airbus A321-231 13
+Airbus A321-271N 1
+Airbus A330-202 1
+Airbus A330-203 3
+Airbus A330-223 4
+Airbus A330-223F 1
+Airbus A330-243 3
+Airbus A330-301 1
+Airbus A330-302 2
+Airbus A330-303 2
+Airbus A330-322 2
+Airbus A330-323 3
+Airbus A330-323X 1
+Airbus A330-343 2
+Airbus A330-343X 1
+Airbus A340-212 1
+Airbus A340-312 1
+Airbus A340-313 1
+Airbus A340-541 1
+Airbus A340-642 1
+Airbus A380-842 1
+Airbus A380-861 1
+Airbus A400M Atlas 1
+Airbus 2
+Alenia C-27J Spartan 1
+Alenia G-222 1
+Antononv An-2T 1
+Antonov An-12 5
+Antonov An-12AP 1
+Antonov An-12B 6
+Antonov An-12BK 12
+Antonov An-12BP 18
+Antonov An-12TB 1
+Antonov An-140 1
+Antonov An-148-100B 1
+Antonov An-148-100E 1
+Antonov An-2 6
+Antonov An-22A 1
+Antonov An-24 ? 1
+Antonov An-24 1
+Antonov An-24B 6
+Antonov An-24RV 10
+Antonov An-24T 1
+Antonov An-24V 2
+Antonov An-26 16
+Antonov An-26-100 2
+Antonov An-26B 13
+Antonov An-26B-100 3
+Antonov An-28 8
+Antonov An-2P 1
+Antonov An-2R 7
+Antonov An-2SX 1
+Antonov An-2T 7
+Antonov An-2TD 1
+Antonov An-2TP 7
+Antonov An-30B 1
+Antonov An-30D 1
+Antonov An-32 5
+Antonov An-32A 1
+Antonov An-32B 12
+Antonov An-32RE 1
+Antonov An-70 1
+Antonov An-72-100 2
+Antonov An-74 1
+Antonov An-74T-200 1
+Antonov An-74TK-100 1
+Antonov An-74TK-200 1
+Antonov An-74TK-300 1
+Antonov An-8 2
+Antonov TVS-2MS 1
+Avcen Jetpod 1
+Avro RJ100 6
+Avro RJ70 1
+Avro RJ85 3
+A�rospatiale / BAC Concorde 101 2
+A�rospatiale SN.601 Corvette 1
+Basler BT-67 Turbo 67 (DC-3T) 5
+Beechcraft 100 King Air 9
+Beechcraft 1900 1
+Beechcraft 1900C 9
+Beechcraft 1900C-1 8
+Beechcraft 1900D 16
+Beechcraft 200 Super King Air 36
+Beechcraft 200C Super King Air 8
+Beechcraft 200T Super King Air 1
+Beechcraft 300 Super King Air 350 3
+Beechcraft 300 Super King Air 7
+Beechcraft 300LW Super King Air 1
+Beechcraft 99 Airliner 5
+Beechcraft 99 1
+Beechcraft 99A Airliner 7
+Beechcraft 99A 1
+Beechcraft A100 King Air 17
+Beechcraft A200 Super King Air 1
+Beechcraft B100 King Air 8
+Beechcraft B200 King Air 7
+Beechcraft B200 Super King Air 31
+Beechcraft B200C Super King Air 1
+Beechcraft B200GT King Air 250 1
+Beechcraft B200T Super King Air 1
+Beechcraft B300 King Air 350 1
+Beechcraft B300 King Air 350i 1
+Beechcraft B300 Super King Air 350 5
+Beechcraft B300C Super King Air 350 1
+Beechcraft B99 Airliner 2
+Beechcraft B99 1
+Beechcraft Beechjet 400 2
+Beechcraft Beechjet 400A 2
+Beechcraft C-12C Huron (A200 Super King Air) 1
+Beechcraft C-12F Huron  (A200CF Super King Air) 1
+Beechcraft C99 Commuter 6
+Beechcraft C99 1
+Beechcraft LR-2 (B300 Super King Air 350) 1
+Beechcraft RC-12K Huron (A200CT Super King Air) 1
+Beechcraft T-1A Jayhawk 2
+Beriev Be-200ChS 1
+Beriev Be-200ES 1
+Boeing 707-123B 1
+Boeing 707-312B 1
+Boeing 707-321B 1
+Boeing 707-323C 1
+Boeing 707-330C 2
+Boeing 707-331C 1
+Boeing 707-347C 1
+Boeing 707-351C 1
+Boeing 707-366C 2
+Boeing 707-3B4C 1
+Boeing 707-3J6C 1
+Boeing 707-3J9C 2
+Boeing 707-3K1C 1
+Boeing 717-231 2
+Boeing 717-23S 1
+Boeing 717-2BD 1
+Boeing 717-2K9 1
+Boeing 727-134 1
+Boeing 727-22 (WL) 1
+Boeing 727-221F 1
+Boeing 727-222F 1
+Boeing 727-223 1
+Boeing 727-223F 1
+Boeing 727-224F 1
+Boeing 727-225F 1
+Boeing 727-227 1
+Boeing 727-228 1
+Boeing 727-232F 1
+Boeing 727-23F 1
+Boeing 727-259 1
+Boeing 727-277 1
+Boeing 727-286 1
+Boeing 727-287 1
+Boeing 727-2J0 (F) Advanced 1
+Boeing 727-2M7 1
+Boeing 727-2M7F 1
+Boeing 727-2N8 2
+Boeing 727-30C 1
+Boeing 727-44F 1
+Boeing 727-46F 2
+Boeing 727-82 1
+Boeing 737 MAX 8 1
+Boeing 737 7
+Boeing 737-200 2
+Boeing 737-201 Advanced 1
+Boeing 737-205 Advanced 1
+Boeing 737-210C 3
+Boeing 737-217 Adv 1
+Boeing 737-219 1
+Boeing 737-230 Adv. 2
+Boeing 737-230 2
+Boeing 737-230C 1
+Boeing 737-236 1
+Boeing 737-236A 1
+Boeing 737-242 Adv. 1
+Boeing 737-244 1
+Boeing 737-247 1
+Boeing 737-275 1
+Boeing 737-291 2
+Boeing 737-2A1 1
+Boeing 737-2A8 Advanced 1
+Boeing 737-2A9 1
+Boeing 737-2B7 2
+Boeing 737-2C3 2
+Boeing 737-2E1F 1
+Boeing 737-2H4 2
+Boeing 737-2H6 1
+Boeing 737-2J8C 1
+Boeing 737-2K9 1
+Boeing 737-2L9 1
+Boeing 737-2M2 2
+Boeing 737-2M9 1
+Boeing 737-2T4 2
+Boeing 737-2T5 1
+Boeing 737-301 (SF) 1
+Boeing 737-301 1
+Boeing 737-301F 1
+Boeing 737-31S 1
+Boeing 737-322 (WL) 1
+Boeing 737-322 2
+Boeing 737-330 1
+Boeing 737-33A (QC) 1
+Boeing 737-33A 4
+Boeing 737-33V 1
+Boeing 737-347 (SF) 1
+Boeing 737-36M 1
+Boeing 737-36Q (WL) 1
+Boeing 737-38J 1
+Boeing 737-3A4 1
+Boeing 737-3B7SF 1
+Boeing 737-3G7 1
+Boeing 737-3H4 (WL) 3
+Boeing 737-3H4 2
+Boeing 737-3K2 1
+Boeing 737-3M8 1
+Boeing 737-3Q8 2
+Boeing 737-3Q8BDSF 1
+Boeing 737-3T5 1
+Boeing 737-3Y0 3
+Boeing 737-406 1
+Boeing 737-408 1
+Boeing 737-430 1
+Boeing 737-43QSF 1
+Boeing 737-46J 1
+Boeing 737-476 (SF) 1
+Boeing 737-476SF 2
+Boeing 737-497 1
+Boeing 737-49R 1
+Boeing 737-4B6 1
+Boeing 737-4D7 1
+Boeing 737-4H6 3
+Boeing 737-4L7 1
+Boeing 737-4M0 1
+Boeing 737-4Q8 (SF) 1
+Boeing 737-4Q8 5
+Boeing 737-4Y0 7
+Boeing 737-500 ? 1
+Boeing 737-505 1
+Boeing 737-524 1
+Boeing 737-529 1
+Boeing 737-53A 1
+Boeing 737-53C 1
+Boeing 737-566 1
+Boeing 737-59D 2
+Boeing 737-6D6 1
+Boeing 737-732 (WL) 1
+Boeing 737-73V (WL) 1
+Boeing 737-73V 1
+Boeing 737-75B 1
+Boeing 737-76J (WL) 1
+Boeing 737-76N (WL) 1
+Boeing 737-76N 1
+Boeing 737-7H4 (WL) 4
+Boeing 737-7L9 (WL) 1
+Boeing 737-7Q8 2
+Boeing 737-800 1
+Boeing 737-809 1
+Boeing 737-823 (WL) 5
+Boeing 737-82R (WL) 1
+Boeing 737-82R 1
+Boeing 737-832 (WL) 2
+Boeing 737-838 (WL) 1
+Boeing 737-852 1
+Boeing 737-85C (WL) 1
+Boeing 737-85P 1
+Boeing 737-85R (WL) 1
+Boeing 737-85R 1
+Boeing 737-86J (WL) 2
+Boeing 737-86N (WL) 1
+Boeing 737-86N 1
+Boeing 737-881 (WL) 1
+Boeing 737-883 1
+Boeing 737-8AL 1
+Boeing 737-8AS (WL) 14
+Boeing 737-8AS 1
+Boeing 737-8BK (WL) 3
+Boeing 737-8CT (WL) 1
+Boeing 737-8D6 2
+Boeing 737-8EH 1
+Boeing 737-8F2 (WL) 2
+Boeing 737-8F2 1
+Boeing 737-8FB (WL) 1
+Boeing 737-8FE (WL) 2
+Boeing 737-8GP (WL) 2
+Boeing 737-8H4 (WL) 2
+Boeing 737-8H6 (WL) 1
+Boeing 737-8HG (WL) 3
+Boeing 737-8HO (WL) 1
+Boeing 737-8K2 (WL) 1
+Boeing 737-8KN (WL) 3
+Boeing 737-8Q8 (WL) 1
+Boeing 737-924ER (WL) 1
+Boeing 737-95R 1
+Boeing 737-9B5 1
+Boeing 737-9GPER (WL) 2
+Boeing 737-9GPER 1
+Boeing 747 1
+Boeing 747-128 (SF) 1
+Boeing 747-132SF 1
+Boeing 747-209B 1
+Boeing 747-209BSF 1
+Boeing 747-209F 1
+Boeing 747-212BSF 1
+Boeing 747-228F (SCD) 1
+Boeing 747-230F (SCD) 1
+Boeing 747-230F 1
+Boeing 747-244BSF 1
+Boeing 747-246F 1
+Boeing 747-251B 1
+Boeing 747-267B 1
+Boeing 747-271C (SCD) 1
+Boeing 747-281F (SCD) 1
+Boeing 747-2D7B 1
+Boeing 747-2F6B 1
+Boeing 747-2H7B (SCD) 1
+Boeing 747-2U3BSF 1
+Boeing 747-306M 1
+Boeing 747-357 1
+Boeing 747-368 2
+Boeing 747-3B3 1
+Boeing 747-412 1
+Boeing 747-412F 2
+Boeing 747-422 2
+Boeing 747-428FER 2
+Boeing 747-430 3
+Boeing 747-436 2
+Boeing 747-437 1
+Boeing 747-438 1
+Boeing 747-44AF (SCD) 1
+Boeing 747-451 1
+Boeing 747-45EF 1
+Boeing 747-48EF 2
+Boeing 747-4R7F 1
+Boeing 747SP-86 1
+Boeing 747SP-94 1
+Boeing 757-200 2
+Boeing 757-21B 1
+Boeing 757-222 2
+Boeing 757-223 (WL) 1
+Boeing 757-223 1
+Boeing 757-232 (WL) 1
+Boeing 757-23APF 1
+Boeing 757-23N 1
+Boeing 757-251 1
+Boeing 757-258ER 1
+Boeing 757-28A (PCF) 1
+Boeing 757-2Z0 1
+Boeing 757-351 (WL) 1
+Boeing 757-3E7 1
+Boeing 767-219ER 1
+Boeing 767-222 1
+Boeing 767-223ER 1
+Boeing 767-241ER 1
+Boeing 767-269ER 1
+Boeing 767-281 1
+Boeing 767-281SF 1
+Boeing 767-2J6ER 1
+Boeing 767-323 1
+Boeing 767-323ER (WL) 1
+Boeing 767-324ER (WL) 1
+Boeing 767-332ER (WL) 1
+Boeing 767-333ER (WL) 1
+Boeing 767-338ER (WL) 1
+Boeing 767-34AFER (WL) 1
+Boeing 767-35DER 1
+Boeing 767-366ER 1
+Boeing 767-36NER 2
+Boeing 767-375ER 1
+Boeing 767-381ER 1
+Boeing 767-38EER 1
+Boeing 767-3BGER 1
+Boeing 767-3Q8ER 1
+Boeing 767-3W0ER 1
+Boeing 767-3Y0ER 1
+Boeing 777-236 1
+Boeing 777-236ER 3
+Boeing 777-246ER 1
+Boeing 777-266ER 1
+Boeing 777-268 1
+Boeing 777-2B5ER 1
+Boeing 777-2H6ER 2
+Boeing 777-312ER 1
+Boeing 777-31H 1
+Boeing 777-333ER 2
+Boeing 777-35EER 1
+Boeing 777-367ER 1
+Boeing 777-36NER 1
+Boeing 777-3B5 1
+Boeing 777-3DZER 1
+Boeing 777-3F2ER 1
+Boeing 777-F6N 1
+Boeing 787-8 Dreamliner 1
+Boeing E-3C Sentry (707-300) 1
+Boeing E-8C (707) 1
+Boeing RC-135V Rivet Joint 1
+Boeing S.307 Stratoliner 1
+Bombardier BD-100-1A10 Challenger 300 2
+Bombardier BD-700-1A10 Global 6000 1
+Bombardier BD-700-1A10 Global Express 2
+Bombardier BD-700-1A11 Global 5000 1
+Bombardier CL-600-2C10 Regional Jet CRJ-701ER 1
+Bombardier CRJ-900ER (CL-600-2D24) Regional Jet 1
+Bombardier DHC-8-402Q Dash 8 2
+British Aerospace 3101 Jetstream 31 5
+British Aerospace 3101 Jetstream 31EP 1
+British Aerospace 3102 Jetstream 31 5
+British Aerospace 3103 Jetstream 31 1
+British Aerospace 3112 Jetstream 31 2
+British Aerospace 3201 Jetstream 32EP 3
+British Aerospace 3202 Jetstream 32 1
+British Aerospace 3212 Jetstream 32EP 1
+British Aerospace 4100 Jetstream 41 2
+British Aerospace 4101 Jetstream 41 2
+British Aerospace 4121 Jetstream 41 1
+British Aerospace ATP-F (LFD) 2
+British Aerospace BAe-125-700A 9
+British Aerospace BAe-125-700B 1
+British Aerospace BAe-125-800A 1
+British Aerospace BAe-125-800B 3
+British Aerospace BAe-125-800SP 1
+British Aerospace BAe-146 1
+British Aerospace BAe-146-200 4
+British Aerospace BAe-146-200A 1
+British Aerospace BAe-146-300 4
+British Aerospace BAe-748-347 Srs. 2A 1
+British Aerospace BAe-748-372 Srs. 2B 1
+British Aerospace BAe-748-398 Srs. 2B 1
+British Aerospace BAe-748-400 Srs. 2B 1
+British Aerospace Nimrod MR.2 1
+Britten-Norman BN-2A Islander 3
+Britten-Norman BN-2A Trislander Mk.III-1 1
+Britten-Norman BN-2A Trislander Mk.III-2 1
+Britten-Norman BN-2A-2 Islander 1
+Britten-Norman BN-2A-20 Islander 1
+Britten-Norman BN-2A-26 Islander 8
+Britten-Norman BN-2A-27 Islander 2
+Britten-Norman BN-2A-6 Islander 1
+Britten-Norman BN-2A-8 Islander 1
+Britten-Norman BN-2B-20 Islander 1
+Britten-Norman BN-2B-26 Islander 4
+Bushmaster 2000 1
+CASA C-212 Aviocar 200 6
+CASA C-212 Aviocar 300 1
+CASA C-212 Aviocar 300DF 1
+CASA C-212 Aviocar 400MPA 1
+CASA C-212-CB Aviocar 100 1
+CASA C-212-CC40 Aviocar 200 1
+CASA C-212-DE Aviocar 200 1
+CASA C-212-M Aviocar 300 2
+CASA C-212A-27 Aviocar 200 1
+CASA C-295M 2
+CASA CN-235-200 1
+CASA CN-235M-100 1
+CASA CN-235M-200 2
+CASA/IPTN NC-212 Aviocar 200 3
+CASA/Nurtanio NC-212 Aviocar 100 1
+CASA/Nurtanio NC-212-A4 Aviocar 100 2
+CASA/Nurtanio NC-212-MP Aviocar 200 2
+Canadair CL-215-1A10 5
+Canadair CL-215-6B11 (CL-415) 5
+Canadair CL-44D4 1
+Canadair CL-600-1A11 Challenger 600 2
+Canadair CL-600-2A12 Challenger 601 2
+Canadair CL-600-2B16 Challenger 601-3A 2
+Canadair CL-600-2B16 Challenger 601-3R 1
+Canadair CL-600-2B16 Challenger 604 5
+Canadair CL-600-2B19 Regional Jet CRJ-100ER 6
+Canadair CL-600-2B19 Regional Jet CRJ-100SE 1
+Canadair CL-600-2B19 Regional Jet CRJ-200ER 5
+Canadair CL-600-2B19 Regional Jet CRJ-200LR 7
+Canadair CL-600-2B19 Regional Jet CRJ-200PF 1
+Canadair CL-600-2C10 Regional Jet CRJ-701ER 1
+Canadair CL-600-2C10 Regional Jet CRJ-702 1
+Canadair CL-600-2D24 Regional Jet CRJ-900ER 2
+Cessna 208 Caravan I 9
+Cessna 208B Grand Caravan EX 3
+Cessna 208B Grand Caravan 102
+Cessna 208B Super Cargomaster 20
+Cessna 208B Supervan 900 3
+Cessna 500 Citation I Sierra Eagle 1
+Cessna 500 Citation I 12
+Cessna 501 Citation I/SP 10
+Cessna 510 Citation Mustang 3
+Cessna 525 Citation M2 1
+Cessna 525 CitationJet CJ1+ 1
+Cessna 525 CitationJet CJ1 4
+Cessna 525 CitationJet 10
+Cessna 525A CitationJet CJ2+ 3
+Cessna 525A CitationJet CJ2 6
+Cessna 525B CitationJet CJ3+ 1
+Cessna 525B CitationJet CJ3 1
+Cessna 525C Citation CJ4 5
+Cessna 550 Citation Bravo 2
+Cessna 550 Citation II 21
+Cessna 550 Citation S/II 1
+Cessna 550B Citation Bravo 3
+Cessna 551 Citation II/SP 2
+Cessna 560 Citation Encore+ 1
+Cessna 560 Citation Encore 5
+Cessna 560 Citation Ultra 3
+Cessna 560 Citation V 8
+Cessna 560XL Citation Excel 2
+Cessna 560XL Citation XLS 1
+Cessna 560XLS+ Citation XLS+ 1
+Cessna 650 Citation III 4
+Cessna 650 Citation VI 1
+Cessna 650 Citation VII 4
+Cessna 750 Citation X 2
+Cessna C-98A Grand Caravan (208B) 2
+Cessna S550 Citation S/II 3
+Consolidated PB4Y-2 Super Privateer 1
+Convair CV-340 1
+Convair CV-340-70 1
+Convair CV-340-71 1
+Convair CV-440 1
+Convair CV-440-38 1
+Convair CV-580 Airtanker 1
+Convair CV-580 5
+Convair CV-580F SCD 2
+Convair CV-580F 2
+Curtiss C-46A-45-CU Commando 3
+Curtiss C-46A-60-CS Commando 1
+Curtiss C-46F-1-CU Commando 2
+Dassault Falcon 10 2
+Dassault Falcon 100 3
+Dassault Falcon 2000 1
+Dassault Falcon 20C 8
+Dassault Falcon 20C-5 1
+Dassault Falcon 20D 3
+Dassault Falcon 20E 2
+Dassault Falcon 20F 2
+Dassault Falcon 20F-5 1
+Dassault Falcon 50 2
+Dassault Falcon 50EX 1
+Dassault Falcon 7X 1
+Dassault Falcon 900 2
+Dassault Falcon 900EX 2
+Dornier 228 1
+Dornier 228-101 2
+Dornier 228-200 1
+Dornier 228-201 3
+Dornier 228-202 5
+Dornier 228-212 5
+Dornier 328-100 2
+Dornier 328-110 7
+Dornier 328JET-300 1
+Dornier 328JET-310 3
+Dornier Do 28D-2 Skyservant 2
+Dornier Do-128-G92 Turbo Skyservant 1
+Douglas AC-47/Basler 67 1
+Douglas C-47A-1-DK (DC-3) 1
+Douglas C-47A-10-DK (DC-3) 1
+Douglas C-47A-5-DK (DC-3) 1
+Douglas C-47A-5-DK Dakota 3 (DC-3C) 1
+Douglas C-47A-65-DL (DC-3) 1
+Douglas C-47A-65-DL (DC-3C) 1
+Douglas C-47A-80-DL (DC-3) 1
+Douglas C-47A-DL (DC-3C) 1
+Douglas C-47B (DC-3) 2
+Douglas C-54G (DC-4) 1
+Douglas C-54G Skymaster (DC-4) 1
+Douglas DC-3A-197D 1
+Douglas DC-3A-S1C3G 1
+Douglas DC-3C 11
+Douglas DC-6BF 2
+Douglas DC-9-14 1
+Douglas Super R4D-8 (DC-3S) 1
+Eclipse 500 5
+Embraer C-95A Bandeirante (EMB-110K1) 1
+Embraer C-95BM Bandeirante (EMB-110) 1
+Embraer EMB-110 Bandeirante 1
+Embraer EMB-110C Bandeirante 1
+Embraer EMB-110P Bandeirante 2
+Embraer EMB-110P1 Bandeirante 13
+Embraer EMB-110P1A Bandeirante 2
+Embraer EMB-110P1K Bandeirante 1
+Embraer EMB-110P2 Bandeirante 1
+Embraer EMB-120ER Brasilia 11
+Embraer EMB-120ER 1
+Embraer EMB-120RT Brasilia 6
+Embraer EMB-135BJ Legacy 600 1
+Embraer EMB-135LR (ERJ-135LR) 3
+Embraer EMB-140 (ERJ-135KL) 1
+Embraer EMB-145EP (ERJ-145EP) 1
+Embraer EMB-145LR (ERJ-145LR) 5
+Embraer EMB-145LU (ERJ-145LU) 2
+Embraer EMB-145MP (ERJ-145MP) 1
+Embraer EMB-145XR 1
+Embraer EMB-500 Phenom 100 7
+Embraer EMB-505 Phenom 300 4
+Embraer EMB-550 Legacy 500 1
+Embraer ERJ 170-100 SE (ERJ-170SE) 2
+Embraer ERJ 170-100 SU (ERJ-170SU) 1
+Embraer ERJ 170-200 LR (ERJ-175LR) 1
+Embraer ERJ 190-100 IGW (ERJ-190AR) 4
+Embraer ERJ 190-100 LR  (ERJ-190LR) 3
+Embraer ERJ 190-100 STD (ERJ-190STD) 1
+Embraer ERJ 190-200 LR  (ERJ-195LR) 1
+Embraer ERJ-140 (ERJ-135KL) 1
+Embraer ERJ-145EP 1
+Embraer ERJ-145MP 1
+Embraer ERJ-190AR 1
+Embraer ERJ-190LR (ERJ-190-100 LR) 1
+Embraer ERJ-190STD (ERJ-190-100) 1
+Embraer KC-390 1
+Embraer P-95B Bandeirulha (EMB-111) 1
+Excel-Jet Sport-Jet 1
+Fairchild F-27F 1
+Fairchild FH-227B 1
+Fairchild FH-227E 1
+Fokker 100 26
+Fokker 50 14
+Fokker 70 1
+Fokker F-27 Friendship 200 3
+Fokker F-27 Friendship 400M 3
+Fokker F-27 Friendship 500 5
+Fokker F-27 Friendship 500CRF 1
+Fokker F-27 Friendship 500F 1
+Fokker F-27 Friendship 500RF 2
+Fokker F-27 Friendship 600 5
+Fokker F-28 Fellowship 1000 1
+Fokker F-28 Fellowship 3000R 1
+Fokker F-28 Fellowship 4000 9
+GAF Nomad N.22B 4
+GAF Nomad N.22C 1
+GAF Nomad N.24A 1
+Grob G.180A SPn 1
+Grumman American G-1159 Gulfstream II 1
+Grumman G-111 Albatross 1
+Grumman G-159 Gulfstream I 5
+Grumman G-73 Mallard 1
+Grumman HU-16C Albatross 1
+Gulfstream Aerospace G-1159 Gulfstream III 1
+Gulfstream Aerospace G-1159A Gulfstream III 2
+Gulfstream American G-1159 Gulfstream II 1
+Gulfstream G-IV 6
+Gulfstream G-V 2
+Gulfstream G150 2
+Gulfstream G200 Galaxy 2
+Gulfstream G200 2
+Gulfstream G450 1
+Gulfstream G650 1
+Gulfstream GV-SP (G550) 1
+HAL/Dornier 228-201 1
+HESA IrAn-140 1
+HESA IrAn-140-100 2
+Harbin Yunshuji Y-12 II 5
+Hawker 800XP 3
+Hawker Beechcraft 390 Premier IA 2
+Hawker Siddeley DH-125-3A 1
+Hawker Siddeley HS-125-1A-731 1
+Hawker Siddeley HS-125-400B 1
+Hawker Siddeley HS-125-403B 1
+Hawker Siddeley HS-125-600A 1
+Hawker Siddeley HS-748-209 Srs.2A 1
+Hawker Siddeley HS-748-232 Srs. 2A 1
+Hawker Siddeley HS-748-264 Srs.2A 1
+Honda HA-420 HondaJet 1
+Howard 250 1
+IAI 1124 Westwind 3
+IAI 1124A Westwind II 3
+IAI 1125 Astra SPX 1
+IAI 1125 Astra 1
+IAI 1126 Galaxy 1
+IAI Arava 201 2
+IPTN/CASA CN-235M-10 1
+IPTN/CASA CN-235M-100 2
+IRMA/Britten-Norman BN-2A Islander 1
+IRMA/Britten-Norman BN-2A-21 Islander 2
+IRMA/Britten-Norman BN-2A-26 Islander 1
+IRMA/Britten-Norman BN-2A-27 Islander 2
+IRMA/Britten-Norman BN-2A-3 Islander 1
+IRMA/Britten-Norman BN-2A-6 Islander 1
+IRMA/Britten-Norman BN-2A-7 Islander 1
+IRMA/Pilatus Britten-Norman BN-2A-27 Islander 1
+IRMA/Pilatus Britten-Norman BN-2T Islander 1
+Ilyushin Il-18D 4
+Ilyushin Il-20M 1
+Ilyushin Il-62M 4
+Ilyushin Il-76MD Simorgh 1
+Ilyushin Il-76MD 9
+Ilyushin Il-76T 2
+Ilyushin Il-76TD 19
+Ilyushin Il-86 2
+Junkers Ju-52/3mg4e 1
+Kawasaki C-1A 1
+Learjet 23 1
+Learjet 24 1
+Learjet 24A 1
+Learjet 24B 1
+Learjet 24D 2
+Learjet 24F 2
+Learjet 25 3
+Learjet 25B 7
+Learjet 25C 1
+Learjet 25D 5
+Learjet 25XR 1
+Learjet 31A 3
+Learjet 35 4
+Learjet 35A 30
+Learjet 36A 2
+Learjet 45 2
+Learjet 45XR 1
+Learjet 55 3
+Learjet 55C 1
+Learjet 60 7
+Learjet C-21A (Learjet 35A) 1
+Learjet U-36A 1
+Let L-410A 1
+Let L-410MA 1
+Let L-410MU 1
+Let L-410UVP 14
+Let L-410UVP-E 10
+Let L-410UVP-E19A 1
+Let L-410UVP-E20 6
+Let L-410UVP-E20C 1
+Let L-410UVP-E3 5
+Let L-410UVP-E4 1
+Let L-410UVP-E9 2
+Lisunov Li-2T 1
+Lockheed AC-130J Ghostrider 1
+Lockheed C-130 Hercules 3
+Lockheed C-130A Hercules 3
+Lockheed C-130B Hercules 4
+Lockheed C-130E Hercules 2
+Lockheed C-130H Hercules 9
+Lockheed C-130H-30 Hercules 2
+Lockheed C-130J Super Hercules 1
+Lockheed C-130J-30 Super Hercules 3
+Lockheed C-130M Hercules 1
+Lockheed C-141C Starlifter 1
+Lockheed C-5B Galaxy 1
+Lockheed CC-130H(T) Hercules 1
+Lockheed CP-140 Aurora 1
+Lockheed HC-130H Hercules 2
+Lockheed Hercules C.1P (C-130K) 1
+Lockheed Hercules C.3A (C-130K) 1
+Lockheed KC-130T Hercules 1
+Lockheed L-100-20 Hercules 2
+Lockheed L-100-30 Hercules 4
+Lockheed L-1011 TriStar 250 1
+Lockheed L-1011-385-1-14 TriStar 150 1
+Lockheed L-1329-23E JetStar 8 1
+Lockheed L-188A Electra 1
+Lockheed L-188C Electra 1
+Lockheed MC-130H Combat Talon II 1
+Lockheed Martin KC-130J 1
+Lockheed P-2E Neptune 1
+Lockheed P-2H Neptune 1
+Lockheed P-3B Orion 1
+Lockheed P2V-5F Neptune 1
+Lockheed SP-2H Neptune 4
+Lockheed WC-130H Hercules 1
+MBB HFB-320 Hansa Jet 1
+McDonnell Douglas C-17A Globemaster III 2
+McDonnell Douglas DC 10-10 1
+McDonnell Douglas DC-10-10 1
+McDonnell Douglas DC-10-10F 1
+McDonnell Douglas DC-10-30CF 1
+McDonnell Douglas DC-10-30ER 2
+McDonnell Douglas DC-10-30F 3
+McDonnell Douglas DC-10-40F 1
+McDonnell Douglas DC-8-62F 1
+McDonnell Douglas DC-8-63F 1
+McDonnell Douglas DC-8-71F 3
+McDonnell Douglas DC-9-14 1
+McDonnell Douglas DC-9-15F 2
+McDonnell Douglas DC-9-31 2
+McDonnell Douglas DC-9-32 8
+McDonnell Douglas DC-9-33F 1
+McDonnell Douglas DC-9-33RC 1
+McDonnell Douglas DC-9-51 5
+McDonnell Douglas DC-9-80 (MD-80) 1
+McDonnell Douglas DC-9-81 (MD-81) 3
+McDonnell Douglas DC-9-82 (MD-82) 12
+McDonnell Douglas DC-9-83 (MD-83) 14
+McDonnell Douglas DC-9-87 (MD-87) 1
+McDonnell Douglas MD-10-10F 2
+McDonnell Douglas MD-10F 1
+McDonnell Douglas MD-11 1
+McDonnell Douglas MD-11F 9
+McDonnell Douglas MD-81 1
+McDonnell Douglas MD-83 6
+McDonnell Douglas MD-88 4
+McDonnell Douglas MD-90-30 2
+Mitusbishi Mu-300 Diamond IA 3
+Mitusbishi Mu-300 Diamond 1
+NAMC YS-11-500R 1
+NAMC YS-11A-213 1
+NAMC YS-11A-500 1
+NAMC YS-11A-600 1
+NAMC YS-11M-A-624 1
+National Aerospace Laboratories (NAL) Saras 1
+Nord 262A-42 1
+North American CT-39A Sabreliner 2
+North American CT-39A-1-NA Sabreliner 1
+North American Rockwell Sabreliner 70 1
+North American Rockwell T-39N Sabreliner 1
+North American Sabreliner 40 2
+North American T-39N Sabreliner 1
+PADC/Pilatus Britten-Norman BN-2A-26 Islander 1
+PADC/Pilatus Britten-Norman BN-2T Islander 2
+PZL-Mielec M28 Skytruck 5
+PZL-Mielec M28-05PI Skytruck 2
+PZL-Mielec M28TD Bryza 2RF 1
+Pilatus Britten-Norman BN-2A-20 Islander 1
+Pilatus Britten-Norman BN-2B Islander 1
+Pilatus Britten-Norman BN-2B-20 Islander 1
+Pilatus Britten-Norman BN-2B-21 Islander 1
+Pilatus Britten-Norman BN-2B-26 Islander 3
+Pilatus Britten-Norman BN-2T Turbine Islander 1
+Raytheon 390 Premier I 7
+Raytheon 390 Premier IA 1
+Raytheon Beechjet 400A 3
+Raytheon Hawker 800XP 1
+Raytheon Hawker 850XP 1
+Raytheon U-125 (Hawker 800) 1
+Reims Cessna F406 Caravan II 9
+Rockwell Sabreliner 60 2
+Rockwell Sabreliner 60SC 1
+Rockwell Sabreliner 65 2
+Rockwell Sabreliner 75A 3
+Rockwell Sabreliner 80 2
+Saab 2000 4
+Saab 340A 6
+Saab 340B 5
+Shaanxi Y-8F-200W 1
+ShinMaywa US-2 1
+Shorts 330-200 4
+Shorts 330UTT 1
+Shorts 360-100 4
+Shorts 360-200 1
+Shorts 360-300 6
+Shorts C-23B+ Sherpa (330) 1
+Shorts SC.7 Skyvan 3-100 1
+Sino Swearingen SJ30-2 1
+Sud Aviation SE-210 Caravelle 10R 1
+Sud Aviation SE-210 Caravelle 11R 1
+Sukhoi Superjet 100-95B 2
+Swearingen SA-227AC Metro III 1
+Swearingen SA226-AT Merlin IV 2
+Swearingen SA226-AT Merlin IVA 2
+Swearingen SA226-TC Metro II 18
+Swearingen SA227-AC Metro III 30
+Swearingen SA227-AT Expediter 1
+Swearingen SA227-AT Merlin IVC 3
+Swearingen SA227-BC Metro III 1
+Swearingen SA227-DC Metro 23 (C-26B) 1
+Swearingen SA227-DC Metro 23 3
+Transall C-160NG 1
+Transall C-160R 1
+Tupolev Tu-134A 1
+Tupolev Tu-134A-3 5
+Tupolev Tu-134AK 1
+Tupolev Tu-134SKh 1
+Tupolev Tu-154 2
+Tupolev Tu-154B-2 5
+Tupolev Tu-154M 16
+Tupolev Tu-204-100 2
+Tupolev Tu-204-100V 1
+Tupolev Tu-204S 1
+Vickers 802 Viscount 1
+Viking Air DHC-6 Twin Otter 400 4
+Volpar Turboliner 1
+Xian MA60 8
+Xian Yunshuji Y-7-100C 2
+Yakovlev Yak-40 5
+Yakovlev Yak-40A 1
+Yakovlev Yak-40D 1
+Yakovlev Yak-40K 2
+Yakovlev Yak-42D 2
+de Havilland Canada DHC-3 Otter 3
+de Havilland Canada DHC-3T Texas Turbine Otter 1
+de Havilland Canada DHC-3T Vazar Turbine Otter 1
+de Havilland Canada DHC-4T Caribou 1
+de Havilland Canada DHC-5 Buffalo 1
+de Havilland Canada DHC-5D Buffalo 1
+de Havilland Canada DHC-6 Twin Otter 100 3
+de Havilland Canada DHC-6 Twin Otter 300 44
+de Havilland Canada DHC-6 Twin Otter 310 5
+de Havilland Canada DHC-6 Twin Otter 1
+de Havilland Canada DHC-6 Vista Liner 300 1
+de Havilland Canada DHC-7-102 1
+de Havilland Canada DHC-8-102 4
+de Havilland Canada DHC-8-103 2
+de Havilland Canada DHC-8-103B 1
+de Havilland Canada DHC-8-106 1
+de Havilland Canada DHC-8-202 1
+de Havilland Canada DHC-8-202Q Dash 8 3
+de Havilland Canada DHC-8-202Q 3
+de Havilland Canada DHC-8-301 3
+de Havilland Canada DHC-8-311 1
+de Havilland Canada DHC-8-311Q 1
+de Havilland Canada DHC-8-315 Q300 1
+de Havilland Canada DHC-8-315Q Dash 8 1
+de Havilland Canada DHC-8-315Q MPA 1
+de Havilland Canada DHC-8-401 Q400 1
+de Havilland Canada DHC-8-402 Q400 6
+de Havilland Canada DHC-8-402Q Dash 8 17
